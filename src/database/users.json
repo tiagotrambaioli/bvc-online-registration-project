@@ -1,11 +1,58 @@
 [
   {
+    "uuid": "1f5be017-d8ae-46c9-a98f-17b5d6941ca6",
+    "firstName": "Tiago",
+    "lastName": "Trambaioli",
+    "email": "my-email@mybvc.ca",
+    "phone": "8254311234",
+    "dateOfBirth": "1900/01/01",
+    "username": "tiagotrambaioli",
+    "password": "$2b$10$zlsW1p.hZTB4Fe8RJzpLBeSURkKk2gtZhHB0r3YCF/1yPoDpsg256"
+  },
+  {
+    "uuid": "e45c5a3d-a577-4295-b514-ad284742f9dd",
     "firstName": "John",
     "lastName": "Doe",
     "email": "john.doe@mybvc.ca",
     "phone": "8254311234",
     "dateOfBirth": "1980/01/14",
     "username": "johndoe",
-    "password": 123456
+    "password": "$2b$10$Cq08ZsK3.SI1FusXxZjOK.WQts1OlA/GVdJ3sgPbG/Vm7gE4VKuRy"
+  },
+  {
+    "uuid": "c35db006-ab35-4b9d-a7fb-79fcf8a5fb47",
+    "firstName": "Mark",
+    "lastName": "Zuckerberg",
+    "email": "mark.zuckerberg@mybvc.ca",
+    "phone": "6505434800",
+    "dateOfBirth": "1984/05/14",
+    "username": "unclemark",
+    "password": "$2b$10$gNFKJ3XwP2Vu7Ol/qr9jeuAyPrdZF72V2xWy4FXs.MnAy/apWMkpe"
+  },
+  {
+    "uuid": "67c9a291-6fe6-4a22-835e-5a23674394b7",
+    "firstName": "Walter",
+    "lastName": "White",
+    "email": "walter.white@mybvc.ca",
+    "phone": "4204204420",
+    "dateOfBirth": "1958/07/09",
+    "username": "heisenberg",
+    "password": "$2b$10$Y6m8jdQLTSctLLbcOb9Uue4Rch3i2yd1dJxfcieR2dZLmf.WoBQbS"
+  },
+  {
+    "uuid": "bde6939f-8eb3-4b7d-82ce-4f9670234c70",
+    "firstName": "Jesse",
+    "lastName": "Pinkman",
+    "email": "jesse.pinkman@mybvc.ca",
+    "phone": "4204201234",
+    "dateOfBirth": "1979/08/27",
+    "username": "thedealer",
+    "password": "$2b$10$ym.grYq2lf5njIkid5Kib.Kccbv8xaqM4sK1xeO3hBGpugLl30fJW",
+    "department": null,
+    "role": "student",
+    "program": null,
+    "createdAt": "2022-11-29, 2:14:09 a.m.",
+    "updatedAt": null,
+    "refreshToken": null
   }
 ]

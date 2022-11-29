@@ -2,11 +2,23 @@ POST http://localhost:5000/users
 Content-Type: application/json
 
 {
-  "firstName": "Mark",
-  "lastName": "Zuckerberg",
-  "email": "mark.zuckerberg@mybvc.ca",
-  "phone": "6505434800",
-  "dateOfBirth": "1984/05/14",
-  "username": "unclemark",
-  "password": 123456
-}
+    "firstName": "Jesse",
+    "lastName": "Pinkman",
+    "email": "jesse.pinkman@mybvc.ca",
+    "phone": "4204201234",
+    "dateOfBirth": "1979/08/27",
+    "username": "thedealer"
+  }
+
+
+###
+
+POST http://localhost:5000/users/show
+
+###
+
+GET http://localhost:5000/users/bde6939f-8eb3-4b7d-82ce-4f9670234c70
+
+###
+
+DELETE http://localhost:5000/users/bc281e4d-7333-47a6-9c7d-8a00237d573a
