@@ -1,3 +1,5 @@
+
+// USERS
 POST http://localhost:5000/users
 Content-Type: application/json
 
@@ -28,6 +30,42 @@ PUT http://localhost:5000/users/update/
 Content-Type: application/json
 
 {
-    "uuid" : "855b7a55-af07-4dfe-bf39-5aed4ccc9c13",
-    "password": "123456"
+    "uuid" : "1f5be017-d8ae-46c9-a98f-17b5d6941ca6",
+    "firstName": "Tiago"
 }
+
+
+// QUESTION FORMS 
+
+###
+GET http://localhost:5000/questionform/show
+
+###
+
+GET http://localhost:5000/questionform/3f9a4275-ef0c-44da-9b2b-ed21f430d8e4
+
+###
+
+POST http://localhost:5000/questionform
+Content-Type: application/json
+
+{
+  "userPhone": "4514184215646",
+  "message": "Test message"
+}
+
+###
+
+PUT http://localhost:5000/questionform/update
+Content-Type: application/json
+
+{
+  "uuid": "3f9a4275-ef0c-44da-9b2b-ed21f430d8e4",
+  "status": "Pending"
+}
+
+###
+
+DELETE http://localhost:5000/questionform/delete/UUID
+
+###

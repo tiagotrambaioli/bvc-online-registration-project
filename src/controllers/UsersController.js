@@ -3,62 +3,6 @@ import User from '../models/User.js';
 import bcrypt from 'bcrypt';
 
 class UsersController {
-  async index(req, res) {
-    try {
-    } catch (err) {}
-  }
-
-  async show(req, res) {
-    const uuid = req.params.uuid;
-    const user = await User.db.find((user) => user.uuid === uuid);
-    const response = {};
-    if (user) {
-      response.uuid = user.uuid;
-      response.firstName = user.firstName;
-      response.lastName = user.lastName;
-      response.email = user.email;
-      response.phone = user.phone;
-      response.dateOfBirth = user.dateOfBirth;
-      response.username = user.username;
-      response.department = user.department;
-      response.role = user.role;
-      response.program = user.program;
-      response.createdAt = user.createdAt;
-      response.updatedAt = user.updatedAt;
-    }
-    if (user) {
-      res.status(200);
-      res.send(response);
-      return;
-    } else {
-      res.status(404);
-      res.send({ msg: 'User not found.' });
-      return;
-    }
-  }
-
-  async showAll(req, res) {
-    const response = await User.db.map((user) => {
-      return {
-        uuid: user.uuid,
-        firstName: user.firstName,
-        lastName: user.lastName,
-        email: user.email,
-        phone: user.phone,
-        dateOfBirth: user.dateOfBirth,
-        username: user.username,
-        department: user.department,
-        role: user.role,
-        program: user.program,
-        createdAt: user.createdAt,
-        updatedAt: user.updatedAt,
-      };
-    });
-    res.status(200);
-    res.send(response);
-    return;
-  }
-
   async create(req, res) {
     const uuid = crypto.randomUUID();
     const {
@@ -137,8 +81,58 @@ class UsersController {
     } catch (err) {
       console.log(err);
       res.status(500);
-      res.json({ error: 'Something wrong, try again later... ' });
+      res.send({ error: 'Something wrong, try again later... ' });
     }
+  }
+  async show(req, res) {
+    const uuid = req.params.uuid;
+    const user = await User.db.find((user) => user.uuid === uuid);
+    const response = {};
+    if (user) {
+      response.uuid = user.uuid;
+      response.firstName = user.firstName;
+      response.lastName = user.lastName;
+      response.email = user.email;
+      response.phone = user.phone;
+      response.dateOfBirth = user.dateOfBirth;
+      response.username = user.username;
+      response.department = user.department;
+      response.role = user.role;
+      response.program = user.program;
+      response.createdAt = user.createdAt;
+      response.updatedAt = user.updatedAt;
+    }
+    if (user) {
+      res.status(200);
+      res.send(response);
+      return;
+    } else {
+      res.status(404);
+      res.send({ msg: 'User not found.' });
+      return;
+    }
+  }
+
+  async showAll(req, res) {
+    const response = await User.db.map((user) => {
+      return {
+        uuid: user.uuid,
+        firstName: user.firstName,
+        lastName: user.lastName,
+        email: user.email,
+        phone: user.phone,
+        dateOfBirth: user.dateOfBirth,
+        username: user.username,
+        department: user.department,
+        role: user.role,
+        program: user.program,
+        createdAt: user.createdAt,
+        updatedAt: user.updatedAt,
+      };
+    });
+    res.status(200);
+    res.send(response);
+    return;
   }
 
   async update(req, res) {
@@ -201,7 +195,7 @@ class UsersController {
         if (department) User.db[user].department = department;
         if (role) User.db[user].role = role;
         if (program) User.db[user].program = program;
-        User.db[user].updatedAt = new Date().toLocaleString();
+        User.db[user].updatedAt = updatedAt;
         res.status(200);
         res.send({ msg: 'User updated successfully.' });
         User.save();
@@ -209,7 +203,7 @@ class UsersController {
       } catch (err) {
         console.log(err);
         res.status(500);
-        res.json({ error: 'Something wrong, try again later... ' });
+        res.send({ error: 'Something wrong, try again later... ' });
       }
       return;
     } else {
