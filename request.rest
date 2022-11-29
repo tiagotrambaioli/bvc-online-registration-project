@@ -1,0 +1,12 @@
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+  "firstName": "Mark",
+  "lastName": "Zuckerberg",
+  "email": "mark.zuckerberg@mybvc.ca",
+  "phone": "6505434800",
+  "dateOfBirth": "1984/05/14",
+  "username": "unclemark",
+  "password": 123456
+}

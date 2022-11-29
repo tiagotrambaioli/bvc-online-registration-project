@@ -1,0 +1,11 @@
+[
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@mybvc.ca",
+    "phone": "8254311234",
+    "dateOfBirth": "1980/01/14",
+    "username": "johndoe",
+    "password": 123456
+  }
+]
