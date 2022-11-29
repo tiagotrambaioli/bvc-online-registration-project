@@ -86,12 +86,20 @@ class UsersController {
       return;
     }
 
-    const verifyEmail = await User.db.find((user) => email == user.email);
+    const verifyEmail = await User.db.find((user) => email === user.email);
+    const verifyUsername = await User.db.find(
+      (user) => username === user.username,
+    );
     const verifyUUID = await User.db.find((user) => uuid == user.uuid);
 
     if (verifyEmail) {
       res.status(409);
       res.send({ msg: 'E-mail already registered.' });
+      return;
+    }
+    if (verifyUsername) {
+      res.status(409);
+      res.send({ error: 'Username already registered.' });
       return;
     }
     if (verifyUUID) {
@@ -134,10 +142,80 @@ class UsersController {
   }
 
   async update(req, res) {
+    const {
+      uuid,
+      firstName,
+      lastName,
+      email,
+      phone,
+      dateOfBirth,
+      username,
+      department,
+      role,
+      program,
+    } = req.body;
+    let { password } = req.body;
+    const updatedAt = new Date().toLocaleString();
+
+    const user = await User.db.findIndex((user) => user.uuid === uuid);
+
+    const verifyEmail = await User.db.find(
+      (user) => email === user.email && uuid !== user.uuid,
+    );
+    const verifyUsername = await User.db.find(
+      (user) => username === user.username && uuid !== user.uuid,
+    );
+
+    if (email) {
+      if (verifyEmail) {
+        res.status(409);
+        res.send({ msg: 'E-mail already registered.' });
+        return;
+      }
+    }
+    if (username) {
+      if (verifyUsername) {
+        res.status(409);
+        res.send({ error: 'Username already registered.' });
+        return;
+      }
+    }
+
     try {
-      //...
-    } catch (err) {
-      //...
+      password = await bcrypt.hash(toString(password), 10);
+    } catch (e) {
+      console.log(e);
+      res.status(500);
+      res.send({ error: 'Something wrong, try again later!' });
+      return;
+    }
+    if (user != -1) {
+      try {
+        if (firstName) User.db[user].firstName = firstName;
+        if (lastName) User.db[user].lastName = lastName;
+        if (email) User.db[user].email = email;
+        if (phone) User.db[user].phone = phone;
+        if (dateOfBirth) User.db[user].dateOfBirth = dateOfBirth;
+        if (username) User.db[user].username = username;
+        if (password) User.db[user].password = password;
+        if (department) User.db[user].department = department;
+        if (role) User.db[user].role = role;
+        if (program) User.db[user].program = program;
+        User.db[user].updatedAt = new Date().toLocaleString();
+        res.status(200);
+        res.send({ msg: 'User updated successfully.' });
+        User.save();
+        return;
+      } catch (err) {
+        console.log(err);
+        res.status(500);
+        res.json({ error: 'Something wrong, try again later... ' });
+      }
+      return;
+    } else {
+      res.status(404);
+      res.send({ msg: 'User not found.' });
+      return;
     }
   }
 

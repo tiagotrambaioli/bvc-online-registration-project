@@ -9,7 +9,7 @@ routes.get('/users', UsersController.index);
 routes.post('/users', UsersController.create);
 routes.post('/users/show', UsersController.showAll);
 routes.get('/users/:uuid', UsersController.show);
-routes.put('/users/:uuid', UsersController.update);
-routes.delete('/users/:uuid', UsersController.destroy);
+routes.put('/users/update', UsersController.update);
+routes.delete('/users/delete/:uuid', UsersController.destroy);
 
 export default routes;

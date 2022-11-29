@@ -8,7 +8,7 @@ Content-Type: application/json
     "phone": "4204201234",
     "dateOfBirth": "1979/08/27",
     "username": "thedealer"
-  }
+}
 
 
 ###
@@ -17,8 +17,17 @@ POST http://localhost:5000/users/show
 
 ###
 
-GET http://localhost:5000/users/bde6939f-8eb3-4b7d-82ce-4f9670234c70
+GET http://localhost:5000/users/14f5f356-d393-4a81-96ed-bd97251a8a84
 
 ###
 
-DELETE http://localhost:5000/users/bc281e4d-7333-47a6-9c7d-8a00237d573a
+DELETE http://localhost:5000/users/delete/d005d632-12c1-4497-b40a-6a6ea84c1db8
+
+###
+PUT http://localhost:5000/users/update/
+Content-Type: application/json
+
+{
+    "uuid" : "855b7a55-af07-4dfe-bf39-5aed4ccc9c13",
+    "password": "123456"
+}

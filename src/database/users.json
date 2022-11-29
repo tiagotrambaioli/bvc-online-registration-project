@@ -40,19 +40,19 @@
     "password": "$2b$10$Y6m8jdQLTSctLLbcOb9Uue4Rch3i2yd1dJxfcieR2dZLmf.WoBQbS"
   },
   {
-    "uuid": "bde6939f-8eb3-4b7d-82ce-4f9670234c70",
+    "uuid": "855b7a55-af07-4dfe-bf39-5aed4ccc9c13",
     "firstName": "Jesse",
     "lastName": "Pinkman",
     "email": "jesse.pinkman@mybvc.ca",
     "phone": "4204201234",
     "dateOfBirth": "1979/08/27",
     "username": "thedealer",
-    "password": "$2b$10$ym.grYq2lf5njIkid5Kib.Kccbv8xaqM4sK1xeO3hBGpugLl30fJW",
+    "password": "$2b$10$f4khCmnjQHVGtC2eqJ9LweNbz0A6TaA1xcMbncalThTUwUJx42NBy",
     "department": null,
     "role": "student",
     "program": null,
-    "createdAt": "2022-11-29, 2:14:09 a.m.",
-    "updatedAt": null,
+    "createdAt": "2022-11-29, 1:19:13 p.m.",
+    "updatedAt": "2022-11-29, 1:27:01 p.m.",
     "refreshToken": null
   }
 ]
