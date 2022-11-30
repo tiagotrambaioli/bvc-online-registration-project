@@ -154,10 +154,10 @@ Content-Type: application/json
 {
     "title": "My Software Diploma",
     "url": "#",
-    "type": "DIPLOMA",
+    "type": "diploma",
     "subtitle": "Gain the skills you need to create the latest computer, mobile, and gaming applications. Prepare to transform your ideas into reality all while developing your problem-solving skills.",
     "duration": "4 Terms",
-    "category": "TECHNOLOGY",
+    "category": "tecHNOLOGY",
     "startdate": [
       "January 10, 2023",
       "September 05, 2023"
@@ -607,6 +607,6 @@ GET http://localhost:5000/programs/my%20software
 
 ###
 
-DELETE http://localhost:5000/programs/b68c34d0-0425-4d39-aa87-b8872dea0d9c
+DELETE http://localhost:5000/programs/dfb3a395-9a53-4919-8a14-60607fb25d02
 
 ###

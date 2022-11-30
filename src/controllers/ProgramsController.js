@@ -19,6 +19,8 @@ class ProgramsController {
     } = req.body;
     const createdAt = new Date().toLocaleString();
     const updatedAt = null;
+    type = type.toUpperCase();
+    category = category.toUpperCase();
 
     if (tuition) {
       if (tuition.domestic) {
