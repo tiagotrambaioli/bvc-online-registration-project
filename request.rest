@@ -19,14 +19,14 @@ POST http://localhost:5000/users/show
 
 ###
 
-GET http://localhost:5000/users/14f5f356-d393-4a81-96ed-bd97251a8a84
+GET http://localhost:5000/users/1f5be017-d8ae-46c9-a98f-17b5d6941ca6
 
 ###
 
-DELETE http://localhost:5000/users/delete/d005d632-12c1-4497-b40a-6a6ea84c1db8
+DELETE http://localhost:5000/users/d005d632-12c1-4497-b40a-6a6ea84c1db8
 
 ###
-PUT http://localhost:5000/users/update/
+PUT http://localhost:5000/users/
 Content-Type: application/json
 
 {
@@ -38,34 +38,575 @@ Content-Type: application/json
 // QUESTION FORMS 
 
 ###
-GET http://localhost:5000/questionform/show
+GET http://localhost:5000/questionforms
 
 ###
 
-GET http://localhost:5000/questionform/3f9a4275-ef0c-44da-9b2b-ed21f430d8e4
+GET http://localhost:5000/questionforms/b77e3195-78be-40a9-8bc6-101b35f389be
 
 ###
 
-POST http://localhost:5000/questionform
+POST http://localhost:5000/questionforms
 Content-Type: application/json
 
 {
+  "userFirstName" : "Tiago",
   "userPhone": "4514184215646",
   "message": "Test message"
 }
 
 ###
 
-PUT http://localhost:5000/questionform/update
+PUT http://localhost:5000/questionforms
 Content-Type: application/json
 
 {
-  "uuid": "3f9a4275-ef0c-44da-9b2b-ed21f430d8e4",
+  "uuid": "b77e3195-78be-40a9-8bc6-101b35f389be",
   "status": "Pending"
 }
 
 ###
 
-DELETE http://localhost:5000/questionform/delete/UUID
+DELETE http://localhost:5000/questionforms/0c1d2a48-bf55-4904-97e3-f93f4f1bb375
+
+###
+
+
+// COURSES
+POST http://localhost:5000/courses
+Content-Type: application/json
+
+{
+    "courseCode": "mycode",
+    "courseName": "MY COURSE",
+    "courseCredits": "300",
+    "tuition": {
+      "period": "2022/23",
+      "domestic": "5900",
+      "international": "15810"
+    },
+    "outlines": [
+      {
+        "academicYear": 2025,
+        "effectiveStartTerm": "Winter 2025",
+        "effectiveTermEnd": null,
+        "url": "#"
+      },
+      {
+        "academicYear": 2024,
+        "effectiveStartTerm": "Winter 2024",
+        "effectiveTermEnd": null,
+        "url": "#"
+      }
+    ]
+}
+
+###
+
+GET http://localhost:5000/courses
+
+###
+
+GET http://localhost:5000/courses/Myc
+
+###
+
+DELETE http://localhost:5000/courses/MYCODE
+
+
+###
+
+PUT http://localhost:5000/courses
+Content-Type: application/json
+
+{
+    "uuid": "9ddcc8ae-4664-4cdb-86ef-9c34e7ddc310",
+    "courseCode": "MYCODE",
+    "courseName": "MY COURSE UPDATED",
+    "courseCredits": "300",
+    "tuition": {
+      "period": "2022/23",
+      "domestic": "5900",
+      "international": "15810"
+    },
+    "outlines": [
+      {
+        "academicYear": 2025,
+        "effectiveStartTerm": "Winter 2024",
+        "effectiveTermEnd": null,
+        "url": "#"
+      },
+      {
+        "academicYear": 2024,
+        "effectiveStartTerm": "Winter 2023",
+        "effectiveTermEnd": null,
+        "url": "#"
+      }
+    ]
+}
+
+###
+
+// Programs
+POST http://localhost:5000/programs
+Content-Type: application/json
+
+{
+    "title": "My Software Diploma",
+    "url": "#",
+    "type": "DIPLOMA",
+    "subtitle": "Gain the skills you need to create the latest computer, mobile, and gaming applications. Prepare to transform your ideas into reality all while developing your problem-solving skills.",
+    "duration": "4 Terms",
+    "category": "TECHNOLOGY",
+    "startdate": [
+      "January 10, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
+    "tuition": {
+      "period": "2022/23",
+      "Domestic": 14704,
+      "International": 38391
+    },
+    "terms": [
+      {
+        "credits": 3,
+        "term": 1,
+        "courseCode": "SODV1101",
+        "courseName": "Programming Fundamentals",
+        "courseTuition": {
+          "period": "2022/23",
+          "Domestic": 662,
+          "International": 1857
+        },
+        "outlines": [
+          {
+            "academicYear": 2023,
+            "effectiveStartTerm": "Fall 2023",
+            "effectiveTermEnd": "Current",
+            "URL": "https://bowvalleycollege.ca/-/media/b2edb880c6d5495dab21d6642ba3f07f.ashx"
+          },
+          {
+            "academicYear": 2020,
+            "effectiveStartTerm": "Fall 2020",
+            "effectiveTermEnd": "Spring 2023",
+            "URL": "https://bowvalleycollege.ca/-/media/31b1fde135cc41948115869620be9e9a.ashx"
+          }
+        ]
+      },
+      {
+        "credits": 3,
+        "term": 1,
+        "courseCode": "TECH1101",
+        "courseName": "Web and Internet Fundamentals",
+        "courseTuition": {
+          "period": "2022/23",
+          "Domestic": 662,
+          "International": 1857
+        },
+        "outlines": [
+          {
+            "academicYear": 2023,
+            "effectiveStartTerm": "Fall 2023",
+            "effectiveTermEnd": "Current",
+            "URL": "https://bowvalleycollege.ca/-/media/94e37e4803b048a9b2fd2c0b35beb18d.ashx"
+          },
+          {
+            "academicYear": 2020,
+            "effectiveStartTerm": "Fall 2020",
+            "effectiveTermEnd": "Spring 2023",
+            "URL": "https://bowvalleycollege.ca/-/media/323f9d5371484410a93ebbab3c33c4af.ashx"
+          }
+        ]
+      },
+      {
+        "credits": 3,
+        "term": 1,
+        "courseCode": "TECH1102",
+        "courseName": "Internet of Things",
+        "courseTuition": {
+          "period": "2022/23",
+          "Domestic": 662,
+          "International": 1857
+        },
+        "outlines": [
+          {
+            "academicYear": 2020,
+            "effectiveStartTerm": "Fall 2020",
+            "effectiveTermEnd": "Current",
+            "URL": "https://bowvalleycollege.ca/-/media/7b3416f816b34e76a6aea8b58ea5cb51.ashx"
+          }
+        ]
+      },
+      {
+        "credits": 3,
+        "term": 1,
+        "courseCode": "MGMT1103",
+        "courseName": "Introduction to Project Teams and Technical Communications for Software Development",
+        "courseTuition": {
+          "period": "2022/23",
+          "Domestic": 662,
+          "International": 1857
+        },
+        "outlines": [
+          {
+            "academicYear": 2020,
+            "effectiveStartTerm": "Fall 2020",
+            "effectiveTermEnd": "Current",
+            "URL": "https://bowvalleycollege.ca/-/media/dd066ace50834086a0eb8b0c6dc803f6.ashx"
+          }
+        ]
+      },
+      {
+        "credits": 3,
+        "term": 1,
+        "courseCode": "MATH1901",
+        "courseName": "Math for the Computer Industry",
+        "courseTuition": {
+          "period": "2022/23",
+          "Domestic": 662,
+          "International": 1857
+        },
+        "outlines": [
+          {
+            "academicYear": 2020,
+            "effectiveStartTerm": "Fall 2020",
+            "effectiveTermEnd": "Current",
+            "URL": "https://bowvalleycollege.ca/-/media/48819c8b24934cf7b81a198fb3eb5d72.ashx"
+          }
+        ]
+      },
+      {
+        "credits": 3,
+        "term": 2,
+        "courseCode": "DATA1201",
+        "courseName": "Introduction to Relational Databases",
+        "courseTuition": {
+          "period": "2022/23",
+          "Domestic": 662,
+          "International": 1857
+        },
+        "outlines": [
+          {
+            "academicYear": 2021,
+            "effectiveStartTerm": "Spring 2021",
+            "effectiveTermEnd": "Current",
+            "URL": "https://bowvalleycollege.ca/-/media/2aeb6f1e24134cacb95affc56c0b9b1e.ashx"
+          },
+          {
+            "academicYear": 2020,
+            "effectiveStartTerm": "Fall 2020",
+            "effectiveTermEnd": "Winter 2021",
+            "URL": "https://bowvalleycollege.ca/-/media/2b5a2afa65084717a3116dd22a6d7984.ashx"
+          }
+        ]
+      },
+      {
+        "credits": 3,
+        "term": 2,
+        "courseCode": "DESN2301",
+        "courseName": "User Experience Design",
+        "courseTuition": {
+          "period": "2022/23",
+          "Domestic": 715,
+          "International": 1818
+        },
+        "outlines": [
+          {
+            "academicYear": 2020,
+            "effectiveStartTerm": "Fall 2020",
+            "effectiveTermEnd": "Current",
+            "URL": "https://bowvalleycollege.ca/-/media/c08b4dcfcad5439d8c1c4320f08115b3.ashx"
+          }
+        ]
+      },
+      {
+        "credits": 3,
+        "term": 2,
+        "courseCode": "SODV1201",
+        "courseName": "Introduction to Web Programming",
+        "courseTuition": {
+          "period": "2022/23",
+          "Domestic": 662,
+          "International": 1857
+        },
+        "outlines": [
+          {
+            "academicYear": 2023,
+            "effectiveStartTerm": "Fall 2023",
+            "effectiveTermEnd": "Current",
+            "URL": "https://bowvalleycollege.ca/-/media/07fdae5221614b98821ca85cd95f6d33.ashx"
+          },
+          {
+            "academicYear": 2020,
+            "effectiveStartTerm": "Fall 2020",
+            "effectiveTermEnd": "Spring 2023",
+            "URL": "https://bowvalleycollege.ca/-/media/5b108169a7644a9885116798db92ce52.ashx"
+          }
+        ]
+      },
+      {
+        "credits": 3,
+        "term": 2,
+        "courseCode": "SODV1202",
+        "courseName": "Introduction to Object Oriented Programming",
+        "courseTuition": {
+          "period": "2022/23",
+          "Domestic": 662,
+          "International": 1857
+        },
+        "outlines": [
+          {
+            "academicYear": 2020,
+            "effectiveStartTerm": "Fall 2020",
+            "effectiveTermEnd": "Current",
+            "URL": "https://bowvalleycollege.ca/-/media/605bc2f283484f3aaf1a480444f6576c.ashx"
+          }
+        ]
+      },
+      {
+        "credits": 3,
+        "term": 2,
+        "courseCode": "TECH1201",
+        "courseName": "Networking Essentials",
+        "courseTuition": {
+          "period": "2022/23",
+          "Domestic": 662,
+          "International": 1857
+        },
+        "outlines": [
+          {
+            "academicYear": 2020,
+            "effectiveStartTerm": "Fall 2020",
+            "effectiveTermEnd": "Current",
+            "URL": "https://bowvalleycollege.ca/-/media/9f954ec24b0c46a1bf02f87980beb9f2.ashx"
+          }
+        ]
+      },
+      {
+        "credits": 3,
+        "term": 3,
+        "courseCode": "DATA2201",
+        "courseName": "Relational Databases",
+        "courseTuition": {
+          "period": "2022/23",
+          "Domestic": 662,
+          "International": 1857
+        },
+        "outlines": [
+          {
+            "academicYear": 2020,
+            "effectiveStartTerm": "Fall 2020",
+            "effectiveTermEnd": "Current",
+            "URL": "https://bowvalleycollege.ca/-/media/3568835cb2a8401fae1992149370ee6c.ashx"
+          }
+        ]
+      },
+      {
+        "credits": 3,
+        "term": 3,
+        "courseCode": "MGMT1104",
+        "courseName": "Introduction to Project Management for IT",
+        "courseTuition": {
+          "period": "2022/23",
+          "Domestic": 662,
+          "International": 1857
+        },
+        "outlines": [
+          {
+            "academicYear": 2020,
+            "effectiveStartTerm": "Fall 2020",
+            "effectiveTermEnd": "Current",
+            "URL": "https://bowvalleycollege.ca/-/media/c793e07bd0a04ca3a76c5f3f35de581e.ashx"
+          }
+        ]
+      },
+      {
+        "credits": 3,
+        "term": 3,
+        "courseCode": "SODV2101",
+        "courseName": "Rapid Application Development",
+        "courseTuition": {
+          "period": "2022/23",
+          "Domestic": 662,
+          "International": 1857
+        },
+        "outlines": [
+          {
+            "academicYear": 2020,
+            "effectiveStartTerm": "Fall 2020",
+            "effectiveTermEnd": "Current",
+            "URL": "https://bowvalleycollege.ca/-/media/d0eff632159549788348e6d8d2dd2a77.ashx"
+          }
+        ]
+      },
+      {
+        "credits": 3,
+        "term": 3,
+        "courseCode": "SODV2201",
+        "courseName": "Web Programming",
+        "courseTuition": {
+          "period": "2022/23",
+          "Domestic": 662,
+          "International": 1857
+        },
+        "outlines": [
+          {
+            "academicYear": 2020,
+            "effectiveStartTerm": "Fall 2020",
+            "effectiveTermEnd": "Current",
+            "URL": "https://bowvalleycollege.ca/-/media/d5552e8fcb334f6494bd1e7f87940e00.ashx"
+          }
+        ]
+      },
+      {
+        "credits": 3,
+        "term": 3,
+        "courseCode": "SODV2202",
+        "courseName": "Object Oriented Programming",
+        "courseTuition": {
+          "period": "2022/23",
+          "Domestic": 662,
+          "International": 1857
+        },
+        "outlines": [
+          {
+            "academicYear": 2020,
+            "effectiveStartTerm": "Fall 2020",
+            "effectiveTermEnd": "Current",
+            "URL": "https://bowvalleycollege.ca/-/media/48ade16b14984075b47cb6202c1cf4de.ashx"
+          }
+        ]
+      },
+      {
+        "credits": 3,
+        "term": 4,
+        "courseCode": "SODV2203",
+        "courseName": "Introduction to Game and Simulation Programming",
+        "courseTuition": {
+          "period": "2022/23",
+          "Domestic": 662,
+          "International": 1855
+        },
+        "outlines": [
+          {
+            "academicYear": 2021,
+            "effectiveStartTerm": "Winter 2021",
+            "effectiveTermEnd": "Current",
+            "URL": "https://bowvalleycollege.ca/-/media/3a2acfa29cc84227a90a0f41fb1c22af.ashx"
+          }
+        ]
+      },
+      {
+        "credits": 3,
+        "term": 4,
+        "courseCode": "SODV2401",
+        "courseName": "Algorithms and Data Structures",
+        "courseTuition": {
+          "period": "2022/23",
+          "Domestic": 662,
+          "International": 1632
+        },
+        "outlines": [
+          {
+            "academicYear": 2023,
+            "effectiveStartTerm": "Winter 2023",
+            "effectiveTermEnd": "Current",
+            "URL": "https://bowvalleycollege.ca/-/media/0ea806184d8249258ee49f179860c3e1.ashx"
+          },
+          {
+            "academicYear": 2020,
+            "effectiveStartTerm": "Fall 2020",
+            "effectiveTermEnd": "Fall 2022",
+            "URL": "https://bowvalleycollege.ca/-/media/8da46b36dcae43828cfda9b83e8d42c4.ashx"
+          }
+        ]
+      },
+      {
+        "credits": 3,
+        "term": 4,
+        "courseCode": "SODV2999",
+        "courseName": "Software Development Diploma Capstone Project",
+        "courseTuition": {
+          "period": "2022/23",
+          "Domestic": 662,
+          "International": 1857
+        },
+        "outlines": [
+          {
+            "academicYear": 2022,
+            "effectiveStartTerm": "Fall 2022",
+            "effectiveTermEnd": "Current",
+            "URL": "https://bowvalleycollege.ca/-/media/c3c146fb2e8746119b2363e373d4f471.ashx"
+          },
+          {
+            "academicYear": 2020,
+            "effectiveStartTerm": "Fall 2020",
+            "effectiveTermEnd": "Spring 2022",
+            "URL": "https://bowvalleycollege.ca/-/media/d0436b24cf074a75af7bbf4cb06ace92.ashx"
+          }
+        ]
+      },
+      {
+        "credits": 3,
+        "term": 4,
+        "courseCode": "SODV3203",
+        "courseName": "Mobile Application Development",
+        "courseTuition": {
+          "period": "2022/23",
+          "Domestic": 709,
+          "International": 2010
+        },
+        "outlines": [
+          {
+            "academicYear": 2020,
+            "effectiveStartTerm": "Fall 2020",
+            "effectiveTermEnd": "Current",
+            "URL": "https://bowvalleycollege.ca/-/media/5a880d48b9634dacb9ec647c891005e3.ashx"
+          }
+        ]
+      },
+      {
+        "credits": 3,
+        "term": 4,
+        "courseCode": "TECH2102",
+        "courseName": "Enterprise Computing",
+        "courseTuition": {
+          "period": "2022/23",
+          "Domestic": 662,
+          "International": 1857
+        },
+        "outlines": [
+          {
+            "academicYear": 2020,
+            "effectiveStartTerm": "Fall 2020",
+            "effectiveTermEnd": "Current",
+            "URL": "https://bowvalleycollege.ca/-/media/c636d5cba9bc4ee79d45524f385f3599.ashx"
+          }
+        ]
+      },
+      {
+        "term": 5,
+        "courseCode": "SODV9996",
+        "courseName": "Software Development Employment Search Preparation",
+        "outlines": []
+      }
+    ]
+  }
+
+
+###
+
+GET http://localhost:5000/programs
+
+###
+
+GET http://localhost:5000/programs/my%20software
+
+###
+
+DELETE http://localhost:5000/programs/b68c34d0-0425-4d39-aa87-b8872dea0d9c
 
 ###

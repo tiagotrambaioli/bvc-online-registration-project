@@ -1,5 +1,5 @@
 import crypto from 'crypto';
-import QuestionForms from '../models/QuestionForms.js';
+import QuestionForm from '../models/QuestionForm.js';
 
 class QuestionFormsController {
   async create(req, res) {
@@ -22,6 +22,12 @@ class QuestionFormsController {
     const createdAt = new Date().toLocaleString();
     const updatedAt = null;
 
+    if (!userFirstName) {
+      res.status(400);
+      res.send({ msg: 'First name required.' });
+      return;
+    }
+
     if (!userEmail && !userPhone) {
       res.status(400);
       res.send({ msg: 'Email or phone required.' });
@@ -29,7 +35,7 @@ class QuestionFormsController {
     }
 
     try {
-      QuestionForms.save({
+      QuestionForm.save({
         uuid,
         userUUID,
         userFirstName,
@@ -57,7 +63,7 @@ class QuestionFormsController {
 
   async show(req, res) {
     const uuid = req.params.uuid;
-    const form = await QuestionForms.db.find((form) => form.uuid === uuid);
+    const form = await QuestionForm.db.find((form) => form.uuid === uuid);
     const response = {};
     if (form) {
       response.uuid = form.uuid;
@@ -84,7 +90,7 @@ class QuestionFormsController {
   }
 
   async showAll(req, res) {
-    const response = await QuestionForms.db;
+    const response = await QuestionForm.db;
     res.status(200);
     res.send(response);
     return;
@@ -94,15 +100,15 @@ class QuestionFormsController {
     const { uuid, status } = req.body;
     const updatedAt = new Date().toLocaleString();
 
-    const form = await QuestionForms.db.findIndex((form) => form.uuid === uuid);
+    const form = await QuestionForm.db.findIndex((form) => form.uuid === uuid);
 
     if (form != -1) {
       try {
-        if (status) QuestionForms.db[form].status = status;
-        QuestionForms.db[form].updatedAt = updatedAt;
+        if (status) QuestionForm.db[form].status = status;
+        QuestionForm.db[form].updatedAt = updatedAt;
         res.status(200);
         res.send({ msg: 'Form status updated successfully.' });
-        QuestionForms.save();
+        QuestionForm.save();
         return;
       } catch (err) {
         console.log(err);
@@ -119,12 +125,12 @@ class QuestionFormsController {
 
   async destroy(req, res) {
     const uuid = req.params.uuid;
-    const form = await QuestionForms.db.findIndex((form) => form.uuid === uuid);
+    const form = await QuestionForm.db.findIndex((form) => form.uuid === uuid);
     if (form != -1) {
-      QuestionForms.db.splice(form, 1);
+      QuestionForm.db.splice(form, 1);
       res.status(200);
       res.send({ msg: 'Form deleted successfully!' });
-      QuestionForms.save();
+      QuestionForm.save();
       return;
     } else {
       res.status(404);

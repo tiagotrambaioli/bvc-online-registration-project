@@ -1,21 +1,25 @@
 import crypto from 'crypto';
+import Program from '../models/Program.js';
 import Course from '../models/Course.js';
 
-class CoursesController {
+class ProgramsController {
   async create(req, res) {
     const uuid = crypto.randomUUID();
     let {
-      courseCode,
-      courseName,
-      courseCredits,
+      title,
+      url = null,
+      type,
+      subtitle = null,
+      duration,
+      category = null,
+      startdate = null,
+      deliveryTypes = null,
       tuition = null,
-      outlines = null,
+      terms = null,
     } = req.body;
     const createdAt = new Date().toLocaleString();
     const updatedAt = null;
-    courseCode = courseCode.toUpperCase();
 
-    courseCredits = Number(courseCredits);
     if (tuition) {
       if (tuition.domestic) {
         tuition.domestic = Number(tuition?.domestic);
@@ -23,69 +27,68 @@ class CoursesController {
       }
     }
 
-    if (outlines) {
-      outlines.forEach((outline) => {
-        outline.academicYear = Number(outline?.academicYear);
-      });
+    if (!title) {
+      res.status(400);
+      res.send({ msg: 'Program title required.' });
+      return;
+    }
+    if (!type) {
+      res.status(400);
+      res.send({ msg: 'Program type required.' });
+      return;
+    }
+    if (!duration) {
+      res.status(400);
+      res.send({ msg: 'Program duration required.' });
+      return;
     }
 
-    const verifyCode = await Course.db.find(
-      (course) => courseCode.toLowerCase() === course.courseCode.toLowerCase(),
+    const verifyTitle = await Program.db.find(
+      (program) => title.toLowerCase() === program.title.toLowerCase(),
     );
 
-    if (verifyCode) {
+    if (verifyTitle) {
       res.status(409);
-      res.send({ msg: 'Course code already registered.' });
-      return;
-    }
-
-    if (!courseCode) {
-      res.status(400);
-      res.send({ msg: 'Course code required.' });
-      return;
-    }
-    if (!courseName) {
-      res.status(400);
-      res.send({ msg: 'Course name required.' });
-      return;
-    }
-    if (!courseCredits) {
-      res.status(400);
-      res.send({ msg: 'Course credits required.' });
+      res.send({ msg: 'Program title already registered.' });
       return;
     }
 
     try {
-      Course.save({
+      Program.save({
         uuid,
-        courseCode,
-        courseName,
-        courseCredits,
+        title,
+        url,
+        type,
+        subtitle,
+        duration,
+        category,
+        startdate,
+        deliveryTypes,
         tuition,
-        outlines,
+        terms,
         createdAt,
         updatedAt,
       });
       res.status(201);
-      res.send({ msg: 'Course created.' });
+      res.send({ msg: 'Program created.' });
     } catch (err) {
       console.log(err);
       res.status(500);
-      res.json({ error: 'Something wrong, try again later... ' });
+      res.send({ error: 'Something wrong, try again later... ' });
     }
   }
 
   async show(req, res) {
     const search = req.params.search.toLowerCase();
-    const courseByCode = await Course.db.filter((course) =>
-      course.courseCode.toLowerCase().includes(search),
+    const programByTitle = await Program.db.filter((program) =>
+      program.title.toLowerCase().includes(search),
     );
 
-    const courseByName = await Course.db.filter((course) =>
-      course.courseName.toLowerCase().includes(search),
+    const programByCategory = await Program.db.filter((program) =>
+      program.category.toLowerCase().includes(search),
     );
 
-    const response = [...courseByCode, ...courseByName];
+    const response = [...programByTitle, ...programByCategory];
 
     if (Object.values(response).length > 0) {
       res.status(200);
@@ -93,13 +96,13 @@ class CoursesController {
       return;
     } else {
       res.status(404);
-      res.send({ msg: 'No courses found.' });
+      res.send({ msg: 'No programs found.' });
       return;
     }
   }
 
   async showAll(req, res) {
-    const response = await Course.db;
+    const response = await Program.db;
     res.status(200);
     res.send(response);
     return;
@@ -173,21 +176,21 @@ class CoursesController {
 
   async destroy(req, res) {
     const uuid = req.params.uuid;
-    const course = await Course.db.findIndex(
-      (course) => course.courseCode === uuid || course.uuid === uuid,
+    const program = await Program.db.findIndex(
+      (program) => program.uuid === uuid,
     );
-    if (course != -1) {
-      Course.db.splice(course, 1);
+    if (program != -1) {
+      Program.db.splice(program, 1);
       res.status(200);
-      res.send({ msg: 'course deleted successfully!' });
+      res.send({ msg: 'Program deleted successfully!' });
       Course.save();
       return;
     } else {
       res.status(404);
-      res.send({ msg: 'Course not found.' });
+      res.send({ msg: 'Program not found.' });
       return;
     }
   }
 }
 
-export default new CoursesController();
+export default new ProgramsController();
