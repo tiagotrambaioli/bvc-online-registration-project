@@ -4,7 +4,8 @@ import CoursesController from './controllers/CoursesController.js';
 import ProgramsController from './controllers/ProgramsController.js';
 import QuestionFormsController from './controllers/QuestionFormsController.js';
 import UsersController from './controllers/UsersController.js';
-import authenticateToken from './middlewares/AuthenticateToken.js';
+import AuthenticateRole from './middlewares/AuthenticateRole.js';
+import AuthenticateToken from './middlewares/AuthenticateToken.js';
 
 const routes = new Router();
 
@@ -15,35 +16,90 @@ routes.post('/token', AuthController.token);
 
 // USERS ROUTES
 routes.post('/users', UsersController.create);
-routes.post('/users/show', authenticateToken, UsersController.showAll);
-routes.get('/users/:uuid', UsersController.show);
-routes.put('/users', UsersController.update);
-routes.delete('/users/:uuid', UsersController.destroy);
+routes.post(
+  '/users/show',
+  AuthenticateToken,
+  AuthenticateRole('admin'),
+  UsersController.showAll,
+);
+routes.get('/users/:uuid', AuthenticateToken, UsersController.show);
+routes.put('/users', AuthenticateToken, UsersController.update);
+routes.delete('/users/:uuid', AuthenticateToken, UsersController.destroy);
 
 // QUESTION FORMS
 
 routes.post('/questionforms', QuestionFormsController.create);
-routes.get('/questionforms', QuestionFormsController.showAll);
-routes.get('/questionforms/:uuid', QuestionFormsController.show);
-routes.put('/questionforms', QuestionFormsController.update);
-routes.delete('/questionforms/:uuid', QuestionFormsController.destroy);
+routes.get(
+  '/questionforms',
+  AuthenticateToken,
+  AuthenticateRole('admin'),
+  QuestionFormsController.showAll,
+);
+routes.get(
+  '/questionforms/:uuid',
+  AuthenticateToken,
+  AuthenticateRole('admin'),
+  QuestionFormsController.show,
+);
+routes.put(
+  '/questionforms',
+  AuthenticateToken,
+  AuthenticateRole('admin'),
+  QuestionFormsController.update,
+);
+routes.delete(
+  '/questionforms/:uuid',
+  AuthenticateToken,
+  AuthenticateRole('admin'),
+  QuestionFormsController.destroy,
+);
 
 // COURSES
 
-routes.post('/courses', CoursesController.create);
+routes.post(
+  '/courses',
+  AuthenticateToken,
+  AuthenticateRole('admin'),
+  CoursesController.create,
+);
 routes.get('/courses', CoursesController.showAll);
 routes.get('/courses/:search', CoursesController.show);
-routes.put('/courses', CoursesController.update);
-routes.delete('/courses/:uuid', CoursesController.destroy);
+routes.put(
+  '/courses',
+  AuthenticateToken,
+  AuthenticateRole('admin'),
+  CoursesController.update,
+);
+routes.delete(
+  '/courses/:uuid',
+  AuthenticateToken,
+  AuthenticateRole('admin'),
+  CoursesController.destroy,
+);
 
 // PROGRAMS
 
 // COURSES
 
-routes.post('/programs', ProgramsController.create);
+routes.post(
+  '/programs',
+  AuthenticateToken,
+  AuthenticateRole('admin'),
+  ProgramsController.create,
+);
 routes.get('/programs', ProgramsController.showAll);
 routes.get('/programs/:search', ProgramsController.show);
-routes.put('/programs', ProgramsController.update);
-routes.delete('/programs/:uuid', ProgramsController.destroy);
+routes.put(
+  '/programs',
+  AuthenticateToken,
+  AuthenticateRole('admin'),
+  ProgramsController.update,
+);
+routes.delete(
+  '/programs/:uuid',
+  AuthenticateToken,
+  AuthenticateRole('admin'),
+  ProgramsController.destroy,
+);
 
 export default routes;

@@ -36,7 +36,6 @@ class AuthController {
 
   async login(req, res) {
     const { email, username } = req.body;
-    req.setEncoding('utf-8');
     let password = req.body.password.toString();
 
     const user = await User.db.find(
