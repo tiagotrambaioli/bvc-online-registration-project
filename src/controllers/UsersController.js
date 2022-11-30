@@ -13,18 +13,19 @@ class UsersController {
       dateOfBirth,
       username,
     } = req.body;
-    let { password } = req.body;
+    const refreshToken = null;
+    let password = req.body.password.toString();
     const department = null;
     const role = 'student';
     const program = null;
     const createdAt = new Date().toLocaleString();
     const updatedAt = null;
-    const refreshToken = null;
 
     try {
-      password = await bcrypt.hash(toString(password), 10);
-    } catch (e) {
-      console.log(e);
+      const salt = bcrypt.genSaltSync(10);
+      password = bcrypt.hashSync(password, salt);
+    } catch (err) {
+      console.log(err);
       res.status(500);
       res.send({ error: 'Something wrong, try again later!' });
       return;
@@ -148,7 +149,7 @@ class UsersController {
       role,
       program,
     } = req.body;
-    let { password } = req.body;
+    let password = req.body.password.toString();
     const updatedAt = new Date().toLocaleString();
 
     const user = await User.db.findIndex((user) => user.uuid === uuid);
@@ -176,9 +177,10 @@ class UsersController {
     }
 
     try {
-      password = await bcrypt.hash(toString(password), 10);
-    } catch (e) {
-      console.log(e);
+      const salt = bcrypt.genSaltSync(10);
+      password = bcrypt.hashSync(password, salt);
+    } catch (err) {
+      console.log(err);
       res.status(500);
       res.send({ error: 'Something wrong, try again later!' });
       return;
@@ -226,6 +228,28 @@ class UsersController {
       res.status(404);
       res.send({ msg: 'User not found.' });
       return;
+    }
+  }
+
+  async updateRefreshToken(uuid, refreshToken) {
+    const user = await User.db.findIndex((user) => user.uuid === uuid);
+    if (user != -1) {
+      User.db[user].refreshToken = refreshToken;
+      User.save();
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  async deleteRefreshToken(uuid) {
+    const user = await User.db.findIndex((user) => user.uuid === uuid);
+    if (user != -1) {
+      User.db[user].refreshToken = null;
+      User.save();
+      return true;
+    } else {
+      return false;
     }
   }
 }

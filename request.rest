@@ -1,5 +1,39 @@
+// VARIABLES
+@authToken = {{login.response.body.$.accessToken}}
+@refreshToken = {{login.response.body.$.refreshToken}}
 
-// USERS
+@refreshedToken = {{RefreshToken.response.body.$.accessToken}}
+
+
+# @name login
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+  "username" : "thedealer",
+  "password" : 123456
+}
+###
+
+# @name RefreshToken
+POST http://localhost:5000/token
+Content-Type: application/json
+
+{
+  "token": "{{refreshToken}}"
+}
+###
+
+# @name logout
+POST http://localhost:5000/logout
+Content-Type: application/json
+
+{
+  "token": "{{refreshToken}}"
+}
+###
+
+# @name createUser
 POST http://localhost:5000/users
 Content-Type: application/json
 
@@ -9,30 +43,33 @@ Content-Type: application/json
     "email": "jesse.pinkman@mybvc.ca",
     "phone": "4204201234",
     "dateOfBirth": "1979/08/27",
-    "username": "thedealer"
+    "username": "thedealer",
+    "password": 123456
 }
-
-
 ###
 
+# @name listAllUsers
 POST http://localhost:5000/users/show
-
+Authorization: Bearer {{authToken}}
 ###
 
+# @name listUser
 GET http://localhost:5000/users/1f5be017-d8ae-46c9-a98f-17b5d6941ca6
-
 ###
 
-DELETE http://localhost:5000/users/d005d632-12c1-4497-b40a-6a6ea84c1db8
-
+# @name deleteUser
+DELETE http://localhost:5000/users/a39742a7-426e-4cea-917a-5f0adc075206
 ###
+
+# @name updateUser
 PUT http://localhost:5000/users/
 Content-Type: application/json
 
 {
-    "uuid" : "1f5be017-d8ae-46c9-a98f-17b5d6941ca6",
-    "firstName": "Tiago"
+    "uuid" : "3721cf81-0ff2-4ede-88c6-473b02bfddaa",
+    "password": "54321"
 }
+###
 
 
 // QUESTION FORMS 
