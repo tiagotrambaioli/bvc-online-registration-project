@@ -1,5 +1,5 @@
 
-@authToken = {{login.response.body.$.accessToken}}
+@authToken = {{loginAdmin.response.body.$.accessToken}}
 @refreshToken = {{login.response.body.$.refreshToken}}
 
 @refreshedToken = {{RefreshToken.response.body.$.accessToken}}
@@ -652,10 +652,20 @@ GET http://localhost:5000/programs
 
 ###
 
-GET http://localhost:5000/programs/my%20software
+GET http://localhost:5000/programs/software%20development
 
 ###
+
+POST http://localhost:5000/programs/students/98db4819-0c77-475a-aa59-fc61864d499d
+Authorization: Bearer {{authToken}}
+
+###
+
 
 DELETE http://localhost:5000/programs/dfb3a395-9a53-4919-8a14-60607fb25d02
 
 ###
+
+# @name programStudentsReport
+POST http://localhost:5000/program-students
+Authorization:  Bearer {{authToken}}

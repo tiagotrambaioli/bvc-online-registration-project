@@ -1,6 +1,7 @@
 import crypto from 'crypto';
 import Program from '../models/Program.js';
 import Course from '../models/Course.js';
+import User from '../models/User.js';
 
 class ProgramsController {
   async create(req, res) {
@@ -82,15 +83,32 @@ class ProgramsController {
 
   async show(req, res) {
     const search = req.params.search.toLowerCase();
-    const programByTitle = await Program.db.filter((program) =>
-      program.title.toLowerCase().includes(search),
-    );
 
-    const programByCategory = await Program.db.filter((program) =>
-      program.category.toLowerCase().includes(search),
-    );
+    const programByUUID = async () => {
+      return await Program.db.filter((program) =>
+        program.uuid.includes(search),
+      );
+    };
 
-    const response = [...programByTitle, ...programByCategory];
+    const programByTitle = async () => {
+      if (programByUUID.length == 0)
+        return await Program.db.filter((program) =>
+          program.title.toLowerCase().includes(search),
+        );
+    };
+
+    const programByCategory = async () => {
+      if (programByTitle.length == 0)
+        return await Program.db.filter((program) =>
+          program.category.toLowerCase().includes(search),
+        );
+    };
+
+    const response = [
+      ...(await programByUUID()),
+      ...(await programByTitle()),
+      ...(await programByCategory()),
+    ];
 
     if (Object.values(response).length > 0) {
       res.status(200);
@@ -174,6 +192,25 @@ class ProgramsController {
       res.send({ msg: 'Course not found.' });
       return;
     }
+  }
+
+  async students(req, res) {
+    const { uuid } = req.params;
+    const students = [];
+    for (let i = 0; i < User.db.length; i++) {
+      const student = User.db[i];
+      if (student.program != null && student.program.uuid === uuid) {
+        students.push({
+          uuid: student.uuid,
+          fistName: student.firstName,
+          lastName: student.lastName,
+          email: student.email,
+        });
+      }
+    }
+
+    res.status(200);
+    res.send(students);
   }
 
   async destroy(req, res) {

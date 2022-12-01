@@ -4,6 +4,7 @@ import CoursesController from './controllers/CoursesController.js';
 import ProgramsController from './controllers/ProgramsController.js';
 import QuestionFormsController from './controllers/QuestionFormsController.js';
 import UsersController from './controllers/UsersController.js';
+import ReportsController from './controllers/ReportsController.js';
 import AuthenticateRole from './middlewares/AuthenticateRole.js';
 import AuthenticateToken from './middlewares/AuthenticateToken.js';
 
@@ -79,8 +80,6 @@ routes.delete(
 
 // PROGRAMS
 
-// COURSES
-
 routes.post(
   '/programs',
   AuthenticateToken,
@@ -95,11 +94,26 @@ routes.put(
   AuthenticateRole('admin'),
   ProgramsController.update,
 );
+
+routes.post(
+  '/programs/students/:uuid',
+  AuthenticateToken,
+  AuthenticateRole('admin'),
+  ProgramsController.students,
+);
 routes.delete(
   '/programs/:uuid',
   AuthenticateToken,
   AuthenticateRole('admin'),
   ProgramsController.destroy,
+);
+
+// REPORTS
+routes.post(
+  '/program-students',
+  AuthenticateToken,
+  AuthenticateRole('admin'),
+  ReportsController.programStudents,
 );
 
 export default routes;
