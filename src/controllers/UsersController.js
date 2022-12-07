@@ -39,7 +39,7 @@ class UsersController {
 
     if (verifyEmail) {
       res.status(409);
-      res.send({ msg: 'E-mail already registered.' });
+      res.send({ error: 'E-mail already registered.' });
       return;
     }
     if (verifyUsername) {
@@ -53,13 +53,18 @@ class UsersController {
       return;
     }
 
-    if (!firstName) res.send({ error: 'First name is required.' });
-    if (!lastName) res.send({ error: 'Last name is required.' });
-    if (!email) res.send({ error: 'email is required.' });
-    if (!phone) res.send({ error: 'phone is required.' });
-    if (!dateOfBirth) res.send({ error: 'Date of birth is required.' });
-    if (!username) res.send({ error: 'Username is required.' });
-    if (!password) res.send({ error: 'Password is required.' });
+    if (!firstName)
+      return res.status(409).send({ error: 'First name is required.' });
+    if (!lastName)
+      return res.status(409).send({ error: 'Last name is required.' });
+    if (!email) return res.status(409).send({ error: 'email is required.' });
+    if (!phone) return res.status(409).send({ error: 'phone is required.' });
+    if (!dateOfBirth)
+      return res.status(409).send({ error: 'Date of birth is required.' });
+    if (!username)
+      return res.status(409).send({ error: 'Username is required.' });
+    if (!password)
+      return res.status(409).send({ error: 'Password is required.' });
     try {
       User.save({
         uuid,
@@ -79,10 +84,12 @@ class UsersController {
       });
       res.status(201);
       res.send({ msg: 'User created.' });
+      return;
     } catch (err) {
       console.log(err);
       res.status(500);
       res.send({ error: 'Something wrong, try again later... ' });
+      return;
     }
   }
   async show(req, res) {
@@ -206,8 +213,8 @@ class UsersController {
         console.log(err);
         res.status(500);
         res.send({ error: 'Something wrong, try again later... ' });
+        return;
       }
-      return;
     } else {
       res.status(404);
       res.send({ msg: 'User not found.' });

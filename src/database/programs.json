@@ -7,10 +7,7 @@
     "subtitle": "The General Business Major is designed to provide students with pathways to further their post-secondary studies at various universities. Graduates gain a broad understanding of a multitude of business concepts.",
     "duration": "4 Terms",
     "category": "BUSINESS",
-    "startdate": [
-      "January 10, 2023",
-      "September 05, 2023"
-    ],
+    "startdate": ["January 10, 2023", "September 05, 2023"],
     "deliveryTypes": [
       "Any-time Online",
       "Blended",
@@ -877,13 +874,8 @@
     "subtitle": "Gain the skills you need to create the latest computer, mobile, and gaming applications. Prepare to transform your ideas into reality all while developing your problem-solving skills.",
     "duration": "4 Terms",
     "category": "TECHNOLOGY",
-    "startdate": [
-      "January 10, 2023",
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["January 10, 2023", "September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 14704,
@@ -1322,12 +1314,8 @@
     "subtitle": "Our Information Technology Systems (ITS) Diploma will give you the hardware and software skills required for the generation, storage, retrieval, transmission, and protection of digital information.",
     "duration": "4 Terms",
     "category": "TECHNOLOGY",
-    "startdate": [
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 15774,
@@ -2470,12 +2458,8 @@
     "subtitle": "Acquire knowledge and hands-on experience for a fulfilling career in interdisciplinary rehabilitation therapy.",
     "duration": "6 Terms",
     "category": "HEALTH AND WELLNESS",
-    "startdate": [
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 17626,
@@ -2703,11 +2687,7 @@
       "September 05, 2023",
       "January 10, 2024"
     ],
-    "deliveryTypes": [
-      "Blended",
-      "Off-Campus",
-      "In Class"
-    ],
+    "deliveryTypes": ["Blended", "Off-Campus", "In Class"],
     "terms": [
       {
         "credits": 6,
@@ -3474,12 +3454,8 @@
     "subtitle": "Study to prepare compounds and sterile products, and to dispense medications. This full-time program includes both community and hospital practicum placements.",
     "duration": "4 Terms",
     "category": "HEALTH AND WELLNESS",
-    "startdate": [
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 11222,
@@ -4202,15 +4178,8 @@
     "subtitle": "If you’re a nurse and you studied in a different country, this program recognizes your past education while preparing you to become a Practical Nurse in Alberta.",
     "duration": "",
     "category": "HEALTH AND WELLNESS",
-    "startdate": [
-      "January 10, 2023",
-      "September 05, 2023",
-      "January 10, 2024"
-    ],
-    "deliveryTypes": [
-      "Blended",
-      "In Class"
-    ],
+    "startdate": ["January 10, 2023", "September 05, 2023", "January 10, 2024"],
+    "deliveryTypes": ["Blended", "In Class"],
     "terms": [
       {
         "credits": 6,
@@ -4878,12 +4847,8 @@
     "subtitle": "Make a positive impact in the lives of children, youth, and families. Prepare for a career supporting children and their families who have experienced adversity such as childhood trauma, oppression, systemic discrimination, mental health or substance use.",
     "duration": "4 Terms",
     "category": "COMMUNITY STUDIES",
-    "startdate": [
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "terms": [
       {
         "credits": 3,
@@ -5299,10 +5264,7 @@
     "subtitle": "Work in supply chain management and improve a company's efficiency by managing the flow of products, services, and information.",
     "duration": "4 Terms",
     "category": "BUSINESS",
-    "startdate": [
-      "January 10, 2023",
-      "September 05, 2023"
-    ],
+    "startdate": ["January 10, 2023", "September 05, 2023"],
     "deliveryTypes": [
       "Any-time Online",
       "Blended",
@@ -5996,10 +5958,7 @@
     "subtitle": "Practical skills that count. Technical knowledge that adds up. Gain a broad understanding of business with a focus on the development of job-ready accounting skills needed for a successful accounting career.",
     "duration": "4 Terms",
     "category": "BUSINESS",
-    "startdate": [
-      "January 10, 2023",
-      "September 05, 2023"
-    ],
+    "startdate": ["January 10, 2023", "September 05, 2023"],
     "deliveryTypes": [
       "Any-time Online",
       "Blended",
@@ -6741,12 +6700,8 @@
     "subtitle": "Advanced Film Production is a full time, two-year program comprising the five principle domains of live action film development.",
     "duration": "6 Terms",
     "category": "CENTRE FOR ENTERTAINMENT ARTS",
-    "startdate": [
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "terms": []
   },
   {
@@ -6757,14 +6712,8 @@
     "subtitle": "In this Centre for Entertainment Arts (CEA) diploma, students will study numerous specializations in VFX, such as modelling, sculpting, texturing/surfacing, lighting, compositing, and FX.",
     "duration": "6 Terms",
     "category": "CENTRE FOR ENTERTAINMENT ARTS",
-    "startdate": [
-      "January 10, 2023",
-      "May 08, 2023",
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["January 10, 2023", "May 08, 2023", "September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "terms": [
       {
         "credits": 3,
@@ -7213,14 +7162,8 @@
     "subtitle": "This program is comprised of industry-level courses covering game development’s core disciplines: art, design, programming, and production.",
     "duration": "6 Terms",
     "category": "CENTRE FOR ENTERTAINMENT ARTS",
-    "startdate": [
-      "January 10, 2023",
-      "May 08, 2023",
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["January 10, 2023", "May 08, 2023", "September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "terms": [
       {
         "term": 1,
@@ -7432,14 +7375,8 @@
     "subtitle": "This Centre for Entertainment Arts (CEA) program focuses on 3D Animation and 3D Modelling and its various departmental specializations, such as 3D animation (character and creature), rigging, 3D modelling & sculpting, and texturing/surfacing.",
     "duration": "6 Terms",
     "category": "CENTRE FOR ENTERTAINMENT ARTS",
-    "startdate": [
-      "January 10, 2023",
-      "May 08, 2023",
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["January 10, 2023", "May 08, 2023", "September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "terms": [
       {
         "credits": 3,
@@ -7887,10 +7824,7 @@
     "subtitle": "Behind every good lawyer is a great assistant. Legal assistants are highly skilled administrators who work with lawyers on a wide variety of legal matters.",
     "duration": "5 Terms",
     "category": "BUSINESS",
-    "startdate": [
-      "January 10, 2023",
-      "September 05, 2023"
-    ],
+    "startdate": ["January 10, 2023", "September 05, 2023"],
     "deliveryTypes": [
       "Any-time Online",
       "Blended",
@@ -8509,12 +8443,8 @@
     "subtitle": "Decorate a new home or office, or redecorate an existing one with style and confidence. Get the skills you need for an exciting career in interior decorating.",
     "duration": "4 Terms",
     "category": "TECHNOLOGY",
-    "startdate": [
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 10724,
@@ -9051,10 +8981,7 @@
     "duration": "4 Terms",
     "category": "BUSINESS",
     "startdate": [],
-    "deliveryTypes": [
-      "Any-time Online",
-      "Real-time Online"
-    ],
+    "deliveryTypes": ["Any-time Online", "Real-time Online"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 13367,
@@ -9637,10 +9564,7 @@
     "subtitle": "Get ready to work in a fast-paced, creative industry that evolves quickly. You'll learn how to create and foster value in the marketplace with a forward-thinking attitude",
     "duration": "4 Terms",
     "category": "BUSINESS",
-    "startdate": [
-      "January 10, 2023",
-      "September 05, 2023"
-    ],
+    "startdate": ["January 10, 2023", "September 05, 2023"],
     "deliveryTypes": [
       "Any-time Online",
       "Blended",
@@ -10335,13 +10259,8 @@
     "subtitle": "Diploma graduates work in challenging and diverse careers supporting the well-being of children, adults and families with disabilities. Work as an autism therapist, as a behavioral specialist in schools, or as a team leader in adult services.",
     "duration": "4 Terms",
     "category": "COMMUNITY STUDIES",
-    "startdate": [
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class",
-      "Combined Online"
-    ],
+    "startdate": ["September 05, 2023"],
+    "deliveryTypes": ["In Class", "Combined Online"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 10469,
@@ -11344,12 +11263,8 @@
     "subtitle": "Get the skills you need to design and create websites, e-publications, applications, and interactive multimedia products.",
     "duration": "4 Terms",
     "category": "TECHNOLOGY",
-    "startdate": [
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 18056,
@@ -11876,12 +11791,8 @@
     "subtitle": "When you choose to study for a career in law enforcement at Bow Valley College, you are embarking on a pathway to an integral part of the justice system.",
     "duration": "4 Terms",
     "category": "COMMUNITY STUDIES",
-    "startdate": [
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "terms": [
       {
         "credits": 3,
@@ -12466,12 +12377,8 @@
     "subtitle": "Get the knowledge you need for a career in community corrections, probation, or in a correctional institution.",
     "duration": "4 Terms",
     "category": "COMMUNITY STUDIES",
-    "startdate": [
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "terms": [
       {
         "credits": 3,
@@ -13038,12 +12945,8 @@
     "subtitle": "Do you want a career in justice? A Justice Studies Diploma with a General specialization opens doors to many opportunities.",
     "duration": "4 Terms",
     "category": "COMMUNITY STUDIES",
-    "startdate": [
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "terms": [
       {
         "credits": 3,
@@ -13741,12 +13644,8 @@
     "subtitle": "A career in social work can be exciting and rewarding. Are you ready to get started? This unique and interesting program is a two-year diploma program. Its special multi-cultural focus will help you support a wide range of clients.",
     "duration": "6 Terms",
     "category": "COMMUNITY STUDIES",
-    "startdate": [
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 15572,
@@ -14401,9 +14300,7 @@
     "subtitle": "Do you want to become an addiction practitioner? You will enjoy both classroom and practicum learning opportunities in this program. Let us help you reach your goal.\n",
     "duration": "4 Terms",
     "category": "COMMUNITY STUDIES",
-    "startdate": [
-      "September 05, 2023"
-    ],
+    "startdate": ["September 05, 2023"],
     "deliveryTypes": [],
     "tuition": {
       "period": "2022/23",
@@ -15009,10 +14906,7 @@
     "subtitle": "Be a part of a dynamic industry. A career in insurance and risk management offers flexibility with client interaction, teamwork, networking, and professional growth.",
     "duration": "4 Terms",
     "category": "BUSINESS",
-    "startdate": [
-      "January 10, 2023",
-      "September 05, 2023"
-    ],
+    "startdate": ["January 10, 2023", "September 05, 2023"],
     "deliveryTypes": [
       "Any-time Online",
       "Blended",
@@ -15768,10 +15662,7 @@
     "subtitle": "Be a part of a team that aligns the strategic direction of an organization with its workforce. Gain the credentials in the key areas of human resource management.",
     "duration": "4 Terms",
     "category": "BUSINESS",
-    "startdate": [
-      "January 10, 2023",
-      "September 05, 2023"
-    ],
+    "startdate": ["January 10, 2023", "September 05, 2023"],
     "deliveryTypes": [
       "Any-time Online",
       "Blended",
@@ -16457,10 +16348,7 @@
     "subtitle": "This sought-after career destination is for the quick thinking, ambitious professional. The financial services sector is fast paced, customer focused, and constantly innovating. Good news for those wanting a dynamic and diverse career.",
     "duration": "4 Terms",
     "category": "BUSINESS",
-    "startdate": [
-      "January 10, 2023",
-      "September 05, 2023"
-    ],
+    "startdate": ["January 10, 2023", "September 05, 2023"],
     "deliveryTypes": [
       "Any-time Online",
       "Blended",
@@ -17195,12 +17083,8 @@
     "subtitle": "This pathway program is for students who do not have the minimum English language requirements to enter the Health Care Aide program directly.",
     "duration": "",
     "category": "HEALTH AND WELLNESS",
-    "startdate": [
-      "January 10, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["January 10, 2023"],
+    "deliveryTypes": ["In Class"],
     "terms": [
       {
         "credits": 3,
@@ -17605,11 +17489,7 @@
       "September 05, 2023",
       "September 05, 2023"
     ],
-    "deliveryTypes": [
-      "In Class",
-      "Blended",
-      "Off-Campus"
-    ],
+    "deliveryTypes": ["In Class", "Blended", "Off-Campus"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 7486,
@@ -18013,13 +17893,8 @@
     "subtitle": "Would you like to work in a school with children who have diverse learning needs? Join our certificate program.",
     "duration": "2 Terms",
     "category": "COMMUNITY STUDIES",
-    "startdate": [
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class",
-      "Any-time Online"
-    ],
+    "startdate": ["September 05, 2023"],
+    "deliveryTypes": ["In Class", "Any-time Online"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 5170,
@@ -18384,13 +18259,8 @@
     "subtitle": "This blended-delivery certificate program is open to learners across Alberta. Prepare to provide quality child care in a wide variety of settings and become eligible for Level 2 Early Childhood Educator Certification from the Alberta Government.",
     "duration": "2 Terms",
     "category": "COMMUNITY STUDIES",
-    "startdate": [
-      "January 10, 2023"
-    ],
-    "deliveryTypes": [
-      "Any-time Online",
-      "Off-Campus"
-    ],
+    "startdate": ["January 10, 2023"],
+    "deliveryTypes": ["Any-time Online", "Off-Campus"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 4872,
@@ -18705,13 +18575,8 @@
     "subtitle": "This Centre for Entertainment Arts (CEA) certificate program prepares you for advanced studies in animation, modelling, visual effects, or game development.",
     "duration": "3 Terms",
     "category": "CENTRE FOR ENTERTAINMENT ARTS",
-    "startdate": [
-      "January 10, 2023",
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["January 10, 2023", "September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "terms": [
       {
         "credits": 3,
@@ -19509,14 +19374,10 @@
     "url": "https://bowvalleycollege.ca/programs-courses/careers-in-immigrant-advancement/ace-tesol-certificate",
     "type": "CERTIFICATE",
     "subtitle": "With our ACE TESOL Certificate, you can teach English language programs in Canada or abroad. It is recognized by TESL Canada for TESL Canada Professional Certification Standard One.",
-    "duration": "n/a",
+
     "category": "CAREERS IN IMMIGRANT ADVANCEMENT",
-    "startdate": [
-      "January 10, 2023"
-    ],
-    "deliveryTypes": [
-      "Blended"
-    ],
+    "startdate": ["January 10, 2023"],
+    "deliveryTypes": ["Blended"],
     "terms": []
   },
   {
@@ -19527,11 +19388,7 @@
     "subtitle": "If you love helping others and have a knack for organization and detail, a career as a medical office assistant may be just what the doctor ordered.",
     "duration": "2 Terms",
     "category": "BUSINESS",
-    "startdate": [
-      "January 10, 2023",
-      "May 08, 2023",
-      "September 05, 2023"
-    ],
+    "startdate": ["January 10, 2023", "May 08, 2023", "September 05, 2023"],
     "deliveryTypes": [
       "Any-time Online",
       "Blended",
@@ -19902,10 +19759,7 @@
     "subtitle": "If you enjoy spending your day with four-legged friends from the animal kingdom, then this 30-week Veterinary Office Assistant program could be for you.",
     "duration": "2 Terms",
     "category": "BUSINESS",
-    "startdate": [
-      "January 10, 2023",
-      "September 05, 2023"
-    ],
+    "startdate": ["January 10, 2023", "September 05, 2023"],
     "deliveryTypes": [
       "Any-time Online",
       "Blended",
@@ -20271,9 +20125,7 @@
     "subtitle": "Hospital unit clerks play a vital role in helping the hospital routine run smoothly and provide the best possible care. Build a great career with this accredited program.",
     "duration": "2 Terms",
     "category": "BUSINESS",
-    "startdate": [
-      "January 10, 2023"
-    ],
+    "startdate": ["January 10, 2023"],
     "deliveryTypes": [
       "Any-time Online",
       "Blended",
@@ -21086,13 +20938,8 @@
     "subtitle": "Imagine a career where you make a difference every day. With the Disability Studies Certificate, you will enhance the quality of life of people with disabilities. Be a part of creating inclusive communities.",
     "duration": "2 Terms",
     "category": "COMMUNITY STUDIES",
-    "startdate": [
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class",
-      "Combined Online"
-    ],
+    "startdate": ["September 05, 2023"],
+    "deliveryTypes": ["In Class", "Combined Online"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 4936,
@@ -21413,14 +21260,8 @@
     "subtitle": "Do you have work experience or education in health or human services? Are you interested in a five-month program? Enhance the well-being, health, and vitality of clients through leisure and recreation with the Recreation Therapy Aide Certificate.",
     "duration": "2 Terms",
     "category": "HEALTH AND WELLNESS",
-    "startdate": [
-      "January 10, 2023",
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "Combined Online",
-      "Off-Campus"
-    ],
+    "startdate": ["January 10, 2023", "September 05, 2023"],
+    "deliveryTypes": ["Combined Online", "Off-Campus"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 1857,
@@ -21580,10 +21421,7 @@
     "subtitle": "Become part of one of the most essential departments in any organization and discover the many sides of human resources.",
     "duration": "2 Terms",
     "category": "BUSINESS",
-    "startdate": [
-      "January 10, 2023",
-      "September 05, 2023"
-    ],
+    "startdate": ["January 10, 2023", "September 05, 2023"],
     "deliveryTypes": [
       "Any-time Online",
       "Blended",
@@ -21964,14 +21802,10 @@
     "url": "https://bowvalleycollege.ca/programs-courses/careers-in-immigrant-advancement/skills-compass",
     "type": "CERTIFICATE",
     "subtitle": "This program will help unemployed newcomer youth build the foundation for employment and education.",
-    "duration": "n/a",
+
     "category": "CAREERS IN IMMIGRANT ADVANCEMENT",
-    "startdate": [
-      "January 16, 2023"
-    ],
-    "deliveryTypes": [
-      "Blended"
-    ],
+    "startdate": ["January 16, 2023"],
+    "deliveryTypes": ["Blended"],
     "terms": []
   },
   {
@@ -21982,12 +21816,8 @@
     "subtitle": "Learn English for the real world with the full-time international ELL program. You’ll learn by listening, speaking, reading, and writing.",
     "duration": "1 Terms",
     "category": "ENGLISH LANGUAGE LEARNING",
-    "startdate": [
-      "January 10, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["January 10, 2023"],
+    "deliveryTypes": ["In Class"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 4020,
@@ -22001,14 +21831,10 @@
     "url": "https://bowvalleycollege.ca/programs-courses/english-language-learning/online-linc",
     "type": "PROGRAM",
     "subtitle": "LINC stands for Language Instruction for Newcomers to Canada. In this online program, you'll learn English language reading and writing skills for daily life and work.",
-    "duration": "n/a",
+
     "category": "ENGLISH LANGUAGE LEARNING",
-    "startdate": [
-      "January 10, 2023"
-    ],
-    "deliveryTypes": [
-      "Combined Online"
-    ],
+    "startdate": ["January 10, 2023"],
+    "deliveryTypes": ["Combined Online"],
     "terms": []
   },
   {
@@ -22017,19 +21843,10 @@
     "url": "https://bowvalleycollege.ca/programs-courses/english-language-learning/regional-language-instruction-for-newcomers-to-canada",
     "type": "PROGRAM",
     "subtitle": "LINC stands for Language Instruction for Newcomers to Canada. If you live outside of Calgary, you can take these part-time classes. You will learn English language skills for daily life and work.",
-    "duration": "n/a",
+
     "category": "ENGLISH LANGUAGE LEARNING",
-    "startdate": [
-      "October 04, 2022",
-      "October 04, 2022",
-      "October 04, 2022"
-    ],
-    "deliveryTypes": [
-      "In Class",
-      "Real-time Online",
-      "In Class",
-      "In Class"
-    ],
+    "startdate": ["October 04, 2022", "October 04, 2022", "October 04, 2022"],
+    "deliveryTypes": ["In Class", "Real-time Online", "In Class", "In Class"],
     "terms": []
   },
   {
@@ -22038,14 +21855,10 @@
     "url": "https://bowvalleycollege.ca/programs-courses/english-language-learning/bridge",
     "type": "PROGRAM",
     "subtitle": "This program is for immigrant youth between the ages of 18 and 24 who have not completed high school. In Bridge you will develop reading, writing, math, technology, and school strategies.",
-    "duration": "n/a",
+
     "category": "ENGLISH LANGUAGE LEARNING",
-    "startdate": [
-      "January 10, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["January 10, 2023"],
+    "deliveryTypes": ["In Class"],
     "terms": []
   },
   {
@@ -22054,14 +21867,10 @@
     "url": "https://bowvalleycollege.ca/programs-courses/english-language-learning/english-for-academic-purposes",
     "type": "PROGRAM",
     "subtitle": "Improve your academic English. Gain the skills you need to study at a Canadian post-secondary school.",
-    "duration": "n/a",
+
     "category": "ENGLISH LANGUAGE LEARNING",
-    "startdate": [
-      "January 10, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["January 10, 2023"],
+    "deliveryTypes": ["In Class"],
     "terms": []
   },
   {
@@ -22070,14 +21879,10 @@
     "url": "https://bowvalleycollege.ca/programs-courses/english-language-learning/full-time-ell",
     "type": "PROGRAM",
     "subtitle": "Our English Language Learning programs focus on reading, writing, listening, and speaking. Learn about Canadian culture and take part in activities that help you live and work in Canada.",
-    "duration": "n/a",
+
     "category": "ENGLISH LANGUAGE LEARNING",
-    "startdate": [
-      "January 10, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["January 10, 2023"],
+    "deliveryTypes": ["In Class"],
     "terms": []
   },
   {
@@ -22086,14 +21891,10 @@
     "url": "https://bowvalleycollege.ca/programs-courses/english-language-learning/part-time-linc",
     "type": "PROGRAM",
     "subtitle": "LINC stands for Language Instruction for Newcomers to Canada. In this part time program, you'll learn listening, speaking, reading, and writing skills. With LINC, you can get the knowledge you need to settle in Canada.",
-    "duration": "n/a",
+
     "category": "ENGLISH LANGUAGE LEARNING",
-    "startdate": [
-      "January 10, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["January 10, 2023"],
+    "deliveryTypes": ["In Class"],
     "terms": []
   },
   {
@@ -22102,13 +21903,10 @@
     "url": "https://bowvalleycollege.ca/programs-courses/english-language-learning/linc-home-study",
     "type": "PROGRAM",
     "subtitle": "LINC stands for Language Instruction for Newcomers to Canada. This program is offered online and by correspondence. Learners work one-on-one with an instructor 1/2 hour every week.",
-    "duration": "n/a",
+
     "category": "ENGLISH LANGUAGE LEARNING",
     "startdate": [],
-    "deliveryTypes": [
-      "Home Study",
-      "Any-time Online"
-    ],
+    "deliveryTypes": ["Home Study", "Any-time Online"],
     "terms": []
   },
   {
@@ -22117,14 +21915,10 @@
     "url": "https://bowvalleycollege.ca/programs-courses/english-language-learning/full-time-linc",
     "type": "PROGRAM",
     "subtitle": "LINC stands for Language Instruction for Newcomers to Canada. In LINC, you'll learn listening, speaking, reading, and writing skills. You'll get the knowledge you need to settle in Canada.",
-    "duration": "n/a",
+
     "category": "ENGLISH LANGUAGE LEARNING",
-    "startdate": [
-      "January 10, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["January 10, 2023"],
+    "deliveryTypes": ["In Class"],
     "terms": []
   },
   {
@@ -22133,14 +21927,10 @@
     "url": "https://bowvalleycollege.ca/programs-courses/english-language-learning/youth-in-transition",
     "type": "PROGRAM",
     "subtitle": "LINC stands for Language Instruction for Newcomers to Canada. This full-time program is for immigrant youth between the ages of 18 and 24.",
-    "duration": "n/a",
+
     "category": "ENGLISH LANGUAGE LEARNING",
-    "startdate": [
-      "January 10, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["January 10, 2023"],
+    "deliveryTypes": ["In Class"],
     "terms": []
   },
   {
@@ -22151,12 +21941,8 @@
     "subtitle": "This Post-Diploma Certificate program will help learners develop and implement cloud systems and applications.",
     "duration": "2 Terms",
     "category": "TECHNOLOGY",
-    "startdate": [
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 10982,
@@ -22337,12 +22123,8 @@
     "subtitle": "The Data Management and Analytics Post-Diploma Certificate prepares learners to uncover insights from unstructured data sets to inform data-driven decision making.",
     "duration": "2 Terms",
     "category": "TECHNOLOGY",
-    "startdate": [
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 12274,
@@ -22591,12 +22373,8 @@
     "subtitle": "Learn how to secure information and network systems from threats",
     "duration": "2 Terms",
     "category": "TECHNOLOGY",
-    "startdate": [
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 13078,
@@ -22895,12 +22673,8 @@
     "subtitle": "Enhance your existing diploma or degree. Add vital marketing and communication skills in the area of digital marketing.",
     "duration": "2 Terms",
     "category": "TECHNOLOGY",
-    "startdate": [
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "Blended"
-    ],
+    "startdate": ["September 05, 2023"],
+    "deliveryTypes": ["Blended"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 6896,
@@ -23120,9 +22894,7 @@
     "duration": "2 Terms",
     "category": "TECHNOLOGY",
     "startdate": [],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "deliveryTypes": ["In Class"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 7655,
@@ -23353,12 +23125,8 @@
     "subtitle": "Kitchen and bath designers provide specialized services within the residential kitchen and bath design industry. Learners will add to their training by building analytical, planning, and documenting skills specific to the kitchen and bath design industry.",
     "duration": "3 Terms",
     "category": "TECHNOLOGY",
-    "startdate": [
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 7733,
@@ -23620,11 +23388,7 @@
     "subtitle": "Become a leader in health and human services. Develop skills and knowledge in management by building on your current health or human services diploma or degree.",
     "duration": "2 Terms",
     "category": "COMMUNITY STUDIES",
-    "startdate": [
-      "January 10, 2023",
-      "May 08, 2023",
-      "September 05, 2023"
-    ],
+    "startdate": ["January 10, 2023", "May 08, 2023", "September 05, 2023"],
     "deliveryTypes": [
       "Any-time Online",
       "Blended",
@@ -24914,18 +24678,10 @@
     "url": "https://bowvalleycollege.ca/programs-courses/academic-upgrading/high-school-upgrading",
     "type": "UPGRADING",
     "subtitle": "Get set for a career program at Bow Valley College or complete the high school courses you need to pursue a post-secondary education.",
-    "duration": "Course Listing",
+
     "category": "ACADEMIC UPGRADING",
-    "startdate": [
-      "January 10, 2023",
-      "May 08, 2023",
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "Blended",
-      "Combined Online",
-      "In Class"
-    ],
+    "startdate": ["January 10, 2023", "May 08, 2023", "September 05, 2023"],
+    "deliveryTypes": ["Blended", "Combined Online", "In Class"],
     "terms": [
       {
         "credits": 5,
@@ -25946,17 +25702,10 @@
     "url": "https://bowvalleycollege.ca/programs-courses/academic-upgrading/adult-basic-education",
     "type": "UPGRADING",
     "subtitle": "It's never too late to improve your skills. Adult Basic Education prepares you for high school or the workplace. You can come to school full-time or part-time.",
-    "duration": "Course Listing",
+
     "category": "ACADEMIC UPGRADING",
-    "startdate": [
-      "January 10, 2023",
-      "May 08, 2023",
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "Blended",
-      "In Class"
-    ],
+    "startdate": ["January 10, 2023", "May 08, 2023", "September 05, 2023"],
+    "deliveryTypes": ["Blended", "In Class"],
     "terms": [
       {
         "credits": 5,
@@ -26232,14 +25981,10 @@
     "url": "https://bowvalleycollege.ca/programs-courses/academic-upgrading/indigenous-pathways-to-employment",
     "type": "UPGRADING",
     "subtitle": "This program is to help Indigenous learners prepare for further post-secondary studies and employment.",
-    "duration": "Course Listing",
+
     "category": "ACADEMIC UPGRADING",
-    "startdate": [
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "terms": [
       {
         "credits": 5,
@@ -26313,16 +26058,10 @@
     "url": "https://bowvalleycollege.ca/programs-courses/academic-upgrading/indigenous-foundational-learning",
     "type": "UPGRADING",
     "subtitle": "This program is for Indigenous learners who would like to improve academic skills and build confidence in preparation for the workplace or post-secondary.\n",
-    "duration": "Course Listing",
+
     "category": "ACADEMIC UPGRADING",
-    "startdate": [
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "Combined Online",
-      "In Class",
-      "Blended"
-    ],
+    "startdate": ["September 05, 2023"],
+    "deliveryTypes": ["Combined Online", "In Class", "Blended"],
     "terms": [
       {
         "term": 1,
@@ -27589,7 +27328,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/hres9202",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Fundamental processes from planning, and recruiting to selecting talent",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27601,7 +27340,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/health-and-human-services/nurs9504",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Licensed practical nurses, did you know phlebotomy is an enhanced competency within your scope of practice?",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27613,7 +27352,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/health-and-human-services/nurs9204",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Licensed practical nurses, refresh your injections skills in a small group with an expert nurse instructor",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27625,7 +27364,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/hres9101",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Explore the science of social and organizational behaviour in this course approved by CPHR.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27637,7 +27376,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/hres9102",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Strategic workforce planning outlines the elements for creating a workforce plan.",
-    "duration": "Micro-Credential Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27649,7 +27388,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/school-of-community-studies/elcc9401",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Facilitate Outdoor Play Experiences provides an opportunity for early childhood educators in the field to design, develop, and implement outdoor learning experiences with children in outdoor natural spaces and places.",
-    "duration": "Micro-Credential Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27661,7 +27400,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/agile/mgmt9131",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Agile has become the management tool of choice for software and product development as well as everyday work projects in a corporate environment.",
-    "duration": "Micro-credential Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27673,7 +27412,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/design-science-and-tech/data9402",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Learn how to select, acquire, analyze and prepare datasets that meet project requirements and quality standards.",
-    "duration": "Micro-Credential Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27685,7 +27424,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/design-science-and-tech/data9404",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Convert data insights into powerful, evidence-based visual narratives into business decisions.",
-    "duration": "Micro-Credential Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27697,7 +27436,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/school-of-community-studies/pinv9401",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Learn from those who are doing it! Successful private investigators teach their secrets of success. Approved by Alberta Justice.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27709,7 +27448,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/school-of-community-studies/pinv9301",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Learn from successful investigators how to produce professional documents. Approved by Alberta Justice.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27721,7 +27460,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/school-of-community-studies/pinv9203",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Learn the surveillance methods used by law enforcement experts. Approved by Alberta Justice.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27733,7 +27472,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/school-of-community-studies/pinv9202",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Operating undercover can be key to learning the truth in an investigation. Approved by Alberta Justice.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27745,7 +27484,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/school-of-community-studies/pinv9201",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Learn how to confidently interview witnesses, victims, and suspects. Approved by Alberta Justice",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27757,7 +27496,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/design-science-and-tech/data9403",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Summarize the outcomes of analyses and use the outcomes to develop actionable business insights and analysis.",
-    "duration": "Micro-Credential Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27769,7 +27508,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/design-science-and-tech/clcm9308",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Learn how to implement applications and automation in the cloud using serverless technologies.",
-    "duration": "Micro-Credential Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27781,7 +27520,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/design-science-and-tech/clcm9309",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Configure monitoring and alarms for applications and implement manual approval processes.",
-    "duration": "Micro-Credential Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27793,7 +27532,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/design-science-and-tech/clcm9306",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Apply disaster recovery models, optimize costs, decouple communications in a distributed environment, and create a plan to migrate an application to a new computing platform.",
-    "duration": "Micro-Credential Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27805,7 +27544,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/design-science-and-tech/clcm9307",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Configure monitoring and alarms for web applications, and implement compliance and performance optimization using Cloud networking features.",
-    "duration": "Micro-Credential Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27817,7 +27556,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/hres9201",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "An introduction to human resources function, terminology, and legislation approved by CPHR",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27829,7 +27568,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/human-resource-professional-certificate",
     "type": "CONTINUING LEARNING CERTIFICATE",
     "subtitle": "Boost your employability in the field of human resources with courses approved as Continuing Professional Development (CPD) by CPHR (Chartered Professional in Human Resources) Alberta.",
-    "duration": "Certificate Information",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27841,7 +27580,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/design-science-and-tech/clcm9304",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27853,7 +27592,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/comm9103",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Strong writing skills increase your value in the business world.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27865,7 +27604,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/bookkeeping-professional-certificate",
     "type": "CONTINUING LEARNING CERTIFICATE",
     "subtitle": "These courses meet some of the requirements for the Certified Professional Bookkeeper designation offered by the Certified Professional Bookkeepers of Canada (CPB Canada).",
-    "duration": "Certificate Information",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27877,7 +27616,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/centre-for-excellence-in-immigrant-and-intercultural-advancement/iiad9501",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Are you an engineer or geoscientist planning to write the NPPE exam as part of your licensing process with APEGA? This online course help you master the NPPE exam at your own pace.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27889,7 +27628,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/microsoft-office-specialist-certifications",
     "type": "CONTINUING LEARNING CERTIFICATE",
     "subtitle": "Stay competitive with Microsoft Office Specialist Certifications",
-    "duration": "Additional Information",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27901,7 +27640,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/advanced-accounting-applications-certificate",
     "type": "CONTINUING LEARNING CERTIFICATE",
     "subtitle": "Prepare for the next step in your accounting career and enhance your credentials. Add three more courses to your Accounting Applications Certificate and earn the Advanced Accounting Applications Certificate.",
-    "duration": "Certificate Information",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27913,7 +27652,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/intercultural-competencies-for-leaders",
     "type": "CONTINUING LEARNING CERTIFICATE",
     "subtitle": "The Intercultural Competencies for Leaders Certificate Program is essential for anyone working in a diverse workplace.",
-    "duration": "Certificate Information",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27937,7 +27676,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/accounting-applications-certificate",
     "type": "CONTINUING LEARNING CERTIFICATE",
     "subtitle": "Whether you are new to accounting or looking to move your career forward, this certificate can help you to achieve your career goals.",
-    "duration": "Certificate Information",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27949,7 +27688,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/payroll-professional-certificate",
     "type": "CONTINUING LEARNING CERTIFICATE",
     "subtitle": "Start an accounting career or expand your career in human resources or finance.",
-    "duration": "Certificate Information",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27961,7 +27700,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/maintenance-management-professional-certificate",
     "type": "CONTINUING LEARNING CERTIFICATE",
     "subtitle": "Designed by PEMAC Asset Management Association of Canada for people pursuing management positions in the maintenance field and those already in maintenance management looking for formal training.",
-    "duration": "Certificate Information",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27973,7 +27712,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/private-investigation-certificate",
     "type": "CONTINUING LEARNING CERTIFICATE",
     "subtitle": "Have you ever thought about becoming a licensed private investigator? This Certificate is approved by Alberta Justice.",
-    "duration": "Certificate Information",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -27997,7 +27736,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/computer-applications-certificate",
     "type": "CONTINUING LEARNING CERTIFICATE",
     "subtitle": "Demonstrate your computer skills to employers with courses that emphasize Microsoft Word and Excel.\n",
-    "duration": "Certificate Information",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28009,7 +27748,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/comp9303",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Become an Excel expert.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28021,7 +27760,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/comp9302",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Build intermediate-level Excel skills.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28033,7 +27772,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/comp9301",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Learn the basics of Microsoft Excel.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28045,7 +27784,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/comp9202",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Build intermediate-level Microsoft Word skills.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28057,7 +27796,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/comp9201",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Explore the basics of Microsoft Word.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28069,7 +27808,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/acct9101",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Learn the fundamentals of accounting concepts and examine overall accounting operations including planning, controlling, budget preparation, and monitoring.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28081,7 +27820,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/acct9401",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Learn how to use this popular integrated accounting software for small- and medium-sized businesses.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28093,7 +27832,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/acct9403",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Learn how to use this popular integrated accounting software package for small and medium-sized companies.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28105,7 +27844,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/administrative-assistant-certificate",
     "type": "CONTINUING LEARNING CERTIFICATE",
     "subtitle": "Learn the administrative skills you need to enhance your career potential.",
-    "duration": "Certificate Information",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28117,7 +27856,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/health-and-human-services/nurs9301",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Practical Nurse graduates, prepare to write your national exam with confidence.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28129,7 +27868,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/acct9201",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Work towards your Canadian Payroll Association certification, or just become more proficient in managerial accounting reports.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28141,7 +27880,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/school-of-community-studies/pinv9101",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Learn how to obtain information legally and effectively, along with a review of useful surveillance techniques and investigative aids. Approved by Alberta Justice.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28153,7 +27892,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/hres9203",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Trends in compensation packages including benefits, monetary and non-monetary rewards, and alignment with organizational strategy",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28165,7 +27904,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/school-of-community-studies/hmsv9102",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Provide safe and compassionate care, and avoid personal injury and burnout",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28177,7 +27916,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/design-science-and-tech/isec9202",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Consolidate event logs from device endpoints within a network to identify threats",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28189,7 +27928,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/design-science-and-tech/isec9201",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Scan web applications against vulnerabilities and attacks",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28201,7 +27940,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/health-and-human-services/nurs9508",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Learn how to protect yourself, and respond to behaviours associated with dementia with respect, compassion and gentle persuasion.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28213,7 +27952,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/health-and-human-services/nurs9502",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Now that you're working as a licensed practical nurse, are you ready to take on leadership roles?",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28225,7 +27964,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/health-and-human-services/nurs9213",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "With online reading and exercises, and a hands-on opportunity to practice in a nursing lab, licensed practical nurses can refresh the IV skills learned in their diploma program.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28237,7 +27976,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/health-and-human-services/nurs9212",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "This course is for internationally educated nurses in the PNIEN pathway to the Practical Nurse diploma program who receive prior learning recognition (PLAR) for Nursing Foundations 2.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28249,7 +27988,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/health-and-human-services/nurs9211",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Learn how to best care for and support people living with life-limiting illnesses, and their families.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28261,7 +28000,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/health-and-human-services/facp9101",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Healthcare provider level CPR certification",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28273,7 +28012,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/comp9203",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "We're sorry, an unknown error has occurred. Please try again in a moment.",
-    "duration": "n/a",
+
     "category": "n/a",
     "startdate": [],
     "deliveryTypes": [],
@@ -28285,7 +28024,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/admn9203",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "This course prepares you to thrive in any office environment that is rapidly changing and growing in scope and complexity. Whether you are starting a career or looking to move your career forward, gain job-ready skills.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28297,7 +28036,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/hres9204",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Management of the payroll process from stakeholder expectations to year-end reporting,",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28309,7 +28048,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/centre-for-excellence-in-immigrant-and-intercultural-advancement/iiad9401",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "\nThis is open to educators who are interested in developing a global mindset and in strengthening their intercultural sensitivity with a personalized, targeted, and actionable plan.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28321,7 +28060,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/ppdv9101",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Ethics for managers, including how to conduct an audit and develop safeguards",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28333,7 +28072,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/mmpr9107",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Module 7 of 8 in the Maintenance Management Professional Certificate",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28347,13 +28086,8 @@
     "subtitle": "Launch your new career in Financial Planning!",
     "duration": "4 Courses",
     "category": "BUSINESS",
-    "startdate": [
-      "January 10, 2023",
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["January 10, 2023", "September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 2430,
@@ -28506,14 +28240,8 @@
     "subtitle": "Earn your Canadian Risk Management (CRM) designation in three courses!",
     "duration": "3 Courses",
     "category": "BUSINESS",
-    "startdate": [
-      "January 10, 2023",
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class",
-      "Any-time Online"
-    ],
+    "startdate": ["January 10, 2023", "September 05, 2023"],
+    "deliveryTypes": ["In Class", "Any-time Online"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 1873,
@@ -28591,7 +28319,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/design-science-and-tech/micr00gca",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Design and implement governance protocols and procedures for implementing and deploying Cloud applications.",
-    "duration": "Micro-Credential Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28603,7 +28331,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/design-science-and-tech/micr00cs",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "This micro-credential will enable learners to design a complete continuous integration and continuous deployment (CI/CD) Cloud environment that is secure.",
-    "duration": "Micro-Credential Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28615,7 +28343,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/design-science-and-tech/micr00cci",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "This micro-credential will enable learners to deploy a Cloud application that supports continuous integration and continuous deployment (CI/CD).",
-    "duration": "Micro-Credential Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28627,7 +28355,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/design-science-and-tech/micr00cdp",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Learn how to work with stakeholders to develop requirements and specifications documentation for Cloud applications.",
-    "duration": "Micro-Credential Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28639,7 +28367,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/centre-for-excellence-in-immigrant-and-intercultural-advancement/tell9206",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Examine task-based language teaching and the implementation of task-based learning in real-world classrooms.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28651,7 +28379,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/centre-for-excellence-in-immigrant-and-intercultural-advancement/tell9205",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Consider the selection of materials, key teaching points, and methods of instructional practice to support workplace soft skill development.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28663,7 +28391,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/centre-for-excellence-in-immigrant-and-intercultural-advancement/tell9204",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Integrate inclusive teaching practices to better meet the needs of English language learners.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28675,7 +28403,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/centre-for-excellence-in-immigrant-and-intercultural-advancement/tell9203",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Adopt practical strategies and approaches for differentiating and scaffolding tasks for learners at different levels in your classroom.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28687,7 +28415,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/centre-for-excellence-in-immigrant-and-intercultural-advancement/tell9202",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Meet the needs of refugee learners effectively and create inclusive classrooms for all.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28699,7 +28427,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/centre-for-excellence-in-immigrant-and-intercultural-advancement/tell9201",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Explore principles of effective material design and create learning materials for ESL literacy learners.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28711,7 +28439,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/mmpr9103",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Module 3 of 8 in the Maintenance Management Professional Certificate",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28723,7 +28451,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/mmpr9108",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Module 8 of 8 in the Maintenance Management Professional Certificate",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28735,7 +28463,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/mmpr9104",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Module 4 of 8 in the Maintenance Management Professional Certificate",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28747,7 +28475,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/mmpr9105",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Module 5 of 8 in the Maintenance Management Professional Certificate",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28759,7 +28487,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/mmpr9106",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Module 6 of 8 in the Maintenance Management Professional Certificate",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28771,7 +28499,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/mmpr9102",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Module 2 of 8 in the Maintenance Management Professional Certificate",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28783,7 +28511,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/acct9102",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Learn to account for merchandise activities, payroll, and special journals including cash receipt, cash payment, sales, and purchase journals.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28795,7 +28523,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/acct9402",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Grow your financial accounting career by mastering advanced QuickBooks features.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28807,7 +28535,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/mmpr9101",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Module 1 of 8 in the Maintenance Management Professional Certificate",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28819,7 +28547,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/school-of-community-studies/hmsv9503",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Learn how to apply the DSM-5 to your professional practice in social work or healthcare. ACSW clinical registry and category A continuing education credit",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28831,7 +28559,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/acct9404",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Deepen your understanding and further develop your skills in this popular accounting software.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28843,7 +28571,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/mgmt9103",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Enhancing employee performance through coaching, engagement and feedback",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28855,7 +28583,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/mgmt9106",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Learn the skills to participate in and lead an effective team",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28867,7 +28595,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/centre-for-excellence-in-immigrant-and-intercultural-advancement/iiad9301",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Learn about Indigenous histories and contemporary realities in Canada.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28879,7 +28607,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/mgmt9101",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Organizational change - from planning to implementation",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28891,7 +28619,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/mgmt9102",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Managing, measuring, and enhancing employee performance",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28903,7 +28631,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/school-of-community-studies/hmsv9301",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Nationally recognized certificate",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28915,7 +28643,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/hres9303",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Learn how to apply federal and provincial legislation to payroll including the Canada Pension Plan, the Employment Insurance Act, and the Worker's Compensation Act.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28927,7 +28655,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/mgmt9107",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "The skills you need to supervise others effectively",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28939,7 +28667,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/acct9103",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "How do you analyze profitability, efficiency, solvency, and liquidity?",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28951,7 +28679,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/mgmt9105",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Encourage diversity in the workplace and within your community",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28963,7 +28691,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/mgmt9104",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Critical thinking skills in analysis and evaluation for better decision-making",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28975,7 +28703,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/ppdv9102",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Business etiquette including introductions, appropriate clothing, small talk, as well as email and telephone etiquette",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28987,7 +28715,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/ppdv9103",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Effective conflict management is essential to workplace productivity and teamwork",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -28999,7 +28727,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/ppdv9104",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Do more, with less stress.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -29011,7 +28739,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/health-and-human-services/facp9201",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Are your lifesaving skills up to date?",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -29023,7 +28751,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/ppdv9105",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Improve effectiveness by managing time through organization, prioritization and delegation.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -29035,7 +28763,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/centre-for-excellence-in-immigrant-and-intercultural-advancement/iiad9101",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Develop an awareness of the basic skills needed to interact and work more effectively with others from diverse backgrounds.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -29047,7 +28775,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/centre-for-excellence-in-immigrant-and-intercultural-advancement/iiad9201",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Learn the skills to confidently supervise and lead diverse teams with a global and inclusive mindset.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -29059,7 +28787,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/centre-for-excellence-in-immigrant-and-intercultural-advancement/iiad9102",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Build motivation and curiosity and develop the requisite attitudes for working towards successful intercultural interactions.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -29071,7 +28799,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/health-and-human-services/facp9202",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Standard First Aid and CPR for children and infants",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -29083,7 +28811,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/health-and-human-services/facp9304",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Required for medical office assistant, veterinary office assistant, hospital unit clerk, and dental business assistant program work placements.\n",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -29095,7 +28823,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/health-and-human-services/phrm9504",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "This recertification course is designed to fulfill the requirements of NAPRA's Model Standards for Pharmacy Compounding of Non-Hazardous Sterile Preparations' competency assessment program.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -29107,7 +28835,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/health-and-human-services/phrm9502",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Pharmacy Technicians and Pharmacists will further develop aseptic technique skills to prepare intravenous admixtures.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -29119,7 +28847,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/health-and-human-services/phrm9503",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Pharmacy Technicians and Pharmacists will learn to prepare hazardous products while demonstrating appropriate aseptic technique.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -29131,7 +28859,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/health-and-human-services/phrm9505",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "This recertification course is designed to fulfill the requirements of NAPRA's Model Standards for Pharmacy Compounding of Hazardous Sterile Preparations' competency assessment program.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -29143,7 +28871,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/health-and-human-services/phrm9501",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "This course is for Pharmacy Technicians and Pharmacists who prepare sterile products.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -29155,7 +28883,7 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/centre-for-excellence-in-immigrant-and-intercultural-advancement/glcm9202",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "Learn how to support culturally and linguistically diverse learners in your classroom.",
-    "duration": "Course Description",
+
     "category": "CONTINUING LEARNING",
     "startdate": [],
     "deliveryTypes": [],
@@ -29169,13 +28897,8 @@
     "subtitle": "Gain the skills you need to create the latest computer, mobile, and gaming applications. Prepare to transform your ideas into reality all while developing your problem-solving skills.",
     "duration": "4 Terms",
     "category": "TECHNOLOGY",
-    "startdate": [
-      "January 10, 2023",
-      "September 05, 2023"
-    ],
-    "deliveryTypes": [
-      "In Class"
-    ],
+    "startdate": ["January 10, 2023", "September 05, 2023"],
+    "deliveryTypes": ["In Class"],
     "tuition": {
       "period": "2022/23",
       "Domestic": 14704,

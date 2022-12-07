@@ -7,9 +7,7 @@ import { generateRefreshToken } from '../../functions/generateRefreshToken.js';
 class AuthController {
   async token(req, res) {
     const refreshToken = req.body.token;
-    const user = await User.db.find(
-      (user) => user.refreshToken === refreshToken,
-    );
+    const user = await User.db.find((user) => user.refreshToken === refreshToken);
     if (!user) {
       res.sendStatus(403);
       return;
@@ -22,25 +20,19 @@ class AuthController {
       res.sendStatus(403);
       return;
     }
-    jwt.verify(
-      refreshToken,
-      process.env.REFRESH_TOKEN_SECRET,
-      async (err, uuid) => {
-        if (err) return res.sendStatus(403);
-        const accessToken = generateAccessToken(user);
-        res.send({ accessToken: accessToken });
-        return;
-      },
-    );
+    jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET, async (err, uuid) => {
+      if (err) return res.sendStatus(403);
+      const accessToken = generateAccessToken(user);
+      res.send({ accessToken: accessToken });
+      return;
+    });
   }
 
   async login(req, res) {
     const { email, username } = req.body;
     let password = req.body.password.toString();
 
-    const user = await User.db.find(
-      (user) => user.email === email || user.username === username,
-    );
+    const user = await User.db.find((user) => user.email === email || user.username === username);
     if (!user) {
       res.status(400);
       res.send({ error: 'Cannot find user.' });
@@ -62,6 +54,12 @@ class AuthController {
       if (await bcrypt.compare(password, user.password)) {
         res.status(200);
         res.send({
+          uuid: uuid,
+          firstName: user.firstName,
+          lastName: user.lastName,
+          email: user.email,
+          phone: user.phone,
+          role: user.role,
           accessToken: accessToken,
           refreshToken: refreshToken,
         });
@@ -79,9 +77,7 @@ class AuthController {
 
   async deleteToken(req, res) {
     const refreshToken = req.body.token;
-    const user = await User.db.find(
-      (user) => user.refreshToken === refreshToken,
-    );
+    const user = await User.db.find((user) => user.refreshToken === refreshToken);
     if (!user) {
       res.status(400);
       res.send({ error: 'Cannot find user.' });
