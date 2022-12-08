@@ -55,11 +55,13 @@ class AuthController {
         res.status(200);
         res.send({
           uuid: uuid,
-          firstName: user.firstName,
-          lastName: user.lastName,
-          email: user.email,
-          phone: user.phone,
-          role: user.role,
+          firstName: user?.firstName,
+          lastName: user?.lastName,
+          email: user?.email,
+          phone: user?.phone,
+          role: user?.role,
+          program: user?.program,
+          upgrading: user?.upgrading,
           accessToken: accessToken,
           refreshToken: refreshToken,
         });

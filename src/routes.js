@@ -19,7 +19,7 @@ routes.post('/token', AuthController.token);
 routes.post('/users', UsersController.create);
 routes.post('/users/show', AuthenticateToken, AuthenticateRole('admin'), UsersController.showAll);
 routes.get('/users/:uuid', AuthenticateToken, UsersController.show);
-routes.put('/users', AuthenticateToken, UsersController.update);
+routes.put('/users', AuthenticateToken, AuthenticateRole('admin'), UsersController.update);
 routes.delete('/users/:uuid', AuthenticateToken, UsersController.destroy);
 
 // QUESTION FORMS

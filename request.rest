@@ -1,5 +1,7 @@
 
-@authToken = {{loginAdmin.response.body.$.accessToken}}
+@authToken = {{login.response.body.$.accessToken}}
+
+@role = {{login.response.body.$.role}}
 @refreshToken = {{login.response.body.$.refreshToken}}
 
 @refreshedToken = {{RefreshToken.response.body.$.accessToken}}
@@ -11,8 +13,8 @@ POST http://localhost:5000/login
 Content-Type: application/json
 
 {
-  "username" : "thedealer",
-  "password" : 123456
+  "username" : "elonmusk",
+  "password" : "Pass@1234"
 }
 ###
 
@@ -22,7 +24,7 @@ Content-Type: application/json
 
 {
   "username" : "admin",
-  "password" : "admin"
+  "password" : "Pass@1234"
 }
 ###
 
@@ -66,7 +68,8 @@ Authorization: Bearer {{authToken}}
 ###
 
 # @name listUser
-GET http://localhost:5000/users/1f5be017-d8ae-46c9-a98f-17b5d6941ca6
+GET http://localhost:5000/users/4c69c217-7f1c-49ca-840d-4ec6a9277481
+Authorization: Bearer {{authToken}}
 ###
 
 # @name deleteUser
@@ -75,11 +78,13 @@ DELETE http://localhost:5000/users/a39742a7-426e-4cea-917a-5f0adc075206
 
 # @name updateUser
 PUT http://localhost:5000/users/
+Authorization: Bearer {{authToken}}
 Content-Type: application/json
 
 {
-    "uuid" : "3721cf81-0ff2-4ede-88c6-473b02bfddaa",
-    "password": "54321"
+    "uuid" : "d0fc1f99-9016-45d2-9750-04f473bb99f5",
+    "role" : "{{role}}",
+    "password": "Pass@1234"
 }
 ###
 
@@ -652,7 +657,7 @@ GET http://localhost:5000/programs
 
 ###
 
-GET http://localhost:5000/programs/software%20development
+GET http://localhost:5000/programs/c2e8ed88-fd41-41f9-af8d-059a6c814a86
 
 ###
 

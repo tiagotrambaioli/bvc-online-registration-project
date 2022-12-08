@@ -5,14 +5,7 @@ import bcrypt from 'bcrypt';
 class UsersController {
   async create(req, res) {
     const uuid = crypto.randomUUID();
-    const {
-      firstName,
-      lastName,
-      email,
-      phone = null,
-      dateOfBirth,
-      username,
-    } = req.body;
+    const { firstName, lastName, email, phone = null, dateOfBirth, username } = req.body;
     const refreshToken = null;
     let password = req.body.password.toString();
     const department = null;
@@ -32,9 +25,7 @@ class UsersController {
     }
 
     const verifyEmail = await User.db.find((user) => email === user.email);
-    const verifyUsername = await User.db.find(
-      (user) => username === user.username,
-    );
+    const verifyUsername = await User.db.find((user) => username === user.username);
     const verifyUUID = await User.db.find((user) => uuid == user.uuid);
 
     if (verifyEmail) {
@@ -53,18 +44,13 @@ class UsersController {
       return;
     }
 
-    if (!firstName)
-      return res.status(409).send({ error: 'First name is required.' });
-    if (!lastName)
-      return res.status(409).send({ error: 'Last name is required.' });
+    if (!firstName) return res.status(409).send({ error: 'First name is required.' });
+    if (!lastName) return res.status(409).send({ error: 'Last name is required.' });
     if (!email) return res.status(409).send({ error: 'email is required.' });
     if (!phone) return res.status(409).send({ error: 'phone is required.' });
-    if (!dateOfBirth)
-      return res.status(409).send({ error: 'Date of birth is required.' });
-    if (!username)
-      return res.status(409).send({ error: 'Username is required.' });
-    if (!password)
-      return res.status(409).send({ error: 'Password is required.' });
+    if (!dateOfBirth) return res.status(409).send({ error: 'Date of birth is required.' });
+    if (!username) return res.status(409).send({ error: 'Username is required.' });
+    if (!password) return res.status(409).send({ error: 'Password is required.' });
     try {
       User.save({
         uuid,
@@ -144,29 +130,14 @@ class UsersController {
   }
 
   async update(req, res) {
-    const {
-      uuid,
-      firstName,
-      lastName,
-      email,
-      phone,
-      dateOfBirth,
-      username,
-      department,
-      role,
-      program,
-    } = req.body;
+    const { uuid, firstName, lastName, email, phone, dateOfBirth, username, department, role, program, upgrading } = req.body;
     let password = req.body.password.toString();
     const updatedAt = new Date().toLocaleString();
 
     const user = await User.db.findIndex((user) => user.uuid === uuid);
 
-    const verifyEmail = await User.db.find(
-      (user) => email === user.email && uuid !== user.uuid,
-    );
-    const verifyUsername = await User.db.find(
-      (user) => username === user.username && uuid !== user.uuid,
-    );
+    const verifyEmail = await User.db.find((user) => email === user.email && uuid !== user.uuid);
+    const verifyUsername = await User.db.find((user) => username === user.username && uuid !== user.uuid);
 
     if (email) {
       if (verifyEmail) {
@@ -183,14 +154,16 @@ class UsersController {
       }
     }
 
-    try {
-      const salt = bcrypt.genSaltSync(10);
-      password = bcrypt.hashSync(password, salt);
-    } catch (err) {
-      console.log(err);
-      res.status(500);
-      res.send({ error: 'Something wrong, try again later!' });
-      return;
+    if (password) {
+      try {
+        const salt = bcrypt.genSaltSync(10);
+        password = bcrypt.hashSync(password, salt);
+      } catch (err) {
+        console.log(err);
+        res.status(500);
+        res.send({ error: 'Something wrong, try again later!' });
+        return;
+      }
     }
     if (user != -1) {
       try {
@@ -204,10 +177,11 @@ class UsersController {
         if (department) User.db[user].department = department;
         if (role) User.db[user].role = role;
         if (program) User.db[user].program = program;
+        if (upgrading) User.db[user].upgrading = upgrading;
         User.db[user].updatedAt = updatedAt;
+        await User.save();
         res.status(200);
         res.send({ msg: 'User updated successfully.' });
-        User.save();
         return;
       } catch (err) {
         console.log(err);

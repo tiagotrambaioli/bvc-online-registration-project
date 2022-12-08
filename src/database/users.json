@@ -13,7 +13,7 @@
     "program": null,
     "createdAt": "2022-11-30, 4:37:58 a.m.",
     "updatedAt": "2022-12-07, 12:14:43 a.m.",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNGM2OWMyMTctN2YxYy00OWNhLTg0MGQtNGVjNmE5Mjc3NDgxIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNjcwMzk4NzczLCJleHAiOjE2NzA1NzE1NzN9.jTRMPLUiN51NxOgTPWB8GuuAlk6tC-4eTNiRfo8EWes"
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNGM2OWMyMTctN2YxYy00OWNhLTg0MGQtNGVjNmE5Mjc3NDgxIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNjcwNTMwMDkyLCJleHAiOjE2NzA3MDI4OTJ9.aMQU-4sIv-7LzVmduf7P-XAV5QcSr5XaEOHkDW2DgNs"
   },
   {
     "uuid": "d0fc1f99-9016-45d2-9750-04f473bb99f5",
@@ -23,13 +23,13 @@
     "phone": "8254316969",
     "dateOfBirth": "1971-06-28",
     "username": "elonmusk",
-    "password": "$2b$10$uA.tOdFf/UOHHOBpPpreK.kzG/KjUMF4IHAebKjzrD2ltZwKgmK.m",
+    "password": "$2b$10$.ygGIsDWGpsO6TP/hdmuGOQriucwApPurHJRRuUTxbrpTIgzXMxqm",
     "department": null,
-    "role": "student",
+    "role": "admin",
     "program": null,
     "createdAt": "2022-12-03, 4:20:29 a.m.",
-    "updatedAt": "2022-12-07, 12:14:56 a.m.",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZDBmYzFmOTktOTAxNi00NWQyLTk3NTAtMDRmNDczYmI5OWY1Iiwicm9sZSI6InN0dWRlbnQiLCJpYXQiOjE2NzA0MDAxNDAsImV4cCI6MTY3MDU3Mjk0MH0.12tMFLB6U3BwLUunmWNC0yA7Pc5qbWxPiKFAODCVGds"
+    "updatedAt": "2022-12-08, 1:08:49 p.m.",
+    "refreshToken": null
   },
   {
     "uuid": "ec63a082-8ad8-4721-be10-b255cc75284a",
@@ -93,7 +93,7 @@
     "program": null,
     "createdAt": "2022-12-03, 4:29:19 a.m.",
     "updatedAt": "2022-12-07, 12:15:43 a.m.",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNWVjMjkzODMtMjQ2YS00MDQ2LWFhZTQtMmIxMjg0NDU0N2MyIiwicm9sZSI6InN0dWRlbnQiLCJpYXQiOjE2NzAzOTczNjksImV4cCI6MTY3MDU3MDE2OX0.bW_p8HntoK7c3X0HF6oc_UOmKvJ-nr8su26rvCeOlNU"
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNWVjMjkzODMtMjQ2YS00MDQ2LWFhZTQtMmIxMjg0NDU0N2MyIiwicm9sZSI6InN0dWRlbnQiLCJpYXQiOjE2NzA1MzAwNzMsImV4cCI6MTY3MDcwMjg3M30.ZaEiudjGJqbLiAEHNfHvdnM7NENhSB2iVaQi1rPLtzM"
   },
   {
     "uuid": "c8a1b194-66e4-44f2-a443-393d46133c2e",
@@ -103,12 +103,12 @@
     "phone": "8254311234",
     "dateOfBirth": "1976-11-19",
     "username": "ihatemusk",
-    "password": "$2b$10$dZHxwUkmVzvdZcoCnQHw8.6kJ5VllNjgGP2ptxBdzilwEFWuFA5MO",
+    "password": "$2b$10$SeSGxDgiLV5F2qtWmG/vcedfR0dTdXJhwhdAFRYCVvQuBG7W4e.de",
     "department": null,
     "role": "student",
     "program": null,
     "createdAt": "2022-12-03, 4:36:10 a.m.",
-    "updatedAt": "2022-12-07, 12:15:55 a.m.",
+    "updatedAt": "2022-12-08, 10:46:45 a.m.",
     "refreshToken": null
   }
 ]
