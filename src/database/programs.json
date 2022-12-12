@@ -8,8 +8,16 @@
     "duration": "4 Terms",
     "category": "BUSINESS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/business/images/hero-general-business-major.ashx",
-    "startdate": ["January 10, 2023", "September 05, 2023"],
-    "deliveryTypes": ["Any-time Online", "Blended", "In Class", "Real-time Online"],
+    "startdate": [
+      "January 10, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "Any-time Online",
+      "Blended",
+      "In Class",
+      "Real-time Online"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 12983,
@@ -877,8 +885,13 @@
     "duration": "4 Terms",
     "category": "TECHNOLOGY",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/creative--technologies/images/hero-software-development.ashx",
-    "startdate": ["January 10, 2023", "September 05, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "January 10, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 14704,
@@ -1307,7 +1320,8 @@
         "courseTitle": "Software Development Employment Search Preparation",
         "outlines": []
       }
-    ]
+    ],
+    "updatedAt": "2022-12-11, 8:18:08 p.m."
   },
   {
     "uuid": "3d1293c7-e6a9-4303-ab8c-98c764b31cbd",
@@ -1318,8 +1332,20 @@
     "duration": "4Terms",
     "category": "COMMUNITY STUDIES",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/community-studies/images/hero-early_childhood_education_diploma.ashx",
-    "startdate": ["September 05, 2023", "January 10, 2023", "May 08, 2023", "September 05, 2023"],
-    "deliveryTypes": ["Blended", "Off-Campus", "In Class", "Blended", "Real-time Online", "Off-Campus"],
+    "startdate": [
+      "September 05, 2023",
+      "January 10, 2023",
+      "May 08, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "Blended",
+      "Off-Campus",
+      "In Class",
+      "Blended",
+      "Real-time Online",
+      "Off-Campus"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 9605,
@@ -1915,8 +1941,12 @@
     "duration": "4 Terms",
     "category": "TECHNOLOGY",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/creative--technologies/images/hero-its2.ashx",
-    "startdate": ["September 05, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 15774,
@@ -2452,8 +2482,12 @@
     "duration": "6 Terms",
     "category": "HEALTH AND WELLNESS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/health-and-wellness/images/hero-interdisciplinary-therapy-assistant-1.ashx",
-    "startdate": ["September 05, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 17626,
@@ -2675,8 +2709,18 @@
     "duration": "5Terms",
     "category": "HEALTH AND WELLNESS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/health-and-wellness/images/hero-practical-nurse-program.ashx",
-    "startdate": ["September 05, 2023", "January 10, 2023", "May 08, 2023", "September 05, 2023", "January 10, 2024"],
-    "deliveryTypes": ["Blended", "Off-Campus", "In Class"],
+    "startdate": [
+      "September 05, 2023",
+      "January 10, 2023",
+      "May 08, 2023",
+      "September 05, 2023",
+      "January 10, 2024"
+    ],
+    "deliveryTypes": [
+      "Blended",
+      "Off-Campus",
+      "In Class"
+    ],
     "terms": [
       {
         "credits": 6,
@@ -3444,8 +3488,12 @@
     "duration": "4 Terms",
     "category": "HEALTH AND WELLNESS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/health-and-wellness/images/hero-pharmtech.ashx",
-    "startdate": ["September 05, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 11222,
@@ -4169,8 +4217,15 @@
     "duration": "",
     "category": "HEALTH AND WELLNESS",
     "image": "https://www.bowvalleycollege.ca",
-    "startdate": ["January 10, 2023", "September 05, 2023", "January 10, 2024"],
-    "deliveryTypes": ["Blended", "In Class"],
+    "startdate": [
+      "January 10, 2023",
+      "September 05, 2023",
+      "January 10, 2024"
+    ],
+    "deliveryTypes": [
+      "Blended",
+      "In Class"
+    ],
     "terms": [
       {
         "credits": 6,
@@ -4839,8 +4894,12 @@
     "duration": "4 Terms",
     "category": "COMMUNITY STUDIES",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/community-studies/images/hero-child-youth/child-and-youth-care/child-and-youth-care1.ashx",
-    "startdate": ["September 05, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "terms": [
       {
         "credits": 3,
@@ -5257,8 +5316,16 @@
     "duration": "4 Terms",
     "category": "BUSINESS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/business/images/hero-supply-chain-v2.ashx",
-    "startdate": ["January 10, 2023", "September 05, 2023"],
-    "deliveryTypes": ["Any-time Online", "Blended", "In Class", "Real-time Online"],
+    "startdate": [
+      "January 10, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "Any-time Online",
+      "Blended",
+      "In Class",
+      "Real-time Online"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 12900,
@@ -5953,8 +6020,16 @@
     "duration": "4 Terms",
     "category": "BUSINESS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/business/images/hero-accounting-major.ashx",
-    "startdate": ["January 10, 2023", "September 05, 2023"],
-    "deliveryTypes": ["Any-time Online", "Blended", "In Class", "Real-time Online"],
+    "startdate": [
+      "January 10, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "Any-time Online",
+      "Blended",
+      "In Class",
+      "Real-time Online"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 12923,
@@ -6703,9 +6778,12 @@
     "duration": "6 Terms",
     "category": "CENTRE FOR ENTERTAINMENT ARTS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/centre-for-entertainment-arts/images/advanced-film-production.ashx",
-    "startdate": ["September 05, 2023"],
-    "deliveryTypes": ["In Class"],
-    "terms": []
+    "startdate": [
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ]
   },
   {
     "uuid": "a313516f-b244-4600-bc4d-e54ae3bbb7ab",
@@ -6716,8 +6794,14 @@
     "duration": "6 Terms",
     "category": "CENTRE FOR ENTERTAINMENT ARTS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/centre-for-entertainment-arts/images/advanced-visual-fx.ashx",
-    "startdate": ["January 10, 2023", "May 08, 2023", "September 05, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "January 10, 2023",
+      "May 08, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "terms": [
       {
         "credits": 3,
@@ -7167,8 +7251,14 @@
     "duration": "6 Terms",
     "category": "CENTRE FOR ENTERTAINMENT ARTS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/centre-for-entertainment-arts/images/advanced-game-development.ashx",
-    "startdate": ["January 10, 2023", "May 08, 2023", "September 05, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "January 10, 2023",
+      "May 08, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "terms": [
       {
         "term": 1,
@@ -7381,8 +7471,14 @@
     "duration": "6 Terms",
     "category": "CENTRE FOR ENTERTAINMENT ARTS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/centre-for-entertainment-arts/images/advanced-3d-animation--3d-modelling.ashx",
-    "startdate": ["January 10, 2023", "May 08, 2023", "September 05, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "January 10, 2023",
+      "May 08, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "terms": [
       {
         "credits": 3,
@@ -7831,8 +7927,16 @@
     "duration": "5 Terms",
     "category": "BUSINESS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/business/images/hero-legal-assistant-diploma.ashx",
-    "startdate": ["January 10, 2023", "September 05, 2023"],
-    "deliveryTypes": ["Any-time Online", "Blended", "In Class", "Real-time Online"],
+    "startdate": [
+      "January 10, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "Any-time Online",
+      "Blended",
+      "In Class",
+      "Real-time Online"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 11151,
@@ -8459,8 +8563,12 @@
     "duration": "4 Terms",
     "category": "TECHNOLOGY",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/creative--technologies/images/hero-interior-decorating.ashx",
-    "startdate": ["September 05, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 10724,
@@ -8998,7 +9106,10 @@
     "category": "BUSINESS",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": ["Any-time Online", "Real-time Online"],
+    "deliveryTypes": [
+      "Any-time Online",
+      "Real-time Online"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 13367,
@@ -9588,8 +9699,16 @@
     "duration": "4 Terms",
     "category": "BUSINESS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/business/images/hero-business.ashx",
-    "startdate": ["January 10, 2023", "September 05, 2023"],
-    "deliveryTypes": ["Any-time Online", "Blended", "In Class", "Real-time Online"],
+    "startdate": [
+      "January 10, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "Any-time Online",
+      "Blended",
+      "In Class",
+      "Real-time Online"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 12970,
@@ -10285,8 +10404,13 @@
     "duration": "4 Terms",
     "category": "COMMUNITY STUDIES",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/community-studies/images/hero-disability-studies-diploma.ashx",
-    "startdate": ["September 05, 2023"],
-    "deliveryTypes": ["In Class", "Combined Online"],
+    "startdate": [
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class",
+      "Combined Online"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 10469,
@@ -11290,8 +11414,12 @@
     "duration": "4 Terms",
     "category": "TECHNOLOGY",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/creative--technologies/images/hero-digital-design1.ashx",
-    "startdate": ["September 05, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 18056,
@@ -11819,8 +11947,12 @@
     "duration": "4 Terms",
     "category": "COMMUNITY STUDIES",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/community-studies/images/hero-police.ashx",
-    "startdate": ["September 05, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "terms": [
       {
         "credits": 3,
@@ -12406,8 +12538,12 @@
     "duration": "4 Terms",
     "category": "COMMUNITY STUDIES",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/community-studies/images/hero-corrections.ashx",
-    "startdate": ["September 05, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "terms": [
       {
         "credits": 3,
@@ -12975,8 +13111,12 @@
     "duration": "4 Terms",
     "category": "COMMUNITY STUDIES",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/community-studies/images/justicestudies_banner.ashx",
-    "startdate": ["September 05, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "terms": [
       {
         "credits": 3,
@@ -13675,8 +13815,12 @@
     "duration": "6 Terms",
     "category": "COMMUNITY STUDIES",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/community-studies/images/hero-social-work-students.ashx",
-    "startdate": ["September 05, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 15572,
@@ -14332,7 +14476,9 @@
     "duration": "4 Terms",
     "category": "COMMUNITY STUDIES",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/hfs-hide-from-server/purged-items-in-july---delete-this-folder-in-sept/school-2021-update/redirect/addiction-studies.ashx",
-    "startdate": ["September 05, 2023"],
+    "startdate": [
+      "September 05, 2023"
+    ],
     "deliveryTypes": [],
     "tuition": {
       "period": "2022/23",
@@ -14939,8 +15085,16 @@
     "duration": "4 Terms",
     "category": "BUSINESS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/business/images/hero-insurance-risk-management.ashx",
-    "startdate": ["January 10, 2023", "September 05, 2023"],
-    "deliveryTypes": ["Any-time Online", "Blended", "In Class", "Real-time Online"],
+    "startdate": [
+      "January 10, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "Any-time Online",
+      "Blended",
+      "In Class",
+      "Real-time Online"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 12900,
@@ -15697,8 +15851,16 @@
     "duration": "4 Terms",
     "category": "BUSINESS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/business/images/hero-hr.ashx",
-    "startdate": ["January 10, 2023", "September 05, 2023"],
-    "deliveryTypes": ["Any-time Online", "Blended", "In Class", "Real-time Online"],
+    "startdate": [
+      "January 10, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "Any-time Online",
+      "Blended",
+      "In Class",
+      "Real-time Online"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 13012,
@@ -16385,8 +16547,16 @@
     "duration": "4 Terms",
     "category": "BUSINESS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/business/images/hero-financial-services.ashx",
-    "startdate": ["January 10, 2023", "September 05, 2023"],
-    "deliveryTypes": ["Any-time Online", "Blended", "In Class", "Real-time Online"],
+    "startdate": [
+      "January 10, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "Any-time Online",
+      "Blended",
+      "In Class",
+      "Real-time Online"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 12890,
@@ -17113,12 +17283,14 @@
     "url": "https://bowvalleycollege.ca/programs-courses/careers-in-immigrant-advancement/skills-compass",
     "type": "CERTIFICATE",
     "subtitle": "This program will help unemployed newcomer youth build the foundation for employment and education.",
-
     "category": "CAREERS IN IMMIGRANT ADVANCEMENT",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/careers-in--immigrant-advancement/images/skills-compass-lp-hero-image_2.ashx",
-    "startdate": ["January 16, 2023"],
-    "deliveryTypes": ["Blended"],
-    "terms": []
+    "startdate": [
+      "January 16, 2023"
+    ],
+    "deliveryTypes": [
+      "Blended"
+    ]
   },
   {
     "uuid": "626dd3ec-b176-46d2-900b-6aefa0cd81b5",
@@ -17129,8 +17301,12 @@
     "duration": "",
     "category": "HEALTH AND WELLNESS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/health-and-wellness/images/2021-bvc-ell-heca-digital-ad-1867x899_40.ashx",
-    "startdate": ["January 10, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "January 10, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "terms": [
       {
         "credits": 3,
@@ -17530,8 +17706,17 @@
     "duration": "2 Terms",
     "category": "HEALTH AND WELLNESS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/health-and-wellness/images/hero-health-care-aide.ashx",
-    "startdate": ["January 10, 2023", "May 08, 2023", "September 05, 2023", "September 05, 2023"],
-    "deliveryTypes": ["In Class", "Blended", "Off-Campus"],
+    "startdate": [
+      "January 10, 2023",
+      "May 08, 2023",
+      "September 05, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class",
+      "Blended",
+      "Off-Campus"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 7486,
@@ -17936,8 +18121,13 @@
     "duration": "2 Terms",
     "category": "COMMUNITY STUDIES",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/community-studies/images/hero-education.ashx",
-    "startdate": ["September 05, 2023"],
-    "deliveryTypes": ["In Class", "Any-time Online"],
+    "startdate": [
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class",
+      "Any-time Online"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 5170,
@@ -18303,8 +18493,13 @@
     "duration": "2 Terms",
     "category": "COMMUNITY STUDIES",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/community-studies/images/hero-early_childhood_education_certificate.ashx",
-    "startdate": ["January 10, 2023"],
-    "deliveryTypes": ["Any-time Online", "Off-Campus"],
+    "startdate": [
+      "January 10, 2023"
+    ],
+    "deliveryTypes": [
+      "Any-time Online",
+      "Off-Campus"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 4872,
@@ -18620,8 +18815,13 @@
     "duration": "3 Terms",
     "category": "CENTRE FOR ENTERTAINMENT ARTS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/centre-for-entertainment-arts/images/foundation-in-entertainment-arts.ashx",
-    "startdate": ["January 10, 2023", "September 05, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "January 10, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "terms": [
       {
         "credits": 3,
@@ -18904,8 +19104,18 @@
     "duration": "3Terms",
     "category": "BUSINESS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/business/images/hero-reception.ashx",
-    "startdate": ["September 05, 2023", "January 10, 2023", "September 05, 2023"],
-    "deliveryTypes": ["Blended", "Any-time Online", "Blended", "In Class", "Real-time Online"],
+    "startdate": [
+      "September 05, 2023",
+      "January 10, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "Blended",
+      "Any-time Online",
+      "Blended",
+      "In Class",
+      "Real-time Online"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 6334,
@@ -19423,12 +19633,14 @@
     "url": "https://bowvalleycollege.ca/programs-courses/careers-in-immigrant-advancement/ace-tesol-certificate",
     "type": "CERTIFICATE",
     "subtitle": "With our ACE TESOL Certificate, you can teach English language programs in Canada or abroad. It is recognized by TESL Canada for TESL Canada Professional Certification Standard One.",
-
     "category": "CAREERS IN IMMIGRANT ADVANCEMENT",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/careers-in--immigrant-advancement/images/hero-ace-tesol.ashx",
-    "startdate": ["January 10, 2023"],
-    "deliveryTypes": ["Blended"],
-    "terms": []
+    "startdate": [
+      "January 10, 2023"
+    ],
+    "deliveryTypes": [
+      "Blended"
+    ]
   },
   {
     "uuid": "b7d2029b-d560-4b43-ac73-251b91d7e8c4",
@@ -19439,8 +19651,17 @@
     "duration": "2 Terms",
     "category": "BUSINESS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/business/images/hero-medical-office-assistant.ashx",
-    "startdate": ["January 10, 2023", "May 08, 2023", "September 05, 2023"],
-    "deliveryTypes": ["Any-time Online", "Blended", "In Class", "Real-time Online"],
+    "startdate": [
+      "January 10, 2023",
+      "May 08, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "Any-time Online",
+      "Blended",
+      "In Class",
+      "Real-time Online"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 5402,
@@ -19806,8 +20027,16 @@
     "duration": "2 Terms",
     "category": "BUSINESS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/business/images/hero-vet-office.ashx",
-    "startdate": ["January 10, 2023", "September 05, 2023"],
-    "deliveryTypes": ["Any-time Online", "Blended", "In Class", "Real-time Online"],
+    "startdate": [
+      "January 10, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "Any-time Online",
+      "Blended",
+      "In Class",
+      "Real-time Online"
+    ],
     "terms": [
       {
         "credits": 3,
@@ -20168,8 +20397,15 @@
     "duration": "2 Terms",
     "category": "BUSINESS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/business/images/hero-hospital-unit-clerk.ashx",
-    "startdate": ["January 10, 2023"],
-    "deliveryTypes": ["Any-time Online", "Blended", "In Class", "Real-time Online"],
+    "startdate": [
+      "January 10, 2023"
+    ],
+    "deliveryTypes": [
+      "Any-time Online",
+      "Blended",
+      "In Class",
+      "Real-time Online"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 5554,
@@ -20565,8 +20801,18 @@
     "duration": "2 Terms",
     "category": "BUSINESS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/business/images/hero-administrative-professional2.ashx",
-    "startdate": ["January 10, 2023", "September 05, 2023", "September 05, 2023"],
-    "deliveryTypes": ["Any-time Online", "Blended", "In Class", "Real-time Online", "Blended"],
+    "startdate": [
+      "January 10, 2023",
+      "September 05, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "Any-time Online",
+      "Blended",
+      "In Class",
+      "Real-time Online",
+      "Blended"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 6582,
@@ -20974,8 +21220,13 @@
     "duration": "2 Terms",
     "category": "COMMUNITY STUDIES",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/community-studies/images/hero-disability-certificate.ashx",
-    "startdate": ["September 05, 2023"],
-    "deliveryTypes": ["In Class", "Combined Online"],
+    "startdate": [
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class",
+      "Combined Online"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 4936,
@@ -21297,8 +21548,14 @@
     "duration": "2 Terms",
     "category": "HEALTH AND WELLNESS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/health-and-wellness/images/hero-recreationtherapy.ashx",
-    "startdate": ["January 10, 2023", "September 05, 2023"],
-    "deliveryTypes": ["Combined Online", "Off-Campus"],
+    "startdate": [
+      "January 10, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "Combined Online",
+      "Off-Campus"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 1857,
@@ -21459,8 +21716,16 @@
     "duration": "2 Terms",
     "category": "BUSINESS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/business/images/hero-human-resources-diploma.ashx",
-    "startdate": ["January 10, 2023", "September 05, 2023"],
-    "deliveryTypes": ["Any-time Online", "Blended", "In Class", "Real-time Online"],
+    "startdate": [
+      "January 10, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "Any-time Online",
+      "Blended",
+      "In Class",
+      "Real-time Online"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 6463,
@@ -21844,14 +22109,17 @@
     "duration": "1 Terms",
     "category": "ENGLISH LANGUAGE LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/english--language-learning/images/hero-ell-international.ashx",
-    "startdate": ["January 10, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "January 10, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 4020,
       "international": null
-    },
-    "terms": []
+    }
   },
   {
     "uuid": "424e3a54-bfdc-4eb9-9db3-d7ff65abbf2f",
@@ -21859,12 +22127,14 @@
     "url": "https://bowvalleycollege.ca/programs-courses/english-language-learning/online-linc",
     "type": "PROGRAM",
     "subtitle": "LINC stands for Language Instruction for Newcomers to Canada. In this online program, you'll learn English language reading and writing skills for daily life and work.",
-
     "category": "ENGLISH LANGUAGE LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/english--language-learning/images/hero-onlinelinc.ashx",
-    "startdate": ["January 10, 2023"],
-    "deliveryTypes": ["Combined Online"],
-    "terms": []
+    "startdate": [
+      "January 10, 2023"
+    ],
+    "deliveryTypes": [
+      "Combined Online"
+    ]
   },
   {
     "uuid": "c51ea1d3-9ae6-4fa3-9204-3c294b4bbd66",
@@ -21872,12 +22142,19 @@
     "url": "https://bowvalleycollege.ca/programs-courses/english-language-learning/regional-language-instruction-for-newcomers-to-canada",
     "type": "PROGRAM",
     "subtitle": "LINC stands for Language Instruction for Newcomers to Canada. If you live outside of Calgary, you can take these part-time classes. You will learn English language skills for daily life and work.",
-
     "category": "ENGLISH LANGUAGE LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/english--language-learning/images/hero-regional-skills.ashx",
-    "startdate": ["October 04, 2022", "October 04, 2022", "October 04, 2022"],
-    "deliveryTypes": ["In Class", "Real-time Online", "In Class", "In Class"],
-    "terms": []
+    "startdate": [
+      "October 04, 2022",
+      "October 04, 2022",
+      "October 04, 2022"
+    ],
+    "deliveryTypes": [
+      "In Class",
+      "Real-time Online",
+      "In Class",
+      "In Class"
+    ]
   },
   {
     "uuid": "f0e5dafd-ad35-446b-a1df-37c51e859036",
@@ -21885,12 +22162,14 @@
     "url": "https://bowvalleycollege.ca/programs-courses/english-language-learning/english-for-academic-purposes",
     "type": "PROGRAM",
     "subtitle": "Improve your academic English. Gain the skills you need to study at a Canadian post-secondary school.",
-
     "category": "ENGLISH LANGUAGE LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/english--language-learning/images/hero-ell-academic-purposes.ashx",
-    "startdate": ["January 10, 2023"],
-    "deliveryTypes": ["In Class"],
-    "terms": []
+    "startdate": [
+      "January 10, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ]
   },
   {
     "uuid": "bc2851f5-23dc-4d19-8886-e945d8c28d92",
@@ -21898,12 +22177,14 @@
     "url": "https://bowvalleycollege.ca/programs-courses/english-language-learning/bridge",
     "type": "PROGRAM",
     "subtitle": "This program is for immigrant youth between the ages of 18 and 24 who have not completed high school. In Bridge you will develop reading, writing, math, technology, and school strategies.",
-
     "category": "ENGLISH LANGUAGE LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/english--language-learning/images/hero-bridge-program.ashx",
-    "startdate": ["January 10, 2023"],
-    "deliveryTypes": ["In Class"],
-    "terms": []
+    "startdate": [
+      "January 10, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ]
   },
   {
     "uuid": "795baf06-227a-42e5-9589-65cd95878a71",
@@ -21911,12 +22192,14 @@
     "url": "https://bowvalleycollege.ca/programs-courses/english-language-learning/full-time-ell",
     "type": "PROGRAM",
     "subtitle": "Our English Language Learning programs focus on reading, writing, listening, and speaking. Learn about Canadian culture and take part in activities that help you live and work in Canada.",
-
     "category": "ENGLISH LANGUAGE LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/english--language-learning/images/hero-fulltime-ell.ashx",
-    "startdate": ["January 10, 2023"],
-    "deliveryTypes": ["In Class"],
-    "terms": []
+    "startdate": [
+      "January 10, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ]
   },
   {
     "uuid": "221e3cc8-231a-433c-9937-8ba0326bde1c",
@@ -21924,12 +22207,14 @@
     "url": "https://bowvalleycollege.ca/programs-courses/english-language-learning/part-time-linc",
     "type": "PROGRAM",
     "subtitle": "LINC stands for Language Instruction for Newcomers to Canada. In this part time program, you'll learn listening, speaking, reading, and writing skills. With LINC, you can get the knowledge you need to settle in Canada.",
-
     "category": "ENGLISH LANGUAGE LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/english--language-learning/images/hero-part-time-linc.ashx",
-    "startdate": ["January 10, 2023"],
-    "deliveryTypes": ["In Class"],
-    "terms": []
+    "startdate": [
+      "January 10, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ]
   },
   {
     "uuid": "b2f05836-384c-483e-8a5d-1a0e68e4b42e",
@@ -21937,12 +22222,13 @@
     "url": "https://bowvalleycollege.ca/programs-courses/english-language-learning/linc-home-study",
     "type": "PROGRAM",
     "subtitle": "LINC stands for Language Instruction for Newcomers to Canada. This program is offered online and by correspondence. Learners work one-on-one with an instructor 1/2 hour every week.",
-
     "category": "ENGLISH LANGUAGE LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/english--language-learning/images/hero-linc-home.ashx",
     "startdate": [],
-    "deliveryTypes": ["Home Study", "Any-time Online"],
-    "terms": []
+    "deliveryTypes": [
+      "Home Study",
+      "Any-time Online"
+    ]
   },
   {
     "uuid": "7a339cd4-e344-4650-b1ed-d9870280c603",
@@ -21950,12 +22236,14 @@
     "url": "https://bowvalleycollege.ca/programs-courses/english-language-learning/full-time-linc",
     "type": "PROGRAM",
     "subtitle": "LINC stands for Language Instruction for Newcomers to Canada. In LINC, you'll learn listening, speaking, reading, and writing skills. You'll get the knowledge you need to settle in Canada.",
-
     "category": "ENGLISH LANGUAGE LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/english--language-learning/images/hero-linc.ashx",
-    "startdate": ["January 10, 2023"],
-    "deliveryTypes": ["In Class"],
-    "terms": []
+    "startdate": [
+      "January 10, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ]
   },
   {
     "uuid": "a1faa1bb-7de8-4ba7-8f67-c6a3218c909c",
@@ -21963,12 +22251,14 @@
     "url": "https://bowvalleycollege.ca/programs-courses/english-language-learning/youth-in-transition",
     "type": "PROGRAM",
     "subtitle": "LINC stands for Language Instruction for Newcomers to Canada. This full-time program is for immigrant youth between the ages of 18 and 24.",
-
     "category": "ENGLISH LANGUAGE LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/english--language-learning/images/hero-yit.ashx",
-    "startdate": ["January 10, 2023"],
-    "deliveryTypes": ["In Class"],
-    "terms": []
+    "startdate": [
+      "January 10, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ]
   },
   {
     "uuid": "898dce22-7ddf-4333-ae29-1e9e9cd7e194",
@@ -21979,8 +22269,12 @@
     "duration": "2 Terms",
     "category": "TECHNOLOGY",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/creative--technologies/images/hero-cloud-computing-pdc.ashx",
-    "startdate": ["September 05, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 10982,
@@ -22162,8 +22456,12 @@
     "duration": "2 Terms",
     "category": "TECHNOLOGY",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/creative--technologies/images/hero-data-management-analytics.ashx",
-    "startdate": ["September 05, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 12274,
@@ -22413,8 +22711,12 @@
     "duration": "2 Terms",
     "category": "TECHNOLOGY",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/creative--technologies/images/hero-cybersecurity.ashx",
-    "startdate": ["September 05, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 13078,
@@ -22726,8 +23028,12 @@
     "duration": "2 Terms",
     "category": "TECHNOLOGY",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/business/images/hero-digital-marketing-post-diploma.ashx",
-    "startdate": ["September 05, 2023"],
-    "deliveryTypes": ["Blended"],
+    "startdate": [
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "Blended"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 6896,
@@ -22948,7 +23254,9 @@
     "category": "TECHNOLOGY",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/creative--technologies/images/hero-software-development-postdiploma.ashx",
     "startdate": [],
-    "deliveryTypes": ["In Class"],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 7655,
@@ -23180,8 +23488,12 @@
     "duration": "3 Terms",
     "category": "TECHNOLOGY",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/creative--technologies/images/hero-kitchen-bath-design.ashx",
-    "startdate": ["September 05, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 7733,
@@ -23444,8 +23756,17 @@
     "duration": "2 Terms",
     "category": "COMMUNITY STUDIES",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/community-studies/images/hero-health-human-services.ashx",
-    "startdate": ["January 10, 2023", "May 08, 2023", "September 05, 2023"],
-    "deliveryTypes": ["Any-time Online", "Blended", "In Class", "Real-time Online"],
+    "startdate": [
+      "January 10, 2023",
+      "May 08, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "Any-time Online",
+      "Blended",
+      "In Class",
+      "Real-time Online"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 6278,
@@ -24735,11 +25056,18 @@
     "url": "https://bowvalleycollege.ca/programs-courses/academic-upgrading/high-school-upgrading",
     "type": "UPGRADING",
     "subtitle": "Get set for a career program at Bow Valley College or complete the high school courses you need to pursue a post-secondary education.",
-
     "category": "ACADEMIC UPGRADING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/english--language-learning/images/hero-ell-academic.ashx",
-    "startdate": ["January 10, 2023", "May 08, 2023", "September 05, 2023"],
-    "deliveryTypes": ["Blended", "Combined Online", "In Class"],
+    "startdate": [
+      "January 10, 2023",
+      "May 08, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "Blended",
+      "Combined Online",
+      "In Class"
+    ],
     "terms": [
       {
         "credits": 5,
@@ -25760,11 +26088,17 @@
     "url": "https://bowvalleycollege.ca/programs-courses/academic-upgrading/adult-basic-education",
     "type": "UPGRADING",
     "subtitle": "It's never too late to improve your skills. Adult Basic Education prepares you for high school or the workplace. You can come to school full-time or part-time.",
-
     "category": "ACADEMIC UPGRADING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/academic--upgrading/images/hero-adult-learning.ashx",
-    "startdate": ["January 10, 2023", "May 08, 2023", "September 05, 2023"],
-    "deliveryTypes": ["Blended", "In Class"],
+    "startdate": [
+      "January 10, 2023",
+      "May 08, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "Blended",
+      "In Class"
+    ],
     "terms": [
       {
         "credits": 5,
@@ -26040,11 +26374,14 @@
     "url": "https://bowvalleycollege.ca/programs-courses/academic-upgrading/indigenous-pathways-to-employment",
     "type": "UPGRADING",
     "subtitle": "This program is to help Indigenous learners prepare for further post-secondary studies and employment.",
-
     "category": "ACADEMIC UPGRADING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/academic--upgrading/images/hero-aboriginal-student.ashx",
-    "startdate": ["September 05, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "terms": [
       {
         "credits": 5,
@@ -26118,11 +26455,16 @@
     "url": "https://bowvalleycollege.ca/programs-courses/academic-upgrading/indigenous-foundational-learning",
     "type": "UPGRADING",
     "subtitle": "This program is for Indigenous learners who would like to improve academic skills and build confidence in preparation for the workplace or post-secondary.\n",
-
     "category": "ACADEMIC UPGRADING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/academic--upgrading/images/hero-high-school-aboroginal.ashx",
-    "startdate": ["September 05, 2023"],
-    "deliveryTypes": ["Combined Online", "In Class", "Blended"],
+    "startdate": [
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "Combined Online",
+      "In Class",
+      "Blended"
+    ],
     "terms": [
       {
         "term": 1,
@@ -27393,8 +27735,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "5932b08d-6da8-4f07-9da9-74c529504533",
@@ -27406,8 +27747,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "e68a93b4-daa5-4ceb-8bef-3db9bb909898",
@@ -27419,8 +27759,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "01d2e2ea-5079-45d0-a6c9-83524c0bb09a",
@@ -27432,8 +27771,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "ea903fc9-f652-451a-a031-869eccafe82d",
@@ -27445,8 +27783,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "b074f48f-c5d5-48a5-af7e-6dfeade56f8c",
@@ -27458,8 +27795,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "0d6a6af2-1602-4365-b3e7-c7c346133c0f",
@@ -27471,8 +27807,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "bf25e5f9-3f01-463b-a2b5-a0e2248f0c11",
@@ -27484,8 +27819,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "4c955f4e-f6f2-43f7-91e8-93793012d523",
@@ -27497,8 +27831,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "618a6ea3-83dd-4d56-b31c-ca47871a77d0",
@@ -27510,8 +27843,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "03bbeb44-9c0e-4874-9a96-dc83e84fb2e7",
@@ -27523,8 +27855,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/school-of-continuing-learning/images/mcheroimages_micr00awd.ashx",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "afc9ca18-337d-49b0-8b7a-84be76cd9049",
@@ -27536,8 +27867,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/school-of-continuing-learning/images/heroimages_data3408.ashx",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "ef4475bd-1e0f-4918-8893-98aea412c8f7",
@@ -27549,8 +27879,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "762d41f8-8a31-4897-8bd3-dde852f4d444",
@@ -27562,8 +27891,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "c51d96f0-5ff1-4f89-bee5-5f049c318997",
@@ -27575,8 +27903,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "7e2c9e6a-3b32-49a0-9028-7c1075107faf",
@@ -27588,8 +27915,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "338edcaa-9321-415e-a5d0-ff37ea179e61",
@@ -27601,8 +27927,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "9078195c-aab6-4fb6-bb7c-218be8a33197",
@@ -27614,8 +27939,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/school-of-continuing-learning/images/mcheroimages_micr00pda.ashx",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "f56f1de3-b760-4cd6-b489-44d16a3248c1",
@@ -27627,8 +27951,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/school-of-continuing-learning/images/hero-clcm9308.ashx",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "fbce7434-f1f9-4531-b724-e5166c799acc",
@@ -27640,8 +27963,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/school-of-continuing-learning/images/heroimage_clcm9309.ashx",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "e0242e96-336b-4524-a5f8-de8f21288941",
@@ -27653,8 +27975,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/school-of-continuing-learning/images/heroimage_clcm9306.ashx",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "bb617f2c-9479-462d-83ba-62ef83427a26",
@@ -27666,8 +27987,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/school-of-continuing-learning/images/heroimage_clcm9307.ashx",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "14038f47-0885-4235-84e4-0dd195a11a32",
@@ -27679,8 +27999,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "50f7cdba-9edf-4233-bb6c-c31f02d1008e",
@@ -27692,8 +28011,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "15589761-220e-41c1-a512-51751b74707f",
@@ -27705,8 +28023,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "f36494f7-4b91-496e-b31a-810566d66c8e",
@@ -27718,8 +28035,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "13132429-45a5-461f-ab22-9b5bf84fe5c4",
@@ -27731,8 +28047,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "c64b1674-5af8-4a16-9894-83ac80534d3d",
@@ -27744,8 +28059,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/continuing-education/images/hero-nppe.ashx",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "12997237-ed36-4028-a5a7-bbd7ff264d1d",
@@ -27757,8 +28071,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "2dc0cbf2-e518-43fa-9428-d0c72d0a19a8",
@@ -27770,8 +28083,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "44156973-74d3-4307-956f-6bec137ebd2b",
@@ -27783,8 +28095,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/careers-in--immigrant-advancement/images/hero-intercultural-competencies.ashx",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "d95fca42-ded1-41e3-8f37-d3320cfa9891",
@@ -27796,8 +28107,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "cd4afb3b-6a5b-48f0-89f2-815ef3efbf38",
@@ -27809,8 +28119,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "cc5129b0-0877-46ba-a8ad-4b96d4ca0e26",
@@ -27822,8 +28131,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "5bab3982-f06e-4139-b053-c78abd24e15d",
@@ -27835,8 +28143,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "a77a027d-4302-49c6-9c22-7cac220c0191",
@@ -27848,8 +28155,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/community-studies/images/pi-banner.ashx",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "ec3f308c-4759-4d53-a6fe-6ea4def292b8",
@@ -27861,8 +28167,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/continuing-education/images/post-tesl-screen.ashx",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "b2c9d3aa-8719-4d95-9590-a380726df002",
@@ -27874,8 +28179,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "a017a94c-4bb4-4580-b7a3-cc3263a8cc87",
@@ -27887,8 +28191,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "fc546273-cbd6-48c7-acd9-982d7a86ced8",
@@ -27900,8 +28203,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "7e44f80e-75e9-4492-bfb9-28eacbbcc96d",
@@ -27913,8 +28215,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "583297d0-5a52-4c14-b6d1-789e8d3e4c5e",
@@ -27926,8 +28227,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "f37e0509-a636-419b-ba8b-b0f659ba674e",
@@ -27939,8 +28239,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "e8d251b9-fefb-4cac-93ae-e17d6e130432",
@@ -27952,8 +28251,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "71ba3188-a4c8-4b14-ae1a-b11a2708ff6b",
@@ -27965,8 +28263,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "21f0a398-c8d6-40c9-b463-d97afe9e9bfb",
@@ -27978,8 +28275,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "c8b1cae2-6c38-47a7-8677-7b0da2846b5b",
@@ -27991,8 +28287,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "f8cda1ff-4b5d-413f-b541-e8fcfdafd661",
@@ -28004,8 +28299,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "8ae8a48d-2fe2-4d98-bb2a-32795f438610",
@@ -28017,8 +28311,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "c9b79ad6-e0f2-4a2a-b75f-09a9f24e0bd5",
@@ -28030,8 +28323,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "3182c90b-189f-45d8-af4c-34db497d8b0f",
@@ -28043,8 +28335,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "4a1cf27f-675e-4669-bda3-53b65d7315ab",
@@ -28056,8 +28347,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "a2ef0582-b8d1-40b6-a43c-e1041db9bae2",
@@ -28069,8 +28359,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/continuing-education/images/hero-securityintel.ashx",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "b95382c4-a834-4038-8823-94dba825b238",
@@ -28082,8 +28371,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/continuing-education/images/hero-appsecurity.ashx",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "8f6ce94b-29d3-40a0-883f-f00cb40ae57b",
@@ -28095,8 +28383,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "5bceb3c7-62ee-4581-8ae4-ca071c7222cd",
@@ -28108,8 +28395,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "2f81a402-0a44-4ec5-b30d-1d6a2ec3d0a3",
@@ -28121,8 +28407,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "2b6ab100-90fa-47f7-b564-76b84db017dc",
@@ -28134,8 +28419,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "57df9392-63c1-4882-b22f-9ac911a1ff3c",
@@ -28147,8 +28431,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "ad5efa8f-be3a-42a2-803e-9b8f33e209e4",
@@ -28160,8 +28443,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "3d033565-a9c2-46cc-8c14-353513933e1e",
@@ -28169,11 +28451,9 @@
     "url": "https://bowvalleycollege.ca/programs-courses/continuing-learning/courses/business/comp9203",
     "type": "CONTINUING LEARNING COURSE",
     "subtitle": "We're sorry, an unknown error has occurred. Please try again in a moment.",
-
     "category": "n/a",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "c19a3d38-53d2-4432-98e7-e42c4e545971",
@@ -28185,8 +28465,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "9ee0573f-65f9-4b6b-94bf-8e0f4a63b809",
@@ -28198,8 +28477,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "7ec0090b-2c02-4026-849d-8137e341f323",
@@ -28211,8 +28489,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "ddf2bea3-9e6a-4902-854e-5203c0ea9b1b",
@@ -28224,8 +28501,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "ac8ebf45-46a4-48ae-8809-35de36300d4f",
@@ -28237,8 +28513,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "b687123b-b429-469c-a940-fd76e35158f7",
@@ -28249,8 +28524,13 @@
     "duration": "4 Courses",
     "category": "BUSINESS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/school-chiu-school-of-business/images/hero-financial-planning.ashx",
-    "startdate": ["January 10, 2023", "September 05, 2023"],
-    "deliveryTypes": ["In Class"],
+    "startdate": [
+      "January 10, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 2430,
@@ -28398,8 +28678,14 @@
     "duration": "3 Courses",
     "category": "BUSINESS",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/school-chiu-school-of-business/images/hero-risk-management.ashx",
-    "startdate": ["January 10, 2023", "September 05, 2023"],
-    "deliveryTypes": ["In Class", "Any-time Online"],
+    "startdate": [
+      "January 10, 2023",
+      "September 05, 2023"
+    ],
+    "deliveryTypes": [
+      "In Class",
+      "Any-time Online"
+    ],
     "tuition": {
       "period": "2022/23",
       "domestic": 1873,
@@ -28481,8 +28767,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/school-of-continuing-learning/images/mcheroimages_micr00gca.ashx",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "dad06afa-4e86-4a48-af9e-5b67600552da",
@@ -28494,8 +28779,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/school-of-continuing-learning/images/mcheroimages_micr00cs.ashx",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "16243b1b-2a13-4c9a-9b75-e08d56fc5239",
@@ -28507,8 +28791,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/school-of-continuing-learning/images/hero-clcm3501.ashx",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "6de8107b-c037-4414-b22f-8f8c447d3184",
@@ -28520,8 +28803,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca/-/media/bvc/school-of-continuing-learning/images/hero-clcm3101.ashx",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "d3489f4b-60b1-45e1-b5be-75ea87ce04d5",
@@ -28533,8 +28815,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "abf0ae42-6dae-4cf5-a36f-13fd8d643d54",
@@ -28546,8 +28827,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "f9538e84-a599-49bc-8364-3bb257fff5fa",
@@ -28559,8 +28839,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "2c4ab0f2-4c80-4465-9eaf-d9d991575be6",
@@ -28572,8 +28851,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "1634198e-90bc-4d12-9f7b-59b5afa09245",
@@ -28585,8 +28863,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "e69f5308-86b9-4ad1-b4aa-109bc0a182df",
@@ -28598,8 +28875,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "578c3742-b1ff-4d82-af8a-4581ddcd0979",
@@ -28611,8 +28887,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "d3d49708-17e4-41d2-ad16-929ce69341b1",
@@ -28624,8 +28899,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "3ff01c9f-5732-4aa3-83d2-4ffa6aed87b0",
@@ -28637,8 +28911,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "f1a20d87-7bf7-443b-ab2f-f8c7dc623814",
@@ -28650,8 +28923,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "4ba85dc8-8891-4122-a654-4275e15c19be",
@@ -28663,8 +28935,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "cc1ef6ed-8087-402d-a4c1-ee506629c581",
@@ -28676,8 +28947,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "912d4899-018d-4fc6-aa05-ea2893c78514",
@@ -28689,8 +28959,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "8cc53500-fbf6-4f83-affc-dd42c39e05c1",
@@ -28702,8 +28971,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "120105a3-b840-45f5-bb7f-0ccb9a1d0467",
@@ -28715,8 +28983,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "8a4ba555-8a73-4379-b047-509e2078664a",
@@ -28728,8 +28995,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "5f7a02f3-20c7-4b37-9db6-6fc370389f39",
@@ -28741,8 +29007,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "b4d270f6-7f09-464d-beff-951b1d31e8d2",
@@ -28754,8 +29019,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "3f4cd4aa-be72-4685-933c-c71da408261c",
@@ -28767,8 +29031,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "b44e9e37-9555-493b-961e-93a4bac445a4",
@@ -28780,8 +29043,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "39b4af74-c05f-4842-bfd6-ebe32fd8df67",
@@ -28793,8 +29055,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "be5c0748-0d22-4644-ade2-431163e99560",
@@ -28806,8 +29067,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "26f1a6e0-fc48-451c-8f5d-f85729baec9b",
@@ -28819,8 +29079,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "1fe7c24d-af88-45a7-a860-87bf5e100833",
@@ -28832,8 +29091,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "13d56d33-0f2c-4342-bd82-a545bb3d53ef",
@@ -28845,8 +29103,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "428c7751-9d97-42da-b70f-677e0080a9a4",
@@ -28858,8 +29115,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "2a152526-ee7a-4259-b09c-68ad68d8a762",
@@ -28871,8 +29127,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "f20fcc2f-01cc-4677-80df-24608a81e5f2",
@@ -28884,8 +29139,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "28fea6c9-8dd3-4fb1-8d3f-949d2c5c331d",
@@ -28897,8 +29151,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "fb71214f-0490-4f57-aeed-df3f38a3a30b",
@@ -28910,8 +29163,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "0b1b68ff-2a47-41f4-97f3-2b1c925ccf8e",
@@ -28923,8 +29175,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "7e5e44bb-c11f-416f-b10e-b4b5b1d758cd",
@@ -28936,8 +29187,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "26706b5d-24b6-45f6-a81b-f88845f9e42d",
@@ -28949,8 +29199,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "191f2004-db1b-4e47-aee1-b5a85199ed35",
@@ -28962,8 +29211,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "4da309ea-bade-4c91-b665-2b321271806d",
@@ -28975,8 +29223,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "a8f4bd5b-5c4e-4af8-889a-b1ddf23a8879",
@@ -28988,8 +29235,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "3549c851-e68b-4f02-a28b-66d1e1a8cbce",
@@ -29001,8 +29247,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "b6418ec3-5a9d-439c-a786-14829074e22d",
@@ -29014,8 +29259,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "529dbe9e-5268-4435-bc6e-15f442c645dd",
@@ -29027,8 +29271,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "c81e9c1f-4f2a-4608-a0f5-925929e85c29",
@@ -29040,8 +29283,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "99dc186d-720a-45f4-bbd8-0128f769bf3a",
@@ -29053,8 +29295,7 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   },
   {
     "uuid": "4a72072e-baaf-4828-a71f-9cbb2639903f",
@@ -29066,7 +29307,6 @@
     "category": "CONTINUING LEARNING",
     "image": "https://www.bowvalleycollege.ca",
     "startdate": [],
-    "deliveryTypes": [],
-    "terms": []
+    "deliveryTypes": []
   }
 ]

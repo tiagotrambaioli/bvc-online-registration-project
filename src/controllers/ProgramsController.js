@@ -6,18 +6,7 @@ import User from '../models/User.js';
 class ProgramsController {
   async create(req, res) {
     const uuid = crypto.randomUUID();
-    let {
-      title,
-      url = null,
-      type,
-      subtitle = null,
-      duration,
-      category = null,
-      startdate = null,
-      deliveryTypes = null,
-      tuition = null,
-      terms = null,
-    } = req.body;
+    let { title, url = null, type, subtitle = null, duration, category = null, startdate = null, deliveryTypes = null, tuition = null, terms = null } = req.body;
     const createdAt = new Date().toLocaleString();
     const updatedAt = null;
     type = type.toUpperCase();
@@ -46,9 +35,7 @@ class ProgramsController {
       return;
     }
 
-    const verifyTitle = await Program.db.find(
-      (program) => title.toLowerCase() === program.title.toLowerCase(),
-    );
+    const verifyTitle = await Program.db.find((program) => title.toLowerCase() === program.title.toLowerCase());
 
     if (verifyTitle) {
       res.status(409);
@@ -85,30 +72,18 @@ class ProgramsController {
     const search = req.params.search.toLowerCase();
 
     const programByUUID = async () => {
-      return await Program.db.filter((program) =>
-        program.uuid.includes(search),
-      );
+      return await Program.db.filter((program) => program.uuid.includes(search));
     };
 
     const programByTitle = async () => {
-      if (programByUUID.length == 0)
-        return await Program.db.filter((program) =>
-          program.title.toLowerCase().includes(search),
-        );
+      if (programByUUID.length == 0) return await Program.db.filter((program) => program.title.toLowerCase().includes(search));
     };
 
     const programByCategory = async () => {
-      if (programByTitle.length == 0)
-        return await Program.db.filter((program) =>
-          program.category.toLowerCase().includes(search),
-        );
+      if (programByTitle.length == 0) return await Program.db.filter((program) => program.category.toLowerCase().includes(search));
     };
 
-    const response = [
-      ...(await programByUUID()),
-      ...(await programByTitle()),
-      ...(await programByCategory()),
-    ];
+    const response = [...(await programByUUID()), ...(await programByTitle()), ...(await programByCategory())];
 
     if (Object.values(response).length > 0) {
       res.status(200);
@@ -129,57 +104,36 @@ class ProgramsController {
   }
 
   async update(req, res) {
-    let {
-      uuid,
-      courseCode,
-      courseName = null,
-      courseCredits = null,
-      tuition = null,
-      outlines = null,
-    } = req.body;
+    let { uuid, title, url, type, subtitle, duration, category, startdate, deliveryTypes, tuition, terms } = req.body;
+
     const updatedAt = new Date().toLocaleString();
 
-    courseCredits = Number(courseCredits);
-    if (tuition) {
-      if (tuition.domestic) {
-        tuition.domestic = Number(tuition?.domestic);
-        tuition.international = Number(tuition?.international);
-      }
-    }
+    const program = await Program.db.findIndex((program) => program.uuid === uuid);
 
-    if (outlines) {
-      outlines.forEach((outline) => {
-        outline.academicYear = Number(outline?.academicYear);
-      });
-    }
+    const verifyProgramTitle = await Program.db.find((program) => title?.toLowerCase() === program.title.toLowerCase() && uuid !== program.uuid);
 
-    const course = await Course.db.findIndex(
-      (course) => course.uuid === uuid || course.courseCode === courseCode,
-    );
-
-    const verifyCourseCode = await Course.db.find(
-      (course) =>
-        courseCode.toLowerCase() === course.courseCode.toLowerCase() &&
-        uuid !== course.uuid,
-    );
-
-    if (verifyCourseCode) {
+    if (verifyProgramTitle) {
       res.status(409);
-      res.send({ msg: 'Course code already registered.' });
+      res.send({ msg: 'Program title already registered.' });
       return;
     }
 
-    if (course != -1) {
+    if (program != -1) {
       try {
-        if (courseCode) Course.db[course].courseCode = courseCode;
-        if (courseName) Course.db[course].courseName = courseName;
-        if (courseCredits) Course.db[course].courseCredits = courseCredits;
-        if (tuition) Course.db[course].tuition = tuition;
-        if (outlines) Course.db[course].outlines = outlines;
-        Course.db[course].updatedAt = updatedAt;
+        if (title) Program.db[program].title = title;
+        if (url) Program.db[program].url = url;
+        if (type) Program.db[program].type = type;
+        if (subtitle) Program.db[program].subtitle = subtitle;
+        if (duration) Program.db[program].duration = duration;
+        if (category) Program.db[program].category = category;
+        if (startdate) Program.db[program].startdate = startdate;
+        if (deliveryTypes) Program.db[program].deliveryTypes = deliveryTypes;
+        if (tuition) Program.db[program].tuition = tuition;
+        if (terms) Program.db[program].terms = terms;
+        Program.db[program].updatedAt = updatedAt;
         res.status(200);
-        res.send({ msg: 'Course updated successfully.' });
-        Course.save();
+        res.send({ msg: 'Program updated successfully.' });
+        Program.save();
         return;
       } catch (err) {
         console.log(err);
@@ -189,7 +143,7 @@ class ProgramsController {
       }
     } else {
       res.status(404);
-      res.send({ msg: 'Course not found.' });
+      res.send({ msg: 'Program not found.' });
       return;
     }
   }
@@ -202,7 +156,7 @@ class ProgramsController {
       if (student.program != null && student.program.uuid === uuid) {
         students.push({
           uuid: student.uuid,
-          fistName: student.firstName,
+          firstName: student.firstName,
           lastName: student.lastName,
           email: student.email,
         });
@@ -215,9 +169,7 @@ class ProgramsController {
 
   async destroy(req, res) {
     const uuid = req.params.uuid;
-    const program = await Program.db.findIndex(
-      (program) => program.uuid === uuid,
-    );
+    const program = await Program.db.findIndex((program) => program.uuid === uuid);
     if (program != -1) {
       Program.db.splice(program, 1);
       res.status(200);

@@ -41,6 +41,7 @@ class AuthController {
     const uuid = user.uuid;
 
     const accessToken = generateAccessToken(user);
+    user.accessToken = accessToken;
     const refreshToken = generateRefreshToken(user);
 
     try {
@@ -53,18 +54,7 @@ class AuthController {
     try {
       if (await bcrypt.compare(password, user.password)) {
         res.status(200);
-        res.send({
-          uuid: uuid,
-          firstName: user?.firstName,
-          lastName: user?.lastName,
-          email: user?.email,
-          phone: user?.phone,
-          role: user?.role,
-          program: user?.program,
-          upgrading: user?.upgrading,
-          accessToken: accessToken,
-          refreshToken: refreshToken,
-        });
+        res.send(user);
       } else {
         res.status(401);
         res.send({ error: 'Not Allowed!' });

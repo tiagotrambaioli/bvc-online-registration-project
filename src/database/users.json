@@ -13,7 +13,8 @@
     "program": null,
     "createdAt": "2022-11-30, 4:37:58 a.m.",
     "updatedAt": "2022-12-07, 12:14:43 a.m.",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNGM2OWMyMTctN2YxYy00OWNhLTg0MGQtNGVjNmE5Mjc3NDgxIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNjcwNTMwMDkyLCJleHAiOjE2NzA3MDI4OTJ9.aMQU-4sIv-7LzVmduf7P-XAV5QcSr5XaEOHkDW2DgNs"
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNGM2OWMyMTctN2YxYy00OWNhLTg0MGQtNGVjNmE5Mjc3NDgxIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNjcwODczNDQ3LCJleHAiOjE2NzEwNDYyNDd9.asfC_uTfs9z_umA0K_620ucejmryD7IkOVViEYAq6Vo",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNGM2OWMyMTctN2YxYy00OWNhLTg0MGQtNGVjNmE5Mjc3NDgxIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNjcwODczNDQ3LCJleHAiOjE2NzEwNDYyNDd9.rh1oozaLhwe40_7kyDn9NfedPH5RSbmwq_l4fR5YHRs"
   },
   {
     "uuid": "d0fc1f99-9016-45d2-9750-04f473bb99f5",
@@ -23,19 +24,913 @@
     "phone": "8254316969",
     "dateOfBirth": "1971-06-28",
     "username": "elonmusk",
-    "password": "$2b$10$.ygGIsDWGpsO6TP/hdmuGOQriucwApPurHJRRuUTxbrpTIgzXMxqm",
+    "password": "$2b$10$nOfR1NSt9U736EmTVrxYmevwh4AuxOw6yL/5YccfAgQci5OBOPSpC",
     "department": null,
-    "role": "admin",
-    "program": null,
+    "role": "student",
+    "program": {
+      "uuid": "c2e8ed88-fd41-41f9-af8d-059a6c814a86",
+      "title": "Business Administration Diploma - General Business Major",
+      "url": "https://bowvalleycollege.ca/programs-courses/business/business-administration-diploma---general-business-major",
+      "type": "DIPLOMA",
+      "subtitle": "The General Business Major is designed to provide students with pathways to further their post-secondary studies at various universities. Graduates gain a broad understanding of a multitude of business concepts.",
+      "duration": "4 Terms",
+      "category": "BUSINESS",
+      "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/business/images/hero-general-business-major.ashx",
+      "startdate": [
+        "January 10, 2023",
+        "September 05, 2023"
+      ],
+      "deliveryTypes": [
+        "Any-time Online",
+        "Blended",
+        "In Class",
+        "Real-time Online"
+      ],
+      "tuition": {
+        "period": "2022/23",
+        "domestic": 12983,
+        "international": 33220
+      },
+      "terms": [
+        {
+          "credits": 3,
+          "term": 1,
+          "courseCode": "ACCT1103",
+          "courseTitle": "Introduction to Financial Accounting",
+          "isCompleted": true,
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 590,
+            "international": 1581
+          },
+          "outlines": [
+            {
+              "academicYear": 2023,
+              "effectiveStartTerm": "Winter 2023",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/97426912f32e49bf9d6985a8f6bb37d5.ashx"
+            },
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Fall 2022",
+              "effectiveTermEnd": "Fall 2022",
+              "url": "https://bowvalleycollege.ca/-/media/e065497d2ef74d1cb5f1a58f906ecb7d.ashx"
+            },
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Winter 2022",
+              "effectiveTermEnd": "Spring 2022",
+              "url": "https://bowvalleycollege.ca/-/media/61d2d91784be414a8d92093f755cb73e.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Spring 2021",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/ac9b273290ea4e9babbeb35fee341527.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Fall 2021",
+              "url": "https://bowvalleycollege.ca/-/media/cf1c698bad9049bf9dec79d6a385b6e4.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Winter 2021",
+              "url": "https://bowvalleycollege.ca/-/media/51fdd5852cb747b2803d8a9c97d23470.ashx"
+            }
+          ],
+          "isEnrolled": false
+        },
+        {
+          "credits": 3,
+          "term": 1,
+          "courseCode": "HRES1101",
+          "courseTitle": "Organizational Behaviour",
+          "isCompleted": true,
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 590,
+            "international": 1581
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Fall 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/c085b2fe0c294c0ba2e4424d37a08f2a.ashx"
+            },
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Winter 2022",
+              "effectiveTermEnd": "Spring 2022",
+              "url": "https://bowvalleycollege.ca/-/media/71b09f99c29245898c86b95fb226fae6.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Fall 2021",
+              "url": "https://bowvalleycollege.ca/-/media/43364b54103c42fa87071b78c2c162dd.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Spring 2021",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/c11d6ce1fd3b4c47a77ec43da7dbbb61.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Winter 2021",
+              "url": "https://bowvalleycollege.ca/-/media/b27ce974ad0e46d49e90c667719d2e0a.ashx"
+            }
+          ],
+          "isEnrolled": false
+        },
+        {
+          "credits": 3,
+          "term": 1,
+          "courseCode": "HRES2201",
+          "courseTitle": "Introduction to Human Resources",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 590,
+            "international": 1581
+          },
+          "outlines": [
+            {
+              "academicYear": 2023,
+              "effectiveStartTerm": "Fall 2023",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/765f9d163136447cb50225bf18e4a094.ashx"
+            },
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Fall 2022",
+              "effectiveTermEnd": "Spring 2023",
+              "url": "https://bowvalleycollege.ca/-/media/86daca37f3ce4e2f92a5eb64cb013916.ashx"
+            },
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Spring 2022",
+              "effectiveTermEnd": "Spring 2022",
+              "url": "https://bowvalleycollege.ca/-/media/2044ea91335344f7b40217b5673d1489.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Winter 2022",
+              "url": "https://bowvalleycollege.ca/-/media/8c1bcc18971b4eba95ce6ac70006ea8b.ashx"
+            }
+          ],
+          "isEnrolled": true
+        },
+        {
+          "credits": 3,
+          "term": 1,
+          "courseCode": "MGMT1101",
+          "courseTitle": "Introduction to Management",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 590,
+            "international": 1581
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Fall 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/b5cb79485f0b4f7dbe01ef9275bce4e2.ashx"
+            },
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Winter 2022",
+              "effectiveTermEnd": "Spring 2022",
+              "url": "https://bowvalleycollege.ca/-/media/31224d4015294e23b31d5de3421d769f.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Fall 2021",
+              "url": "https://bowvalleycollege.ca/-/media/c588a5fb9d44498281b202d17744097b.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/75c90b8d417d4c0ba1e56717698945bb.ashx"
+            }
+          ],
+          "isEnrolled": false
+        },
+        {
+          "credits": 3,
+          "term": 1,
+          "courseCode": "MGMT1102",
+          "courseTitle": "Introduction to Organizations and Sustainability",
+          "isCompleted": true,
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 590,
+            "international": 1581
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Fall 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/d487ecab9efa47f38fe963bacc64524e.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Spring 2022",
+              "url": "https://bowvalleycollege.ca/-/media/16b120fd4f7a42d6a44e6cafa62df0cb.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/b5cbe8d6f4be48aeb3ba16355ea153d3.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 1,
+          "courseCode": "MGMT1201",
+          "courseTitle": "Business Communication",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 590,
+            "international": 1581
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Spring 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/233f09c1e45e4ab484c4e221a37115c3.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Spring 2021",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/c9c05e8f8c2c4b67a857c73431a20ccb.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Winter 2021",
+              "effectiveTermEnd": "Winter 2021",
+              "url": "https://bowvalleycollege.ca/-/media/07da05bfc24c4b09b0be7ecc0458a9e4.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Winter 2022",
+              "url": "https://bowvalleycollege.ca/-/media/efff3c59af174adbb115e9c23274e071.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Fall 2020",
+              "url": "https://bowvalleycollege.ca/-/media/c683af5b3ed64d6c9a6db7299309988a.ashx"
+            }
+          ],
+          "isEnrolled": true
+        },
+        {
+          "credits": 3,
+          "term": 1,
+          "courseCode": "MGMT1401",
+          "courseTitle": "Microeconomics",
+          "isCompleted": true,
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 590,
+            "international": 1581
+          },
+          "outlines": [
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/71a748e3d3c640d8a6e05621188bfc2a.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/307d0b68936a49589d0f3793920cd161.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 1,
+          "courseCode": "MGMT1601",
+          "courseTitle": "Business Law",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 590,
+            "international": 1581
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Winter 2022",
+              "effectiveTermEnd": "Winter 2022",
+              "url": "https://bowvalleycollege.ca/-/media/1da94afad37e46338de31226d911eff2.ashx"
+            },
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Spring 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/b4aba9100b2c4f5988efcc9f0115eec0.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Spring 2021",
+              "effectiveTermEnd": "Fall 2021",
+              "url": "https://bowvalleycollege.ca/-/media/2e4686dc6866489b8f4207dfa5c75a8d.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Winter 2021",
+              "url": "https://bowvalleycollege.ca/-/media/b9fa7202ad9d4ff7a7184752844d9414.ashx"
+            }
+          ],
+          "isEnrolled": true
+        },
+        {
+          "credits": 3,
+          "term": 1,
+          "courseCode": "MGMT2401",
+          "courseTitle": "Macroeconomics",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 590,
+            "international": 1581
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Fall 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/9f9927a6d3424edea79527cd38fd0eb9.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Spring 2022",
+              "url": "https://bowvalleycollege.ca/-/media/669d89303bfa4ecd83f8e1fbbfdb9ba8.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/7bfab526211042e19ee171be1266ad36.ashx"
+            }
+          ],
+          "isEnrolled": true
+        },
+        {
+          "credits": 3,
+          "term": 1,
+          "courseCode": "MKTG1101",
+          "courseTitle": "Introduction to Marketing",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 590,
+            "international": 1581
+          },
+          "outlines": [
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Spring 2021",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/e035c6c36ed242d6a4a06bf21f88d355.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/6aca006b964540c39a2c8118677aa7a3.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Winter 2021",
+              "url": "https://bowvalleycollege.ca/-/media/e7bc29351a5e4cf7900ae5c58804df88.ashx"
+            }
+          ],
+          "isEnrolled": false
+        },
+        {
+          "credits": 3,
+          "term": 2,
+          "courseCode": "ACCT2201",
+          "courseTitle": "Management Accounting I",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 557,
+            "international": 1596
+          },
+          "outlines": [
+            {
+              "academicYear": 2023,
+              "effectiveStartTerm": "Winter 2023",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/fa15175078ab47cb8f3db1640ab51d64.ashx"
+            },
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Winter 2022",
+              "effectiveTermEnd": "Fall 2022",
+              "url": "https://bowvalleycollege.ca/-/media/957611e6be304b1e94149cbc3d107df4.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Fall 2021",
+              "url": "https://bowvalleycollege.ca/-/media/80481ac35f7d4e75b606b985110e6472.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/5e39798ad0394e0485ad542a3576da43.ashx"
+            }
+          ],
+          "isEnrolled": false
+        },
+        {
+          "credits": 3,
+          "term": 2,
+          "courseCode": "MGMT2998",
+          "courseTitle": "Business Strategy",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 590,
+            "international": 1581
+          },
+          "outlines": [
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/73baa804628943f388ecb4cac7b1e0b9.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/4bb187bc6b1e418c9a81395c4ebf5b5d.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 2,
+          "courseCode": "HRES2101",
+          "courseTitle": "Change Management",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 573,
+            "international": 1550
+          },
+          "outlines": [
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/1adb4f3256104b41a16dbbf9cc73ecf4.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 2,
+          "courseCode": "HRES2303",
+          "courseTitle": "Occupational Health & Safety",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 573,
+            "international": 1596
+          },
+          "outlines": [
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/e48909e5e2b54bc08d9515451013e4e9.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Winter 2021",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/5981a6bfc17b40baa70e13deb0c1c2f8.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Fall 2020",
+              "url": "https://bowvalleycollege.ca/-/media/2fd7fa17b7164e5ebaa60efdb06e5aa2.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 2,
+          "courseCode": "MGMT2301",
+          "courseTitle": "Microsoft Excel",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 557,
+            "international": 1596
+          },
+          "outlines": [
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/73a7a576de1e46d5a1fa1561e2979f40.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/111062301e8e4aefa31b9da25160576c.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 2,
+          "courseCode": "MGMT1302",
+          "courseTitle": "Computer Applications",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 590,
+            "international": 1596
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Fall 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/621bbecffc7d43ea8162698be86ffd2d.ashx"
+            },
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Winter 2022",
+              "effectiveTermEnd": "Spring 2022",
+              "url": "https://bowvalleycollege.ca/-/media/38faa75891ae409aa9242c10ac1fc638.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Fall 2021",
+              "url": "https://bowvalleycollege.ca/-/media/4c44f96ae5314631b25ace942dc2bb7a.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/f7616470e8e44ecf8491a719d6990729.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 2,
+          "courseCode": "MGMT2102",
+          "courseTitle": "Project Management",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 557,
+            "international": 1581
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Winter 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/bdab04d2d4c5464d8690e149e3ce888a.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Fall 2021",
+              "url": "https://bowvalleycollege.ca/-/media/b924effd4bc240df8654c7c217212515.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 2,
+          "courseCode": "SCMT2201",
+          "courseTitle": "Operations Management I",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 557,
+            "international": 1581
+          },
+          "outlines": [
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/59217084cce34fd5823494b974bd3c46.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/ecca5328cb8d4829a66b94b9762c33c3.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 2,
+          "courseCode": "FNSR2201",
+          "courseTitle": "Business Finance",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 557,
+            "international": 1581
+          },
+          "outlines": [
+            {
+              "academicYear": 2023,
+              "effectiveStartTerm": "Winter 2023",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/da9158cdb6b345cb9094bdaf4c369b80.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Fall 2022",
+              "url": "https://bowvalleycollege.ca/-/media/3336cce5840049c5870a4e0d8e64cb4b.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Winter 2021",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/532685fd98524e048e8b8df890afc4f1.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Fall 2020",
+              "url": "https://bowvalleycollege.ca/-/media/1f4794f7f1004d88975a15171fd9e5f7.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 2,
+          "courseCode": "FNSR2401",
+          "courseTitle": "Risk Management Principles & Practice",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 557,
+            "international": 1596
+          },
+          "outlines": [
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/85cd87145de542d0b95d59a8b85093f1.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/89bccabcd3ae45b397be06099bc96031.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 2,
+          "courseCode": "MGMT2501",
+          "courseTitle": "Introduction to Statistics",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 546,
+            "international": 1565
+          },
+          "outlines": [
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Winter 2021",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/4ad944f5a90740aaa8c529fea5840594.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Fall 2020",
+              "url": "https://bowvalleycollege.ca/-/media/8cf3a90f129c4f388649b456dbb1d34d.ashx"
+            }
+          ]
+        },
+        {
+          "term": 2,
+          "courseCode": "MGMT2304",
+          "courseTitle": "Introduction to Business Analytics",
+          "outlines": [
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/35167b29779f4599a26ae783c221a836.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 2,
+          "courseCode": "MKTG2203",
+          "courseTitle": "Selling and the Customer Experience",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 557,
+            "international": 1596
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Winter 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/41c2199acfbe434fb058a962188c69c3.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Winter 2021",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/938121f56c0146759fc87e7a3feb5f6a.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Fall 2021",
+              "url": "https://bowvalleycollege.ca/-/media/5c22aefd643e49bd81e669751226efd7.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Fall 2020",
+              "url": "https://bowvalleycollege.ca/-/media/40a289470e0d425d98d5c1f2896823ab.ashx"
+            }
+          ],
+          "isEnrolled": false
+        },
+        {
+          "credits": 3,
+          "term": 2,
+          "courseCode": "MKTG2303",
+          "courseTitle": "Integrated Marketing Communications",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 557,
+            "international": 1596
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Fall 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/cedc7badc7fa4f2ab295ea577ba6bed0.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Spring 2022",
+              "url": "https://bowvalleycollege.ca/-/media/b97c8d4c6c264268b7cdc42297ead8b4.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/77b22b65969a41b4b6488653bad3f03d.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 2,
+          "courseCode": "MGMT2901",
+          "courseTitle": "Introduction to Entrepreneurship",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 590,
+            "international": 1596
+          },
+          "outlines": [
+            {
+              "academicYear": 2023,
+              "effectiveStartTerm": "Winter 2023",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/a8b713e4f3d9482f8ef94a7a6ab0d5ef.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Fall 2022",
+              "url": "https://bowvalleycollege.ca/-/media/790dcfbeff8149faa7f43b4c0c84a4f3.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/5c02df59fda44abb916c3bc9693fdc38.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 2,
+          "courseCode": "MGMT2801",
+          "courseTitle": "International Business",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 557,
+            "international": 1596
+          },
+          "outlines": [
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/16543d7f6ffc4858b19cf06eacdddef8.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/a25ce1149c2f4cec9fb4df0ce2c38234.ashx"
+            }
+          ]
+        },
+        {
+          "term": 3,
+          "courseCode": "Major Electives\nCREDITS: 3",
+          "courseTitle": "Major Electives",
+          "outlines": [],
+          "isEnrolled": false
+        },
+        {
+          "term": 4,
+          "courseCode": "ADMN9998",
+          "courseTitle": "Employment Preparation",
+          "outlines": [
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/ced0cf37fb7244b9b8f6eea012e2152d.ashx"
+            }
+          ]
+        },
+        {
+          "credits": null,
+          "term": 4,
+          "courseCode": "COOP9998",
+          "courseTitle": "Co-op Work Term I",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 459,
+            "international": 459
+          },
+          "outlines": [
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Spring 2022",
+              "url": "https://bowvalleycollege.ca/-/media/c30ee2c0a9b94f9a911e30c66b70563d.ashx"
+            }
+          ]
+        }
+      ],
+      "totalCoursesEnrolled": 4,
+      "totalCoursesCompleted": 4
+    },
     "createdAt": "2022-12-03, 4:20:29 a.m.",
-    "updatedAt": "2022-12-08, 1:08:49 p.m.",
-    "refreshToken": null
+    "updatedAt": "2022-12-08, 8:48:29 p.m.",
+    "refreshToken": null,
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZDBmYzFmOTktOTAxNi00NWQyLTk3NTAtMDRmNDczYmI5OWY1Iiwicm9sZSI6InN0dWRlbnQiLCJpYXQiOjE2NzA4Mzg2MTgsImV4cCI6MTY3MTAxMTQxOH0.QUQsldPVhnei7lY7ZMbioLWpvEmwjCJ7OYYKchFiUFA"
   },
   {
     "uuid": "ec63a082-8ad8-4721-be10-b255cc75284a",
     "firstName": "John",
     "lastName": "Doe",
-    "email": "john.doe@mybvc.ca",
+    "email": "john.doe@anon.ca",
     "phone": "8254311234",
     "dateOfBirth": "1980-01-14",
     "username": "johndoe",
@@ -44,8 +939,9 @@
     "role": "student",
     "program": null,
     "createdAt": "2022-12-03, 4:26:18 a.m.",
-    "updatedAt": "2022-12-07, 12:15:10 a.m.",
-    "refreshToken": null
+    "updatedAt": "2022-12-12, 2:51:01 a.m.",
+    "refreshToken": null,
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiZWM2M2EwODItOGFkOC00NzIxLWJlMTAtYjI1NWNjNzUyODRhIiwicm9sZSI6InN0dWRlbnQiLCJpYXQiOjE2NzA4Mzg2NDcsImV4cCI6MTY3MTAxMTQ0N30.BR8GYi4hXFMX0mY4747mY411wAVmhtzH7wtymceIHqc"
   },
   {
     "uuid": "15c14c2c-90e9-4161-8e87-573e5e8c76ae",
@@ -61,7 +957,8 @@
     "program": null,
     "createdAt": "2022-12-03, 4:27:22 a.m.",
     "updatedAt": "2022-12-07, 12:15:22 a.m.",
-    "refreshToken": null
+    "refreshToken": null,
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMTVjMTRjMmMtOTBlOS00MTYxLThlODctNTczZTVlOGM3NmFlIiwicm9sZSI6InN0dWRlbnQiLCJpYXQiOjE2NzA4MTczMzUsImV4cCI6MTY3MDk5MDEzNX0.3wdPg5ABF5Vxz5b3_NoW9vvZv6-Mfd6ydCPwoQ5URfk"
   },
   {
     "uuid": "e9dbe8f6-dd35-44e6-b9b0-b4cb8a302814",
@@ -90,16 +987,752 @@
     "password": "$2b$10$/nbd3fOV1ixFy.y7FQqnhunFTj3lEsvRO0/NDWzBsGQPogkmreyrC",
     "department": null,
     "role": "student",
-    "program": null,
+    "program": {
+      "uuid": "13404e03-1194-4bbd-a35d-bf16050cc56f",
+      "title": "Pharmacy Technician Diploma",
+      "url": "https://bowvalleycollege.ca/programs-courses/health-and-wellness/pharmacy-technician-diploma",
+      "type": "DIPLOMA",
+      "subtitle": "Study to prepare compounds and sterile products, and to dispense medications. This full-time program includes both community and hospital practicum placements.",
+      "duration": "4 Terms",
+      "category": "HEALTH AND WELLNESS",
+      "image": "https://www.bowvalleycollege.ca/-/media/bvc/programs-and-courses/health-and-wellness/images/hero-pharmtech.ashx",
+      "startdate": [
+        "September 05, 2023"
+      ],
+      "deliveryTypes": [
+        "In Class"
+      ],
+      "tuition": {
+        "period": "2022/23",
+        "domestic": 11222,
+        "international": 29845
+      },
+      "terms": [
+        {
+          "credits": 3,
+          "term": 1,
+          "courseCode": "ENGL1201",
+          "courseTitle": "English Composition",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 380,
+            "international": 1040
+          },
+          "outlines": [
+            {
+              "academicYear": 2023,
+              "effectiveStartTerm": "Winter 2023",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/6e0393809c45452e87c33d69be3ee77c.ashx"
+            },
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Fall 2022",
+              "effectiveTermEnd": "Fall 2022",
+              "url": "https://bowvalleycollege.ca/-/media/cd0445c60d7b49059f527605996c4f52.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Spring 2021",
+              "effectiveTermEnd": "Spring 2022",
+              "url": "https://bowvalleycollege.ca/-/media/54035c5590cb4af78ef1836bebe2b10e.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Winter 2021",
+              "url": "https://bowvalleycollege.ca/-/media/f8cb86711f21483289627225d663484d.ashx"
+            }
+          ],
+          "isEnrolled": true
+        },
+        {
+          "credits": 3,
+          "term": 1,
+          "courseCode": "PHRM1101",
+          "courseTitle": "Pharmacy Theory",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 412,
+            "international": 1193
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Fall 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/3bcc5bd7ab1147449519e270cfa46dae.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Spring 2022",
+              "url": "https://bowvalleycollege.ca/-/media/731b6c07e12e4214b1932ffa062ca0d7.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/69ab29b5b85143e58c9e339f93983230.ashx"
+            }
+          ],
+          "isEnrolled": true
+        },
+        {
+          "credits": 3,
+          "term": 1,
+          "courseCode": "PHRM1102",
+          "courseTitle": "Pharmacy Jurisprudence and Ethics",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 412,
+            "international": 1193
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Fall 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/9d6b4fbed62744f7a16698e45f08dab1.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Spring 2022",
+              "url": "https://bowvalleycollege.ca/-/media/6cc5172838a349eb961d48564683dbfa.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/b482880bf9134ea6bcb2de27b1b1f377.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 1,
+          "courseCode": "PHRM1201",
+          "courseTitle": "Pharmacotherapy I",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 412,
+            "international": 1193
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Fall 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/94aa04c17399432e96344c8b049b7ee2.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Spring 2022",
+              "url": "https://bowvalleycollege.ca/-/media/ee3c4df844c3405d97db6f0edf091408.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/d8633578cfc94ef3b027f7b763567d7f.ashx"
+            }
+          ],
+          "isEnrolled": true
+        },
+        {
+          "credits": 3,
+          "term": 1,
+          "courseCode": "PHRM1202",
+          "courseTitle": "Pharmacotherapy II",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 412,
+            "international": 1193
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Fall 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/8bb2901520a34c02b0499dd51edd1e8b.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Spring 2022",
+              "url": "https://bowvalleycollege.ca/-/media/46dfb00cc2c54cfaa534b77bba34a209.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/169e2750e9794bd4ae504fb3133a47d5.ashx"
+            }
+          ],
+          "isEnrolled": true
+        },
+        {
+          "credits": 3,
+          "term": 1,
+          "courseCode": "PHRM1301",
+          "courseTitle": "Pharmacy Calculations I",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 412,
+            "international": 1193
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Fall 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/a6141ae6310a4493b511803d998e6a92.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Spring 2022",
+              "url": "https://bowvalleycollege.ca/-/media/e0e99558108c46098a966abeeab4e553.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/468e5c43a8ec4e5396a1b0ea30500287.ashx"
+            }
+          ],
+          "isEnrolled": true
+        },
+        {
+          "credits": 3,
+          "term": 1,
+          "courseCode": "PHRM1401",
+          "courseTitle": "Prescription Processing",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 412,
+            "international": 1193
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Fall 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/68aeba0420b2487ba60e1ea56019a169.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Spring 2022",
+              "url": "https://bowvalleycollege.ca/-/media/cad67626700942d6802718c6159a7222.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/4a1c6e99e6ff4af6a8810e0544ce2198.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 2,
+          "courseCode": "PHRM1203",
+          "courseTitle": "Pharmacotherapy III",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 412,
+            "international": 1193
+          },
+          "outlines": [
+            {
+              "academicYear": 2023,
+              "effectiveStartTerm": "Winter 2023",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/ad0d353eb14f4e16bd3a12007e4d6989.ashx"
+            },
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Winter 2022",
+              "effectiveTermEnd": "Fall 2022",
+              "url": "https://bowvalleycollege.ca/-/media/370e414cbdec473d9c5aff0f2e8b99c9.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Fall 2021",
+              "url": "https://bowvalleycollege.ca/-/media/4b75af536f664fb189f6c7f5b7b897af.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 2,
+          "courseCode": "PHRM1204",
+          "courseTitle": "Pharmacotherapy IV",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 412,
+            "international": 1193
+          },
+          "outlines": [
+            {
+              "academicYear": 2023,
+              "effectiveStartTerm": "Winter 2023",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/f6c58115df124fd2bd5fd5fcac339d3d.ashx"
+            },
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Winter 2022",
+              "effectiveTermEnd": "Fall 2022",
+              "url": "https://bowvalleycollege.ca/-/media/f86ff93d425f4ae5a6ac426971be6655.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Fall 2021",
+              "url": "https://bowvalleycollege.ca/-/media/b87e2dfa608d4427b883a883d6efbcef.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 2,
+          "courseCode": "PHRM1302",
+          "courseTitle": "Pharmacy Calculations II",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 412,
+            "international": 1193
+          },
+          "outlines": [
+            {
+              "academicYear": 2023,
+              "effectiveStartTerm": "Winter 2023",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/688ed66ca84249a09c2ce450e23694d3.ashx"
+            },
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Winter 2022",
+              "effectiveTermEnd": "Fall 2022",
+              "url": "https://bowvalleycollege.ca/-/media/99b89289201445058fae90e897537c3c.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Fall 2021",
+              "url": "https://bowvalleycollege.ca/-/media/bd72835e02034b568d9e2845b6a33b08.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 2,
+          "courseCode": "PHRM1402",
+          "courseTitle": "Community Pharmacy Practice",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 412,
+            "international": 1193
+          },
+          "outlines": [
+            {
+              "academicYear": 2023,
+              "effectiveStartTerm": "Winter 2023",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/acf358a1747344ac944a89a01191d767.ashx"
+            },
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Winter 2022",
+              "effectiveTermEnd": "Fall 2022",
+              "url": "https://bowvalleycollege.ca/-/media/e2afe86154db430bb68fead2a6989b91.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Winter 2021",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/e02e501a8309465daaa13e6ead7836b9.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Fall 2021",
+              "url": "https://bowvalleycollege.ca/-/media/e309bfc369a5477e854382a85eabcd99.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Fall 2020",
+              "url": "https://bowvalleycollege.ca/-/media/e893dc54a67846a1be9acf3d23be6aa7.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 2,
+          "courseCode": "PHRM1501",
+          "courseTitle": "Hospital Pharmacy Practice",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 412,
+            "international": 1193
+          },
+          "outlines": [
+            {
+              "academicYear": 2023,
+              "effectiveStartTerm": "Winter 2023",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/9deb5f0bd8f049f5bc80412987c7f258.ashx"
+            },
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Winter 2022",
+              "effectiveTermEnd": "Fall 2022",
+              "url": "https://bowvalleycollege.ca/-/media/13824509b5414d61a18bf8747aa09456.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Fall 2021",
+              "url": "https://bowvalleycollege.ca/-/media/b833c97b0be84ba3b44501b0ad2e3de1.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/6aa2b9e92fd9451aa2efe6a4f7a11bfb.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 6,
+          "term": 2,
+          "courseCode": "PHRM2401",
+          "courseTitle": "Community Dispensing Lab I",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 825,
+            "international": 2387
+          },
+          "outlines": [
+            {
+              "academicYear": 2023,
+              "effectiveStartTerm": "Winter 2023",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/a3e1bc01a12c420fb970048454f3b62f.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Fall 2022",
+              "url": "https://bowvalleycollege.ca/-/media/2d56bec1862f4f33bdd3009798c18bab.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/f385728497a14406880b3e42c989ebd0.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 3,
+          "courseCode": "PHRM1103",
+          "courseTitle": "Pharmacy Management",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 412,
+            "international": 1193
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Fall 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/a34724577c9e4d7981313bfa20efc3a6.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2022",
+              "url": "https://bowvalleycollege.ca/-/media/f75ba178455140fd8dea9735cd3a3833.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 3,
+          "courseCode": "PHRM2402",
+          "courseTitle": "Community Dispensing Lab II",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 412,
+            "international": 1193
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Fall 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/600654f2bc684f5ea05dd1fb5cbba46e.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Spring 2022",
+              "url": "https://bowvalleycollege.ca/-/media/f7f6399d489943d59054c917182345d4.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/c6552b5c05dc45f0b14f56d4c945536e.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 3,
+          "courseCode": "PHRM2403",
+          "courseTitle": "Extemporaneous Compounding Lab",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 412,
+            "international": 1193
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Fall 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/9e9004fdef404532838aeb102edd360b.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Spring 2022",
+              "url": "https://bowvalleycollege.ca/-/media/12ecc4228a20403a9d5f846337ec7311.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/3a5f8370ee9549549816da07dd7877d4.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 6,
+          "term": 3,
+          "courseCode": "PHRM2501",
+          "courseTitle": "Hospital Dispensing Lab",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 825,
+            "international": 2387
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Fall 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/e08b205bca0d48b58aca664907dcc47e.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Spring 2022",
+              "url": "https://bowvalleycollege.ca/-/media/9c4960a8b97e4cf680fa14e6b9c3ccb0.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/f37174cce54249a18f6407004b5a72a1.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 3,
+          "courseCode": "PHRM2502",
+          "courseTitle": "Sterile Production Lab",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 412,
+            "international": 1193
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Fall 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/36b78d24d97540b7a5725c49aa863996.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Winter 2021",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/cee71c69031f4bd294e2e27d08a3abf6.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Spring 2022",
+              "url": "https://bowvalleycollege.ca/-/media/2fc977a926fb4f5d9558e6868fbe047b.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 4,
+          "courseCode": "PHRM1205",
+          "courseTitle": "Specialized Pharmacotherapy",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 412,
+            "international": 1193
+          },
+          "outlines": [
+            {
+              "academicYear": 2023,
+              "effectiveStartTerm": "Winter 2023",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/10df31bed7cf48439ab0c121d057726b.ashx"
+            },
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Winter 2022",
+              "effectiveTermEnd": "Fall 2022",
+              "url": "https://bowvalleycollege.ca/-/media/9e39aae6fe7c49f49f9f858c8e56a534.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Fall 2021",
+              "url": "https://bowvalleycollege.ca/-/media/f489cd105d4942adb6046a7ed5eb0ec8.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 4,
+          "courseCode": "PHRM2997",
+          "courseTitle": "Entry to Pharmacy Practice",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 412,
+            "international": 1193
+          },
+          "outlines": [
+            {
+              "academicYear": 2023,
+              "effectiveStartTerm": "Winter 2023",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/d41863f6b48345fca18fa2ebf1b91f01.ashx"
+            },
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Winter 2022",
+              "effectiveTermEnd": "Fall 2022",
+              "url": "https://bowvalleycollege.ca/-/media/30ce4f92f3824e7dad9af66cc33ba706.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Spring 2021",
+              "effectiveTermEnd": "Fall 2021",
+              "url": "https://bowvalleycollege.ca/-/media/5f7006881ff14a96b828652f08cb343d.ashx"
+            },
+            {
+              "academicYear": 2020,
+              "effectiveStartTerm": "Fall 2020",
+              "effectiveTermEnd": "Winter 2021",
+              "url": "https://bowvalleycollege.ca/-/media/bbe70ab56e07417182142498d6c89e09.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 4,
+          "courseCode": "PHRM2998",
+          "courseTitle": "Community Pharmacy Practicum",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 412,
+            "international": 1193
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Winter 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/236bdced15ba4c3fbd0aa6d48a21fb80.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Fall 2021",
+              "url": "https://bowvalleycollege.ca/-/media/84b0b503fead4f3196fda2720be7b5a7.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Spring 2021",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/aa0a64bb67ab4f11b9a86c06d5255da7.ashx"
+            }
+          ]
+        },
+        {
+          "credits": 3,
+          "term": 4,
+          "courseCode": "PHRM2999",
+          "courseTitle": "Hospital Pharmacy Practicum",
+          "courseTuition": {
+            "period": "2022/23",
+            "domestic": 412,
+            "international": 1193
+          },
+          "outlines": [
+            {
+              "academicYear": 2022,
+              "effectiveStartTerm": "Winter 2022",
+              "effectiveTermEnd": "Current",
+              "url": "https://bowvalleycollege.ca/-/media/d5c352a7e4674d8c8b07620bb4ca5291.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Spring 2021",
+              "effectiveTermEnd": "Spring 2021",
+              "url": "https://bowvalleycollege.ca/-/media/bc5b9677bbee4ccaa6863cfc0917fcce.ashx"
+            },
+            {
+              "academicYear": 2021,
+              "effectiveStartTerm": "Fall 2021",
+              "effectiveTermEnd": "Fall 2021",
+              "url": "https://bowvalleycollege.ca/-/media/bba469ed9f7a4c87b010aa0c0885ec27.ashx"
+            }
+          ]
+        }
+      ],
+      "totalCoursesEnrolled": 5,
+      "totalCoursesCompleted": 0
+    },
     "createdAt": "2022-12-03, 4:29:19 a.m.",
-    "updatedAt": "2022-12-07, 12:15:43 a.m.",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNWVjMjkzODMtMjQ2YS00MDQ2LWFhZTQtMmIxMjg0NDU0N2MyIiwicm9sZSI6InN0dWRlbnQiLCJpYXQiOjE2NzA1MzAwNzMsImV4cCI6MTY3MDcwMjg3M30.ZaEiudjGJqbLiAEHNfHvdnM7NENhSB2iVaQi1rPLtzM"
+    "updatedAt": "2022-12-08, 8:34:07 p.m.",
+    "refreshToken": null,
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNWVjMjkzODMtMjQ2YS00MDQ2LWFhZTQtMmIxMjg0NDU0N2MyIiwicm9sZSI6InN0dWRlbnQiLCJpYXQiOjE2NzA4MTY3NjgsImV4cCI6MTY3MDk4OTU2OH0.xnf90R9p5dqA42_xvzjD-QstVS9LW0w7Q2doYaBZoLc"
   },
   {
     "uuid": "c8a1b194-66e4-44f2-a443-393d46133c2e",
     "firstName": "Jack",
     "lastName": "Dorsey",
-    "email": "jack.dorsey",
+    "email": "jack.dorsey@hotmail.com",
     "phone": "8254311234",
     "dateOfBirth": "1976-11-19",
     "username": "ihatemusk",
@@ -109,6 +1742,7 @@
     "program": null,
     "createdAt": "2022-12-03, 4:36:10 a.m.",
     "updatedAt": "2022-12-08, 10:46:45 a.m.",
-    "refreshToken": null
+    "refreshToken": null,
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYzhhMWIxOTQtNjZlNC00NGYyLWE0NDMtMzkzZDQ2MTMzYzJlIiwicm9sZSI6InN0dWRlbnQiLCJpYXQiOjE2NzA4MTc0NjEsImV4cCI6MTY3MDk5MDI2MX0.opfs0aTRroAERJh0E4gF0ybS7TOVXlJyclGoq1aI76Q"
   }
 ]

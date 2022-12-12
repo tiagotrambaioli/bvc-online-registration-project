@@ -1,7 +1,7 @@
 
-@authToken = {{login.response.body.$.accessToken}}
+@authToken = {{loginAdmin.response.body.$.accessToken}}
 
-@role = {{login.response.body.$.role}}
+@role = {{loginAdmin.response.body.$.role}}
 @refreshToken = {{login.response.body.$.refreshToken}}
 
 @refreshedToken = {{RefreshToken.response.body.$.accessToken}}
@@ -62,7 +62,7 @@ Content-Type: application/json
 ###
 
 # @name listAllUsers
-POST http://localhost:5000/users/show
+POST  http://localhost:5000/users/show
 Authorization: Bearer {{authToken}}
 
 ###
@@ -128,6 +128,7 @@ DELETE http://localhost:5000/questionforms/0c1d2a48-bf55-4904-97e3-f93f4f1bb375
 
 // COURSES
 POST http://localhost:5000/courses
+Authorization: Bearer {{authToken}}
 Content-Type: application/json
 
 {
@@ -161,7 +162,7 @@ GET http://localhost:5000/courses
 
 ###
 
-GET http://localhost:5000/courses/Myc
+GET http://localhost:5000/courses/baf7285e-dbc3-4e0e-967f-c975c54c58c9
 
 ###
 
@@ -657,11 +658,24 @@ GET http://localhost:5000/programs
 
 ###
 
-GET http://localhost:5000/programs/c2e8ed88-fd41-41f9-af8d-059a6c814a86
+GET http://localhost:5000/programs/soft
 
 ###
 
-POST http://localhost:5000/programs/students/98db4819-0c77-475a-aa59-fc61864d499d
+###
+
+PUT http://localhost:5000/programs/
+Authorization: Bearer {{authToken}}
+Content-Type: application/json
+
+{
+  "uuid": "e9cfa526-df1b-440d-987f-a44be297ce9f",
+  "title" : "Software Development Diploma"
+}
+
+###
+
+GET http://localhost:5000/programs/students/c2e8ed88-fd41-41f9-af8d-059a6c814a86
 Authorization: Bearer {{authToken}}
 
 ###

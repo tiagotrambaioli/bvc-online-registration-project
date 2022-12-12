@@ -4,20 +4,7 @@ import QuestionForm from '../models/QuestionForm.js';
 class QuestionFormsController {
   async create(req, res) {
     const uuid = crypto.randomUUID();
-    const {
-      userUUID,
-      userFirstName,
-      userLastName,
-      userEmail,
-      userPhone,
-      programUUID = null,
-      program = null,
-      courseUUID = null,
-      course = null,
-      message,
-      status = 'New',
-      comment = null,
-    } = req.body;
+    const { userUUID, userFirstName, userLastName, userEmail, userPhone, programUUID = null, program = null, courseUUID = null, course = null, message, status = 'New', comment = null } = req.body;
 
     const createdAt = new Date().toLocaleString();
     const updatedAt = null;
@@ -97,7 +84,7 @@ class QuestionFormsController {
   }
 
   async update(req, res) {
-    const { uuid, status } = req.body;
+    const { uuid, status, comment } = req.body;
     const updatedAt = new Date().toLocaleString();
 
     const form = await QuestionForm.db.findIndex((form) => form.uuid === uuid);
@@ -105,6 +92,8 @@ class QuestionFormsController {
     if (form != -1) {
       try {
         if (status) QuestionForm.db[form].status = status;
+        if (comment) QuestionForm.db[form].comment = comment;
+
         QuestionForm.db[form].updatedAt = updatedAt;
         res.status(200);
         res.send({ msg: 'Form status updated successfully.' });

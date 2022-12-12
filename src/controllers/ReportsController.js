@@ -14,9 +14,7 @@ class ReportsController {
           email: user.email,
           programUUID: user.program.uuid,
         });
-        const inPrograms = programs.findIndex(
-          (item) => item.uuid == user.program.uuid,
-        );
+        const inPrograms = programs.findIndex((item) => item.uuid == user.program.uuid);
         if (inPrograms == -1) {
           programs.push({
             uuid: user.program.uuid,
@@ -28,13 +26,9 @@ class ReportsController {
     }
 
     programs.forEach((program) => {
-      const studentsEnrolled = students.filter(
-        (student) => student.programUUID == program.uuid,
-      );
+      const studentsEnrolled = students.filter((student) => student.programUUID == program.uuid);
       program.studentsEnrolled = studentsEnrolled;
     });
-
-    console.log(programs);
 
     res.status(200);
     res.send(programs);

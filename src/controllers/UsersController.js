@@ -81,24 +81,10 @@ class UsersController {
   async show(req, res) {
     const uuid = req.params.uuid;
     const user = await User.db.find((user) => user.uuid === uuid);
-    const response = {};
-    if (user) {
-      response.uuid = user.uuid;
-      response.firstName = user.firstName;
-      response.lastName = user.lastName;
-      response.email = user.email;
-      response.phone = user.phone;
-      response.dateOfBirth = user.dateOfBirth;
-      response.username = user.username;
-      response.department = user.department;
-      response.role = user.role;
-      response.program = user.program;
-      response.createdAt = user.createdAt;
-      response.updatedAt = user.updatedAt;
-    }
+
     if (user) {
       res.status(200);
-      res.send(response);
+      res.send({ ...user });
       return;
     } else {
       res.status(404);
@@ -130,8 +116,8 @@ class UsersController {
   }
 
   async update(req, res) {
-    const { uuid, firstName, lastName, email, phone, dateOfBirth, username, department, role, program, upgrading } = req.body;
-    let password = req.body.password.toString();
+    const { uuid, firstName, lastName, email, phone, dateOfBirth, username, department, role, program, terms, upgrading } = req.body;
+    let password = req?.body?.password?.toString();
     const updatedAt = new Date().toLocaleString();
 
     const user = await User.db.findIndex((user) => user.uuid === uuid);
@@ -176,7 +162,8 @@ class UsersController {
         if (password) User.db[user].password = password;
         if (department) User.db[user].department = department;
         if (role) User.db[user].role = role;
-        if (program) User.db[user].program = program;
+        if (program || program === null) User.db[user].program = program;
+        if (terms || terms === null) User.db[user].program.terms = terms;
         if (upgrading) User.db[user].upgrading = upgrading;
         User.db[user].updatedAt = updatedAt;
         await User.save();

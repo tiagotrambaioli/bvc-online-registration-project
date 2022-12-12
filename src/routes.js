@@ -45,7 +45,7 @@ routes.get('/programs', ProgramsController.showAll);
 routes.get('/programs/:search', ProgramsController.show);
 routes.put('/programs', AuthenticateToken, AuthenticateRole('admin'), ProgramsController.update);
 
-routes.post('/programs/students/:uuid', AuthenticateToken, AuthenticateRole('admin'), ProgramsController.students);
+routes.get('/programs/students/:uuid', AuthenticateToken, AuthenticateRole('admin'), ProgramsController.students);
 routes.delete('/programs/:uuid', AuthenticateToken, AuthenticateRole('admin'), ProgramsController.destroy);
 
 // REPORTS
