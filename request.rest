@@ -132,8 +132,8 @@ Authorization: Bearer {{authToken}}
 Content-Type: application/json
 
 {
-    "courseCode": "mycode",
-    "courseName": "MY COURSE",
+    "courseCode": "mycodeeeee",
+    "courseName": "MY COURSEe",
     "courseCredits": "300",
     "tuition": {
       "period": "2022/23",
